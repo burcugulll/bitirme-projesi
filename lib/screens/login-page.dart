@@ -1,5 +1,6 @@
-import "package:bitirme_projesi/screens/personel-info-page.dart";
+import "package:bitirme_projesi/screens/goal-selection-page.dart";
 import "package:flutter/material.dart";
+import "package:bitirme_projesi/screens/personel-info-page.dart";
 
 class LoginPage extends StatefulWidget {
   @override
@@ -46,11 +47,23 @@ class _LoginPageState extends State<LoginPage> {
                 Navigator.push(
                   context,
                   MaterialPageRoute(
-                    builder: (context) => PersonalInfoPage(),
+                    builder: (context) => GoalSelectionPage(),
                   ),
                 );
               },
               child: Text('Giriş Yap'),
+            ),
+            ElevatedButton(
+              onPressed: () {
+                // Kayıt sayfasına yönlendirin
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => PersonalInfoPage(),
+                  ),
+                );
+              },
+              child: Text('Kayıt Ol'),
             ),
           ],
         ),
