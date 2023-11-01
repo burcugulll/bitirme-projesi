@@ -7,7 +7,11 @@ Future<void> main() async {
   await Firebase.initializeApp(
     options: DefaultFirebaseOptions.currentPlatform,
   );
-  runApp(const MyApp());
+  //runApp(const MyApp());
+  runApp(MaterialApp(
+    title: "Deneme",
+    home: LoginPage(),
+  ));
 }
 
 class MyApp extends StatelessWidget {
@@ -44,15 +48,6 @@ class MyApp extends StatelessWidget {
 
 class MyHomePage extends StatefulWidget {
   const MyHomePage({super.key, required this.title});
-
-  // This widget is the home page of your application. It is stateful, meaning
-  // that it has a State object (defined below) that contains fields that affect
-  // how it looks.
-
-  // This class is the configuration for the state. It holds the values (in this
-  // case the title) provided by the parent (in this case the App widget) and
-  // used by the build method of the State. Fields in a Widget subclass are
-  // always marked "final".
 
   final String title;
 
@@ -126,6 +121,201 @@ class _MyHomePageState extends State<MyHomePage> {
         tooltip: 'Increment',
         child: const Icon(Icons.add),
       ), // This trailing comma makes auto-formatting nicer for build methods.
+    );
+  }
+}
+
+class LoginPage extends StatefulWidget {
+  @override
+  State<LoginPage> createState() => _LoginPageState();
+}
+
+class _LoginPageState extends State<LoginPage> {
+  final TextEditingController usernameController = TextEditingController();
+  final TextEditingController passwordController = TextEditingController();
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: const Text('Fitness ve Sağlık Uygulaması'),
+      ),
+      body: Center(
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: <Widget>[
+            Padding(
+              padding: EdgeInsets.all(16.0),
+              child: TextField(
+                controller: usernameController,
+                decoration: InputDecoration(
+                  labelText: 'Kullanıcı Adı',
+                ),
+              ),
+            ),
+            Padding(
+              padding: EdgeInsets.all(16.0),
+              child: TextField(
+                controller: passwordController,
+                decoration: InputDecoration(
+                  labelText: 'Şifre',
+                ),
+                obscureText: true,
+              ),
+            ),
+            ElevatedButton(
+              onPressed: () {
+                // Kullanıcı adı ve şifre doğrulamasını burada yapabilirsiniz.
+                // Ardından kişisel bilgi sayfasına yönlendirebilirsiniz.
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => PersonalInfoPage(),
+                  ),
+                );
+              },
+              child: Text('Giriş Yap'),
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+}
+
+class PersonalInfoPage extends StatefulWidget {
+  @override
+  State<PersonalInfoPage> createState() => _PersonalInfoPageState();
+}
+
+class _PersonalInfoPageState extends State<PersonalInfoPage> {
+  final TextEditingController nameController = TextEditingController();
+  final TextEditingController surnameController = TextEditingController();
+  final TextEditingController genderController = TextEditingController();
+  final TextEditingController birthDateController = TextEditingController();
+  final TextEditingController heightController = TextEditingController();
+  final TextEditingController weightController = TextEditingController();
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: Text('Kişisel Bilgiler'),
+      ),
+      body: SingleChildScrollView(
+        child: Padding(
+          padding: EdgeInsets.all(16.0),
+          child: Column(
+            children: <Widget>[
+              TextField(
+                controller: nameController,
+                decoration: InputDecoration(
+                  labelText: 'Ad',
+                ),
+              ),
+              TextField(
+                controller: surnameController,
+                decoration: InputDecoration(
+                  labelText: 'Soyad',
+                ),
+              ),
+              TextField(
+                controller: genderController,
+                decoration: InputDecoration(
+                  labelText: 'Cinsiyet',
+                ),
+              ),
+              TextField(
+                controller: birthDateController,
+                decoration: InputDecoration(
+                  labelText: 'Doğum Tarihi',
+                ),
+              ),
+              TextField(
+                controller: heightController,
+                decoration: InputDecoration(
+                  labelText: 'Boy',
+                ),
+              ),
+              TextField(
+                controller: weightController,
+                decoration: InputDecoration(
+                  labelText: 'Kilo',
+                ),
+              ),
+              ElevatedButton(
+                onPressed: () {
+                  // Kişisel bilgileri kaydetme veya işleme adımlarını burada gerçekleştirebilirsiniz.
+                  // Örnek olarak, bu verileri yazdırabiliriz:
+                  print('Ad: ${nameController.text}');
+                  print('Soyad: ${surnameController.text}');
+                  print('Cinsiyet: ${genderController.text}');
+                  print('Doğum Tarihi: ${birthDateController.text}');
+                  print('Boy: ${heightController.text}');
+                  print('Kilo: ${weightController.text}');
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (context) => GoalSelectionPage(),
+                    ),
+                  );
+                },
+                child: Text('Bilgileri Kaydet'),
+              ),
+            ],
+          ),
+        ),
+      ),
+    );
+  }
+}
+
+class GoalSelectionPage extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: Text('Hedef Seçimi'),
+      ),
+      body: Center(
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: <Widget>[
+            Text(
+              'Lütfen ana hedefinizi seçin:',
+              style: TextStyle(
+                fontSize: 30.0,
+                color: Colors.indigo,
+                fontWeight: FontWeight.bold,
+              ),
+            ),
+            ElevatedButton(
+              onPressed: () {
+                // Kilo vermek seçeneği seçildiğinde yapılacak işlemleri burada tanımlayabilirsiniz.
+              },
+              child: Text('Kilo Vermek'),
+            ),
+            ElevatedButton(
+              onPressed: () {
+                // Kilo korumak seçeneği seçildiğinde yapılacak işlemleri burada tanımlayabilirsiniz.
+              },
+              child: Text('Kilomu korumak'),
+            ),
+            ElevatedButton(
+              onPressed: () {
+                // Kilo almak seçeneği seçildiğinde yapılacak işlemleri burada tanımlayabilirsiniz.
+              },
+              child: Text('Kilo almak'),
+            ),
+            ElevatedButton(
+              onPressed: () {
+                // Kas yapmak seçeneği seçildiğinde yapılacak işlemleri burada tanımlayabilirsiniz.
+              },
+              child: Text('Kas yapmak'),
+            ),
+          ],
+        ),
+      ),
     );
   }
 }
