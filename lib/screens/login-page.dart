@@ -16,6 +16,9 @@ class _LoginPageState extends State<LoginPage> {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Fitness ve Sağlık Uygulaması'),
+        backgroundColor:
+            Colors.deepPurple, // AppBar'ın arka plan rengini beyaz yapar
+        foregroundColor: Colors.white70,
       ),
       body: Center(
         child: Column(
@@ -51,6 +54,9 @@ class _LoginPageState extends State<LoginPage> {
                   ),
                 );
               },
+              style: ElevatedButton.styleFrom(
+                primary: Colors.deepPurple[400], // Lila (mor) arka plan rengi
+              ),
               child: Text('Giriş Yap'),
             ),
             ElevatedButton(
@@ -63,6 +69,9 @@ class _LoginPageState extends State<LoginPage> {
                   ),
                 );
               },
+              style: ElevatedButton.styleFrom(
+                primary: Colors.deepPurple[400], // Lila (mor) arka plan rengi
+              ),
               child: Text('Kayıt Ol'),
             ),
           ],

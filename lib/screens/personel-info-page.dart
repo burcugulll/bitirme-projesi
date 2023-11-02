@@ -19,6 +19,9 @@ class _PersonalInfoPageState extends State<PersonalInfoPage> {
     return Scaffold(
       appBar: AppBar(
         title: Text('Kişisel Bilgiler'),
+        backgroundColor:
+            Colors.deepPurple, // AppBar'ın arka plan rengini beyaz yapar
+        foregroundColor: Colors.white70,
       ),
       body: SingleChildScrollView(
         child: Padding(
@@ -78,6 +81,9 @@ class _PersonalInfoPageState extends State<PersonalInfoPage> {
                     ),
                   );
                 },
+                style: ElevatedButton.styleFrom(
+                  primary: Colors.deepPurple[400], // Lila (mor) arka plan rengi
+                ),
                 child: Text('Bilgileri Kaydet'),
               ),
             ],
