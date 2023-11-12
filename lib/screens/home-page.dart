@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import "package:bitirme_projesi/screens/gunluk-page.dart";
+import "package:bitirme_projesi/screens/premium-page.dart";
 
 class MyHomePage extends StatefulWidget {
   @override
@@ -25,6 +26,13 @@ class _MyHomePageState extends State<MyHomePage> {
           builder: (context) => GunlukPage(),
         ),
       );
+    } else if (index == 4) {
+      Navigator.push(
+        context,
+        MaterialPageRoute(
+          builder: (context) => PremiumPage(),
+        ),
+      );
     } else {
       setState(() {
         _selectedIndex = index;
@@ -37,8 +45,7 @@ class _MyHomePageState extends State<MyHomePage> {
     return Scaffold(
       appBar: AppBar(
         title: Text('Ana Sayfa'),
-        backgroundColor:
-            Colors.deepPurple, // AppBar'ın arka plan rengini beyaz yapar
+        backgroundColor: Colors.deepPurple,
         foregroundColor: Colors.white70,
       ),
       body: Center(

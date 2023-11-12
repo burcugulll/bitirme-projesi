@@ -2,14 +2,15 @@ import "package:flutter/material.dart";
 import "package:bitirme_projesi/screens/home-page.dart";
 
 class GoalSelectionPage extends StatelessWidget {
+  const GoalSelectionPage({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Hedef Seçimi'),
-        backgroundColor:
-            Colors.deepPurple, // AppBar'ın arka plan rengini beyaz yapar
-        foregroundColor: Colors.black,
+        title: const Text('Hedef Seçimi'),
+        backgroundColor: Colors.deepPurple,
+        foregroundColor: Colors.white70,
       ),
       body: Center(
         child: Column(
@@ -36,7 +37,7 @@ class GoalSelectionPage extends StatelessWidget {
               style: ElevatedButton.styleFrom(
                 primary: Colors.deepPurple[300],
               ),
-              child: Text('Kilo vermek'),
+              child: const Text('Kilo vermek'),
             ),
             ElevatedButton(
               onPressed: () {
