@@ -12,7 +12,20 @@
           "package_name": "com.example.bitirme_projesi"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "853394265402-q6sjek96g8kphs4k5fq28107k1mktmg5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bitirme_projesi",
+            "certificate_hash": "a819db35ecbe31344d9782076bea8800015801b7"
+          }
+        },
+        {
+          "client_id": "853394265402-upaj6sm5246rj6cccfqb577ahk2980ls.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
           "current_key": "AIzaSyCLZBRFkXXq3c6CYzkzzXq7UbhV8onLddQ"
@@ -20,7 +33,55 @@
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "853394265402-upaj6sm5246rj6cccfqb577ahk2980ls.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "853394265402-9t95mv17q0uku4p8ou8dpl0fgli83der.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.bitirmeProjesi"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:853394265402:android:b60e07a89c47c02f676c03",
+        "android_client_info": {
+          "package_name": "com.example.chat_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "853394265402-upaj6sm5246rj6cccfqb577ahk2980ls.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCLZBRFkXXq3c6CYzkzzXq7UbhV8onLddQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "853394265402-upaj6sm5246rj6cccfqb577ahk2980ls.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "853394265402-9t95mv17q0uku4p8ou8dpl0fgli83der.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.bitirmeProjesi"
+              }
+            }
+          ]
         }
       }
     }

@@ -66,6 +66,8 @@ class DefaultFirebaseOptions {
     messagingSenderId: '853394265402',
     projectId: 'bitirme-projesi-1c300',
     storageBucket: 'bitirme-projesi-1c300.appspot.com',
+    androidClientId: '853394265402-q6sjek96g8kphs4k5fq28107k1mktmg5.apps.googleusercontent.com',
+    iosClientId: '853394265402-9t95mv17q0uku4p8ou8dpl0fgli83der.apps.googleusercontent.com',
     iosBundleId: 'com.example.bitirmeProjesi',
   );
 
@@ -75,6 +77,8 @@ class DefaultFirebaseOptions {
     messagingSenderId: '853394265402',
     projectId: 'bitirme-projesi-1c300',
     storageBucket: 'bitirme-projesi-1c300.appspot.com',
+    androidClientId: '853394265402-q6sjek96g8kphs4k5fq28107k1mktmg5.apps.googleusercontent.com',
+    iosClientId: '853394265402-aad64ro52jhrntnf2bgvu904vdamsnbp.apps.googleusercontent.com',
     iosBundleId: 'com.example.bitirmeProjesi.RunnerTests',
   );
 }

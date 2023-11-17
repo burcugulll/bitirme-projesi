@@ -1,7 +1,9 @@
+import 'dart:async';
 import 'dart:math';
 
 import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
+import 'package:google_sign_in/google_sign_in.dart';
 
 final _firebase = FirebaseAuth.instance;
 
@@ -49,6 +51,48 @@ class _AuthScreenState extends State<AuthScreen> {
     }
   }
 
+  Future _authWithGoogle() async {
+    try {
+      final GoogleSignInAccount? googleUser = await GoogleSignIn().signIn();
+
+      if (googleUser == null) {
+        print("Google ile giriş iptal edildi.");
+        return; // Google ile giriş iptal edildiyse işlemi sonlandır
+      }
+
+      final GoogleSignInAuthentication? googleAuth =
+          await googleUser?.authentication;
+
+      if (googleAuth == null) {
+        print("Google authentication bilgisi alınamadı.");
+        return; // Google authentication bilgisi alınamadıysa işlemi sonlandır
+      }
+
+      final credential = GoogleAuthProvider.credential(
+        accessToken: googleAuth.accessToken,
+        idToken: googleAuth.idToken,
+      );
+
+      UserCredential user =
+          await FirebaseAuth.instance.signInWithCredential(credential);
+
+      print(user.user?.displayName);
+    } catch (error, stackTrace) {
+      print("Google ile girişte bir hata oluştu: $error");
+      print("Hata izi: $stackTrace");
+
+      // Hata mesajını kullanıcıya göstermek istiyorsanız:
+      ScaffoldMessenger.of(context).showSnackBar(
+        SnackBar(
+          content: Text(
+              "Google ile girişte bir hata oluştu. Lütfen tekrar deneyin."),
+        ),
+      );
+    } finally {
+      print("Try-catch bloğu tamamlandı.");
+    }
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -76,7 +120,7 @@ class _AuthScreenState extends State<AuthScreen> {
                     child: Form(
                       key: _form,
                       child: Column(
-                        mainAxisSize: MainAxisSize.min,
+                        mainAxisSize: MainAxisSize.max,
                         children: [
                           TextFormField(
                             decoration: const InputDecoration(
@@ -111,14 +155,50 @@ class _AuthScreenState extends State<AuthScreen> {
                             },
                           ),
                           const SizedBox(height: 12),
-                          ElevatedButton(
-                            onPressed: _submit,
-                            style: ElevatedButton.styleFrom(
-                              backgroundColor: Theme.of(context)
-                                  .colorScheme
-                                  .primaryContainer,
+                          Container(
+                            width: double.infinity,
+                            child: ElevatedButton(
+                              onPressed: _submit,
+                              style: ElevatedButton.styleFrom(
+                                backgroundColor: Theme.of(context)
+                                    .colorScheme
+                                    .primaryContainer,
+                                shape: RoundedRectangleBorder(
+                                  borderRadius: BorderRadius.circular(
+                                      8.0), // Border radiusunu ayarlayın
+                                ),
+                              ),
+                              child: Text(_isLogin ? 'Login' : 'Signup'),
                             ),
-                            child: Text(_isLogin ? 'Login' : 'Signup'),
+                          ),
+                          Container(
+                            width: double.infinity,
+                            child: ElevatedButton.icon(
+                              onPressed: _authWithGoogle,
+                              style: ElevatedButton.styleFrom(
+                                primary: Colors.white,
+                                onPrimary: Colors.black,
+                                side:
+                                    BorderSide(color: Colors.black, width: .3),
+                                shape: RoundedRectangleBorder(
+                                  borderRadius: BorderRadius.circular(
+                                      8.0), // Border radiusunu ayarlayın
+                                ),
+                              ),
+                              icon: Icon(
+                                Icons.account_circle,
+                                size: 28.0,
+                                color: Colors.deepPurple,
+                              ),
+                              label: Text(
+                                _isLogin
+                                    ? 'Google ile Giriş Yap'
+                                    : 'Google ile Kayıt Ol',
+                                style: TextStyle(
+                                  color: Colors.black,
+                                ),
+                              ),
+                            ),
                           ),
                           TextButton(
                             onPressed: () {
