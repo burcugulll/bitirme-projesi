@@ -1,3 +1,4 @@
+import "package:firebase_auth/firebase_auth.dart";
 import 'package:flutter/material.dart';
 import "package:bitirme_projesi/screens/gunluk-page.dart";
 import "package:bitirme_projesi/screens/premium-page.dart";
@@ -47,6 +48,17 @@ class _MyHomePageState extends State<MyHomePage> {
         title: Text('Ana Sayfa'),
         backgroundColor: Colors.deepPurple,
         foregroundColor: Colors.white70,
+        actions: [
+          IconButton(
+            onPressed: () {
+              FirebaseAuth.instance.signOut();
+            },
+            icon: Icon(
+              Icons.exit_to_app,
+              color: Colors.white,
+            ),
+          ),
+        ],
       ),
       body: Center(
         child: _widgetOptions.elementAt(_selectedIndex),
