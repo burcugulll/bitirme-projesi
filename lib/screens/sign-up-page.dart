@@ -2,11 +2,13 @@ import "package:bitirme_projesi/screens/personel-info-page.dart";
 import "package:flutter/material.dart";
 
 class SignUpPage extends StatelessWidget {
+  const SignUpPage({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Kayıt Ol'),
+        title: const Text('Kayıt Ol'),
       ),
       body: Center(
         child: Column(
@@ -25,7 +27,7 @@ class SignUpPage extends StatelessWidget {
                   ),
                 );
               },
-              child: Text('Kayıt Ol'),
+              child: const Text('Kayıt Ol'),
             ),
           ],
         ),

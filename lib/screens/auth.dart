@@ -1,5 +1,4 @@
 import 'dart:async';
-import 'dart:math';
 
 import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
@@ -29,11 +28,11 @@ class _AuthScreenState extends State<AuthScreen> {
     _form.currentState!.save();
     try {
       if (_isLogin) {
-        final userCredentials = await _firebase.signInWithEmailAndPassword(
+        await _firebase.signInWithEmailAndPassword(
             email: _enteredEmail, password: _enteredPassword);
         //print(userCredentials);
       } else {
-        final userCredentials = await _firebase.createUserWithEmailAndPassword(
+        await _firebase.createUserWithEmailAndPassword(
             email: _enteredEmail, password: _enteredPassword);
         //print(userCredentials);
       }
@@ -43,7 +42,7 @@ class _AuthScreenState extends State<AuthScreen> {
       }
       ScaffoldMessenger.of(context).clearSnackBars();
       ScaffoldMessenger.of(context).showSnackBar(
-        SnackBar(
+        const SnackBar(
           //content: Text(error.message ?? 'Authentication Failed'),
           content: Text("Email veya şifre hatalı."),
         ),
@@ -61,7 +60,7 @@ class _AuthScreenState extends State<AuthScreen> {
       }
 
       final GoogleSignInAuthentication? googleAuth =
-          await googleUser?.authentication;
+          await googleUser.authentication;
 
       if (googleAuth == null) {
         print("Google authentication bilgisi alınamadı.");
@@ -83,7 +82,7 @@ class _AuthScreenState extends State<AuthScreen> {
 
       // Hata mesajını kullanıcıya göstermek istiyorsanız:
       ScaffoldMessenger.of(context).showSnackBar(
-        SnackBar(
+        const SnackBar(
           content: Text(
               "Google ile girişte bir hata oluştu. Lütfen tekrar deneyin."),
         ),
@@ -122,6 +121,9 @@ class _AuthScreenState extends State<AuthScreen> {
                       child: Column(
                         mainAxisSize: MainAxisSize.max,
                         children: [
+                          Text(_isLogin ? "Giriş Ekranı" : "Kayıt Ekranı",
+                              style: TextStyle(
+                                  fontSize: 20, fontWeight: FontWeight.w800)),
                           TextFormField(
                             decoration: const InputDecoration(
                                 labelText: 'Email Address'),
@@ -168,7 +170,7 @@ class _AuthScreenState extends State<AuthScreen> {
                                       8.0), // Border radiusunu ayarlayın
                                 ),
                               ),
-                              child: Text(_isLogin ? 'Login' : 'Signup'),
+                              child: Text(_isLogin ? 'Giriş Yap' : 'Kayıt Ol'),
                             ),
                           ),
                           Container(
@@ -207,8 +209,8 @@ class _AuthScreenState extends State<AuthScreen> {
                               });
                             },
                             child: Text(_isLogin
-                                ? 'Create an account'
-                                : 'I already have an account'),
+                                ? 'Yeni Bir Hesap Oluştur'
+                                : 'Hesabınız Varsa Giriş Yapın'),
                           ),
                         ],
                       ),
