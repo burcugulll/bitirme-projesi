@@ -1,3 +1,4 @@
+import "package:bitirme_projesi/screens/profil-page.dart";
 import "package:firebase_auth/firebase_auth.dart";
 import 'package:flutter/material.dart';
 import "package:bitirme_projesi/screens/gunluk-page.dart";
@@ -20,7 +21,14 @@ class _MyHomePageState extends State<MyHomePage> {
   ];
 
   void _onItemTapped(int index) {
-    if (index == 2) {
+    if (index == 1) {
+      Navigator.push(
+        context,
+        MaterialPageRoute(
+          builder: (context) => ProfilPage(),
+        ),
+      );
+    } else if (index == 2) {
       Navigator.push(
         context,
         MaterialPageRoute(
