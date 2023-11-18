@@ -1,5 +1,7 @@
 import 'dart:io';
 
+import 'package:bitirme_projesi/screens/alarmlar.dart';
+import 'package:bitirme_projesi/widgets/gunluk/alarm-button.dart';
 import 'package:bitirme_projesi/widgets/profile-image.dart';
 import 'package:firebase_storage/firebase_storage.dart';
 import 'package:flutter/material.dart';
@@ -14,6 +16,10 @@ class ProfilPage extends StatefulWidget {
 class _ProfilPageState extends State<ProfilPage> {
   File? _selectedImage;
 
+  double? _startingWeight;
+  double? _currentWeight;
+  double? _targetWeight;
+  double? _height;
   Future<void> _pickImage() async {
     try {
       final picker = ImagePicker();
@@ -72,57 +78,152 @@ class _ProfilPageState extends State<ProfilPage> {
               style: TextStyle(fontSize: 18),
             ),
             SizedBox(height: 20),
-            ElevatedButton(
+            ElevatedButton.icon(
               onPressed: () {
-                _showInformationDialog(context, 'Kilo Sayfası',
-                    'Kilo bilgileriniz burada gösterilecek.');
+                _showWeightInputDialog(context);
               },
-              child: Text('Kilom'),
+              icon: Icon(Icons.monitor_weight),
+              label: Text('Kilom'),
             ),
-            ElevatedButton(
+            ElevatedButton.icon(
               onPressed: () {
                 // Boy sayfasına yönlendirme veya işlev ekleyin.
-                _showInformationDialog(context, 'Boy Sayfası',
-                    'Boy bilgileriniz burada gösterilecek.');
+                _showHeightInputDialog(context);
               },
-              child: Text('Boyum'),
+              icon: Icon(Icons.height),
+              label: Text('Boyum'),
             ),
-            ElevatedButton(
+            ElevatedButton.icon(
               onPressed: () {
                 // Hatırlatıcılar sayfasına yönlendirme veya işlev ekleyin.
-                _showInformationDialog(context, 'Hatırlatıcılar Sayfası',
-                    'Hatırlatıcılarınız burada gösterilecek.');
+                /*_showInformationDialog(context, 'Hatırlatıcılar Sayfası',
+                    'Hatırlatıcılarınız burada gösterilecek.');*/
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => AlarmListWidget(),
+                  ),
+                );
               },
-              child: Text('Hatırlatıcılar'),
+              icon: Icon(Icons.alarm),
+              label: Text('Hatırlatıcılar'),
             ),
-            ElevatedButton(
+            ElevatedButton.icon(
               onPressed: () {
                 // İletişim sayfasına yönlendirme veya işlev ekleyin.
                 _showInformationDialog(context, 'İletişim Sayfası',
                     'İletişim bilgileriniz burada gösterilecek.');
               },
-              child: Text('İletişim'),
+              icon: Icon(Icons.mail),
+              label: Text('İletişim ve Gizlilik'),
             ),
-            ElevatedButton(
-              onPressed: () {
-                // Gizlilik sayfasına yönlendirme veya işlev ekleyin.
-                _showInformationDialog(context, 'Gizlilik Sayfası',
-                    'Gizlilik bilgileriniz burada gösterilecek.');
-              },
-              child: Text('Gizlilik'),
-            ),
-            ElevatedButton(
+            ElevatedButton.icon(
               onPressed: () {
                 // Bize Ulaşın sayfasına yönlendirme veya işlev ekleyin.
                 _showInformationDialog(context, 'Bize Ulaşın Sayfası',
                     'Bize ulaşma bilgileriniz burada gösterilecek.');
               },
-              child: Text('Bize Ulaşın'),
+              icon: Icon(Icons.assistant_direction),
+              label: Text('Bize Ulaşın'),
             ),
           ],
         ),
       ),
       backgroundColor: Colors.grey[200],
+    );
+  }
+
+  void _showWeightInputDialog(BuildContext context) {
+    TextEditingController startingWeightController = TextEditingController();
+    TextEditingController currentWeightController = TextEditingController();
+    TextEditingController targetWeightController = TextEditingController();
+
+    showDialog(
+      context: context,
+      builder: (BuildContext context) {
+        return AlertDialog(
+          title: Text('Kilo Bilgileri'),
+          content: Column(
+            children: [
+              TextField(
+                controller: startingWeightController,
+                keyboardType: TextInputType.number,
+                decoration: InputDecoration(labelText: 'Başlangıç Ağırlığı'),
+              ),
+              TextField(
+                controller: currentWeightController,
+                keyboardType: TextInputType.number,
+                decoration: InputDecoration(labelText: 'Mevcut Ağırlık'),
+              ),
+              TextField(
+                controller: targetWeightController,
+                keyboardType: TextInputType.number,
+                decoration: InputDecoration(labelText: 'Hedef Ağırlık'),
+              ),
+            ],
+          ),
+          actions: [
+            TextButton(
+              onPressed: () {
+                Navigator.of(context).pop();
+              },
+              child: Text('İptal'),
+            ),
+            TextButton(
+              onPressed: () {
+                setState(() {
+                  _startingWeight =
+                      double.tryParse(startingWeightController.text);
+                  _currentWeight =
+                      double.tryParse(currentWeightController.text);
+                  _targetWeight = double.tryParse(targetWeightController.text);
+                });
+                Navigator.of(context).pop();
+              },
+              child: Text('Kaydet'),
+            ),
+          ],
+        );
+      },
+    );
+  }
+
+  void _showHeightInputDialog(BuildContext context) {
+    TextEditingController heightController = TextEditingController();
+
+    showDialog(
+      context: context,
+      builder: (BuildContext context) {
+        return AlertDialog(
+          title: Text('Boy Bilgisi'),
+          content: Column(
+            children: [
+              TextField(
+                controller: heightController,
+                keyboardType: TextInputType.number,
+                decoration: InputDecoration(labelText: 'Boy (cm)'),
+              ),
+            ],
+          ),
+          actions: [
+            TextButton(
+              onPressed: () {
+                Navigator.of(context).pop();
+              },
+              child: Text('İptal'),
+            ),
+            TextButton(
+              onPressed: () {
+                setState(() {
+                  _height = double.tryParse(heightController.text);
+                });
+                Navigator.of(context).pop();
+              },
+              child: Text('Kaydet'),
+            ),
+          ],
+        );
+      },
     );
   }
 
@@ -133,13 +234,15 @@ class _ProfilPageState extends State<ProfilPage> {
       builder: (BuildContext context) {
         return AlertDialog(
           title: Text(title),
-          content: Text(content),
+          content: Column(
+            children: [Text(content)],
+          ),
           actions: [
             TextButton(
               onPressed: () {
                 Navigator.of(context).pop();
               },
-              child: Text('Kapat'),
+              child: Text('Close'),
             ),
           ],
         );
