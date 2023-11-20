@@ -1,4 +1,5 @@
 import 'package:bitirme_projesi/screens/gunluk/aksam.dart';
+import 'package:bitirme_projesi/screens/gunluk/aperatif.dart';
 import 'package:bitirme_projesi/screens/gunluk/kahvalti.dart';
 import 'package:bitirme_projesi/screens/gunluk/ogle.dart';
 
@@ -17,7 +18,7 @@ final List<Map<String, dynamic>> buttonData = [
   {
     'icon': Icons.local_dining,
     'title': 'Aperatifler/Diğer',
-    'page': KahvaltiPage()
+    'page': AperatifPage()
   },
   {
     'icon': Icons.directions_run,

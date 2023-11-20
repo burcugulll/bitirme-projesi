@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:bitirme_projesi/widgets/gunluk/yemek-tarifleri-ekrani.dart';
 
 class AksamPage extends StatelessWidget {
   @override
@@ -77,20 +78,6 @@ class YemekPage extends StatelessWidget {
       ),
       body: Center(
         child: Text('Burada yemek içeriği bulunabilir.'),
-      ),
-    );
-  }
-}
-
-class YemekTarifleriPage extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: Text('Yemek Tarifleri Sayfası'),
-      ),
-      body: Center(
-        child: Text('Burada yemek tarifleri içeriği bulunabilir.'),
       ),
     );
   }
