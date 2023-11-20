@@ -1,5 +1,6 @@
 import 'package:bitirme_projesi/screens/gunluk/aksam.dart';
 import 'package:bitirme_projesi/screens/gunluk/aperatif.dart';
+import 'package:bitirme_projesi/screens/gunluk/egzersiz.dart';
 import 'package:bitirme_projesi/screens/gunluk/kahvalti.dart';
 import 'package:bitirme_projesi/screens/gunluk/ogle.dart';
 
@@ -23,7 +24,7 @@ final List<Map<String, dynamic>> buttonData = [
   {
     'icon': Icons.directions_run,
     'title': 'Egzersiz/Uyku Ekle',
-    'page': KahvaltiPage()
+    'page': EgzersizPage()
   },
   {
     'icon': Icons.settings,
@@ -43,8 +44,7 @@ class _GunlukPageState extends State<GunlukPage> {
     return Scaffold(
       appBar: AppBar(
         title: Text('Günlük'),
-        backgroundColor:
-            Colors.deepPurple, // AppBar'ın arka plan rengini beyaz yapar
+        backgroundColor: Colors.deepPurple,
         foregroundColor: Colors.white70,
       ),
       body: Center(

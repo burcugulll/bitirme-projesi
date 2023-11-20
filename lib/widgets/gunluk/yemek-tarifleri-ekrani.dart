@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'dart:convert';
 import 'dart:developer';
 import 'package:http/http.dart';
-
+import 'package:bitirme_projesi/widgets/gunluk/recipe-view.dart';
 import 'package:bitirme_projesi/screens/gunluk/model.dart';
 
 class YemekTarifleriPage extends StatefulWidget {
@@ -37,13 +37,12 @@ class _YemekTarifleriPageState extends State<YemekTarifleriPage> {
     });
   }
 
-/*
   @override
   void initState() {
     super.initState();
-    //getRecipes("Ladoo");
+    getRecipes("cake");
   }
-*/
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -103,7 +102,14 @@ class _YemekTarifleriPageState extends State<YemekTarifleriPage> {
                 itemCount: recipeList.length,
                 itemBuilder: (context, index) {
                   return InkWell(
-                    onTap: () {},
+                    onTap: () {
+                      /*Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                              builder: (context) =>
+                                  RecipeView(recipeList[index].appurl)));
+                    */
+                    },
                     child: Card(
                       margin: EdgeInsets.all(20),
                       shape: RoundedRectangleBorder(
