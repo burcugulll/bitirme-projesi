@@ -1,4 +1,6 @@
 import 'package:bitirme_projesi/widgets/gunluk/yemek-tarifleri-ekrani.dart';
+import 'package:bitirme_projesi/widgets/gunluk/kaydedilen-ogunlar-page.dart';
+import 'package:bitirme_projesi/widgets/gunluk/yemek-page.dart';
 import 'package:flutter/material.dart';
 
 class OglePage extends StatelessWidget {
@@ -65,35 +67,6 @@ class OglePage extends StatelessWidget {
           // Diğer sayfa içerikleri buraya eklenebilir.
         ],
       ),
-    );
-  }
-}
-
-class YemekPage extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: Text('Yemek Sayfası'),
-      ),
-      body: Center(
-        child: Text('Burada yemek içeriği bulunabilir.'),
-      ),
-    );
-  }
-}
-
-class KaydedilenOgunlerPage extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: Text('Kaydedilen Öğünler Sayfası'),
-      ),
-      body: Center(
-        child: Text('Burada kaydedilen öğünler içeriği bulunabilir.'),
-      ),
-      backgroundColor: Colors.grey[200],
     );
   }
 }
