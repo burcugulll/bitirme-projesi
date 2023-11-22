@@ -4,6 +4,7 @@ import 'dart:developer';
 import 'package:http/http.dart';
 
 import 'package:bitirme_projesi/screens/gunluk/model.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 class YemekTarifleriPage extends StatefulWidget {
   @override
@@ -64,6 +65,8 @@ class _YemekTarifleriPageState extends State<YemekTarifleriPage> {
     return Scaffold(
       appBar: AppBar(
         title: Text('Yemek Tarifleri Sayfası'),
+        backgroundColor: Colors.deepPurple,
+        foregroundColor: Colors.white70,
       ),
       body: SingleChildScrollView(
         child: Column(
@@ -119,6 +122,7 @@ class _YemekTarifleriPageState extends State<YemekTarifleriPage> {
                 itemBuilder: (context, index) {
                   return InkWell(
                     onTap: () {
+                      //_launchURL(recipeList[index].appurl);
                       /*Navigator.push(
                           context,
                           MaterialPageRoute(
@@ -186,4 +190,12 @@ class _YemekTarifleriPageState extends State<YemekTarifleriPage> {
       ),
     );
   }
+/* bu satırda web sitesine yönlendirme yapmaya çalışmıştım
+  _launchURL(String url) async {
+    if (await canLaunch(url)) {
+      await launch(url);
+    } else {
+      throw 'Could not launch $url';
+    }
+  }*/
 }

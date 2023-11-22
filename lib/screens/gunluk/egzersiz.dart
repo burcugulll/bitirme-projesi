@@ -100,6 +100,8 @@ class _EgzersizPageState extends State<EgzersizPage> {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Egzersiz Sayfası'),
+        backgroundColor: Colors.deepPurple,
+        foregroundColor: Colors.white70,
       ),
       body: Column(
         children: [

@@ -39,6 +39,12 @@ class _AlarmListWidgetState extends State<AlarmListWidget> {
       days: ['Pzt', 'Çar', 'Cum'],
       isEnabled: true,
     ),
+    Alarm(
+      name: 'Egzersiz Alarmı',
+      time: TimeOfDay(hour: 21, minute: 15),
+      days: ['Pzt', 'Per', 'Cmrt'],
+      isEnabled: true,
+    ),
   ];
   @override
   Widget build(BuildContext context) {

@@ -87,7 +87,6 @@ class _ProfilPageState extends State<ProfilPage> {
             ),
             ElevatedButton.icon(
               onPressed: () {
-                // Boy sayfasına yönlendirme veya işlev ekleyin.
                 _showHeightInputDialog(context);
               },
               icon: Icon(Icons.height),
@@ -95,7 +94,6 @@ class _ProfilPageState extends State<ProfilPage> {
             ),
             ElevatedButton.icon(
               onPressed: () {
-                // Hatırlatıcılar sayfasına yönlendirme veya işlev ekleyin.
                 /*_showInformationDialog(context, 'Hatırlatıcılar Sayfası',
                     'Hatırlatıcılarınız burada gösterilecek.');*/
                 Navigator.push(
@@ -110,7 +108,6 @@ class _ProfilPageState extends State<ProfilPage> {
             ),
             ElevatedButton.icon(
               onPressed: () {
-                // İletişim sayfasına yönlendirme veya işlev ekleyin.
                 _showInformationDialog(context, 'İletişim Sayfası',
                     'İletişim bilgileriniz burada gösterilecek.');
               },
@@ -119,7 +116,6 @@ class _ProfilPageState extends State<ProfilPage> {
             ),
             ElevatedButton.icon(
               onPressed: () {
-                // Bize Ulaşın sayfasına yönlendirme veya işlev ekleyin.
                 _showInformationDialog(context, 'Bize Ulaşın Sayfası',
                     'Bize ulaşma bilgileriniz burada gösterilecek.');
               },

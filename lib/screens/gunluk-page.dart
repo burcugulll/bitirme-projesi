@@ -16,14 +16,10 @@ final List<Map<String, dynamic>> buttonData = [
   {'icon': Icons.fastfood, 'title': 'Kahvaltı', 'page': KahvaltiPage()},
   {'icon': Icons.restaurant_menu, 'title': 'Öğle Yemeği', 'page': OglePage()},
   {'icon': Icons.dinner_dining, 'title': 'Akşam Yemeği', 'page': AksamPage()},
-  {
-    'icon': Icons.local_dining,
-    'title': 'Aperatifler/Diğer',
-    'page': AperatifPage()
-  },
+  {'icon': Icons.local_dining, 'title': 'Aperatifler', 'page': AperatifPage()},
   {
     'icon': Icons.directions_run,
-    'title': 'Egzersiz/Uyku Ekle',
+    'title': 'Egzersiz Ekle',
     'page': EgzersizPage()
   },
   {

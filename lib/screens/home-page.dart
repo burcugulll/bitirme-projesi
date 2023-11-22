@@ -95,7 +95,7 @@ class _MyHomePageState extends State<MyHomePage> {
           ),
         ],
         currentIndex: _selectedIndex,
-        selectedItemColor: Colors.blue, // Seçili ögenin rengi
+        selectedItemColor: Colors.deepPurple, // Seçili ögenin rengi
         onTap: _onItemTapped,
         type: BottomNavigationBarType.fixed, // Tüm etiketleri zorla
       ),

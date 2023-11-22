@@ -31,8 +31,7 @@ class ExerciseListItem extends StatelessWidget {
                 SizedBox(height: 8.0),
                 Row(
                   children: [
-                    Icon(Icons
-                        .fitness_center), // İstediğiniz simgeyi kullanabilirsiniz
+                    Icon(Icons.fitness_center),
                     SizedBox(width: 8.0),
                     Text(
                       'Muscle: ${exercise.muscle}',
@@ -42,8 +41,7 @@ class ExerciseListItem extends StatelessWidget {
                 ),
                 Row(
                   children: [
-                    Icon(Icons
-                        .accessibility), // İstediğiniz simgeyi kullanabilirsiniz
+                    Icon(Icons.accessibility),
                     SizedBox(width: 8.0),
                     Text(
                       'Equipment: ${exercise.equipment}',
@@ -53,7 +51,7 @@ class ExerciseListItem extends StatelessWidget {
                 ),
                 Row(
                   children: [
-                    Icon(Icons.star), // İstediğiniz simgeyi kullanabilirsiniz
+                    Icon(Icons.star),
                     SizedBox(width: 8.0),
                     Text(
                       'Difficulty: ${exercise.difficulty}',

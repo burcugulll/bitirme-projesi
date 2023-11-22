@@ -108,8 +108,15 @@ class _AuthScreenState extends State<AuthScreen> {
                   left: 20,
                   right: 20,
                 ),
-                width: 200,
-                child: Image.asset('assets/images/anasayfa.jpg'),
+                width: 250, // Örnek bir genişlik değeri
+                height: 250, // Örnek bir yükseklik değeri
+                decoration: BoxDecoration(
+                  shape: BoxShape.circle,
+                  image: DecorationImage(
+                    image: AssetImage('assets/images/anasayfa.jpg'),
+                    fit: BoxFit.contain,
+                  ),
+                ),
               ),
               Card(
                 margin: const EdgeInsets.all(20),
