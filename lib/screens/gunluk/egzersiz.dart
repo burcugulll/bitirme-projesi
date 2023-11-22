@@ -1,7 +1,10 @@
 import 'dart:convert';
 
+import 'package:bitirme_projesi/widgets/alert-message.dart';
+import 'package:bitirme_projesi/widgets/gunluk/exercise-list-item.dart';
 import 'package:flutter/material.dart';
-import 'package:http/http.dart' as http;
+import 'package:flutter/services.dart' show rootBundle;
+import 'package:toastification/toastification.dart';
 
 class EgzersizPage extends StatefulWidget {
   const EgzersizPage({Key? key}) : super(key: key);
@@ -41,47 +44,16 @@ class ExerciseModel {
 
 class _EgzersizPageState extends State<EgzersizPage> {
   List<ExerciseModel> exerciseList = <ExerciseModel>[];
+  bool isLoading = true; // Yeni bir isLoading durumu ekledik.
+  String exercise = "biceps";
 
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: const Text('Egzersiz Sayfası'),
-      ),
-      body: FutureBuilder(
-        future: _fetchExerciseData(),
-        builder: (context, snapshot) {
-          if (snapshot.connectionState == ConnectionState.waiting) {
-            return const Center(
-              child: CircularProgressIndicator(),
-            );
-          } else if (snapshot.hasError) {
-            return Center(
-              child: Text('Hata oluştu: ${snapshot.error}'),
-            );
-          } else {
-            return ListView.builder(
-              itemCount: exerciseList.length,
-              itemBuilder: (context, index) {
-                return ListTile(
-                  title: Text(exerciseList[index].name),
-                  subtitle: Text(exerciseList[index].instructions),
-                );
-              },
-            );
-          }
-        },
-      ),
-    );
-  }
-
+/*
   Future<void> _fetchExerciseData() async {
-    String muscle = Uri.encodeQueryComponent("biceps");
+    String muscle = Uri.encodeQueryComponent("triceps");
     String apiUrl = "https://api.api-ninjas.com/v1/exercises?muscle=$muscle";
 
     var headers = {
-      'Content-Type': 'application/json',
-      'X-Api-Key': 'fb71fbac26mshcaedce11afce2fbp12baafjsnaa55768185f5',
+      'X-Api-Key': '64LlWR1Gr/Dw2iF46o505Q==KZL1aOjWVRX1pfrl',
     };
 
     try {
@@ -94,12 +66,81 @@ class _EgzersizPageState extends State<EgzersizPage> {
 
         setState(() {
           exerciseList = updatedExerciseList;
+          isLoading =
+              false; // Loading tamamlandığında isLoading durumunu güncelledik.
         });
+
+        print("başarılı");
+        AlertMessage(
+            alertType: ToastificationType.success,
+            message: "Egzersizler Başarıyla Getirildi.",
+            context: context);
       } else {
         print('HTTP isteği başarısız oldu: ${response.statusCode}');
+        isLoading = false; // Hata durumunda da isLoading durumunu güncelledik.
       }
     } catch (error) {
       print('Hata oluştu: $error');
+
+      isLoading = false; // Hata durumunda da isLoading durumunu güncelledik.
     }
+  }
+*/
+
+  Future<void> _fetchExerciseData({required exercise}) async {
+    try {
+      String jsonData =
+          await rootBundle.loadString('assets/exercises/$exercise.json');
+      List<dynamic> data = json.decode(jsonData);
+
+      List<ExerciseModel> updatedExerciseList =
+          data.map((exercise) => ExerciseModel.fromJson(exercise)).toList();
+
+      setState(() {
+        exerciseList = updatedExerciseList;
+        isLoading = false;
+      });
+
+      print("Başarılı");
+      AlertMessage(
+          alertType: ToastificationType.success,
+          message: "Egzersizler Başarıyla Getirildi.",
+          context: context);
+    } catch (error) {
+      print('Hata oluştu: $error');
+      isLoading = false;
+    }
+  }
+
+  @override
+  void initState() {
+    super.initState();
+    _fetchExerciseData(exercise: exercise);
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: const Text('Egzersiz Sayfası'),
+      ),
+      body: isLoading
+          ? Center(
+              child: CircularProgressIndicator(),
+            )
+          : exerciseList.isEmpty
+              ? Center(
+                  child: Text('Veri bulunamadı.'),
+                )
+              : ListView.builder(
+                  itemCount: exerciseList.length,
+                  itemBuilder: (context, index) {
+                    return ExerciseListItem(
+                      exercise: exerciseList[index],
+                      context: context,
+                    );
+                  },
+                ),
+    );
   }
 }
