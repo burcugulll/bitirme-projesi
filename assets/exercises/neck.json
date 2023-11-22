@@ -1,0 +1,67 @@
+[
+    {
+      "name": "Lying Face Down Plate Neck Resistance",
+      "type": "kuvvet",
+      "muscle": "boyun",
+      "equipment": "diğer",
+      "difficulty": "başlangıç",
+      "instructions": "Düz bir bench üzerinde tüm vücudunuzun düz bir şekilde uzandığı, başınızın arkasında bir ağırlık plakasını tutarken yatın. İpucu: Başlangıç pozisyonunuz için omuzlarınızın düz bir bankın ucunun hafifçe üzerinde olduğu bir pozisyon almanız gerekecek, bu üst göğüs, boyun ve yüzün banktan uzakta olmasını sağlayacaktır. Plakayı başınızın arkasında güvenli bir şekilde tutarken başınızı yavaşça aşağı doğru indirin (evet dediğiniz gibi). Başınızı, yarı dairesel bir hareketle nefes alırken başlangıç pozisyonuna geri kaldırın. Kası bir saniye boyunca tutun. Önerilen tekrarlar için tekrarlayın. Dikkat: Tüm egzersizlerde ani veya sarsıntılı hareketlerden kaçının. Varyasyon: İlk etapta direnç kullanmamayı tercih edebilirsiniz."
+    },
+    {
+      "name": "Seated Head Harness Neck Resistance",
+      "type": "kuvvet",
+      "muscle": "boyun",
+      "equipment": "diğer",
+      "difficulty": "başlangıç",
+      "instructions": "Bir düz bankın ucuna bir boyun askısı yerleştirin. Ağırlıkları seçtikten sonra, ayaklarınızı omuz genişliğinden biraz daha geniş bir şekilde düz bir bankın ucuna oturun. Ayak parmaklarınız dışa doğru bakmalı. Gövdenizi yavaşça öne doğru hareket ettirin, neredeyse yerle paralel olana kadar. İki elinizle baş kemerini başınızın etrafına güvenli bir şekilde yerleştirin. İpucu: Boyun kaslarına fazla baskı yapmamak için ağırlıkların hala yerde olduğundan emin olun. Şimdi başınızı yavaşça nefes alırken göğüs kafesinizin üst kısmına dokunacak şekilde indirin. Nefes verirken başınızı başlangıç pozisyonuna geri getirin. Önerilen tekrarlar için tekrarlayın. Dikkat: Bu egzersiz boyun kaslarına büyük bir stres uygular ve dikkatle yaklaşılmalıdır. Herhangi bir ani sarsıntı veya hareket, boyun kaslarını germe riskini taşır. Bu egzersiz için hareketleri alışmak için başlangıçta ağırlıksız formu pratik yapmak en iyisidir."
+    },
+    {
+      "name": "Isometric Neck Exercise - Sides",
+      "type": "kuvvet",
+      "muscle": "boyun",
+      "equipment": "body_only",
+      "difficulty": "başlangıç",
+      "instructions": "Başınız ve boyununuz normal bir pozisyonda (baş düz ve ileriye doğru bakıyor) iken, sol elinizi başınızın sol tarafına koyun. Şimdi başınızın sol boyun kaslarını kasarken başınızın herhangi bir hareketini engelleyin. Yavaş gerilimle başlayın ve yavaşça artırın. Bu kasılma sırasında normal olarak nefes alın. Önerilen saniye sayısı boyunca tutun. Şimdi gerilimi yavaşça serbest bırakın. Önerilen süre boyunca dinlenin ve sağ elinizi başınızın sağ tarafına koyarak tekrarlayın. Varyasyonlar: Bu egzersizi başın önüne ve ardından arkasına ellerinizi yerleştirerek de yapabilirsiniz. İlk önce bir tarafı sonra diğerini yapın."
+    },
+    {
+      "name": "Isometric Neck Exercise - Front And Back",
+      "type": "kuvvet",
+      "muscle": "boyun",
+      "equipment": "body_only",
+      "difficulty": "başlangıç",
+      "instructions": "Başınız ve boyununuz normal bir pozisyonda (baş düz ve ileriye doğru bakıyor) iken, her iki elinizi başınızın ön tarafına koyun. Şimdi başınızın ön boyun kaslarını kasarken başınızın herhangi bir hareketini engelleyin. Yavaş gerilimle başlayın ve yavaşça artırın. Bu kasılma sırasında normal olarak nefes alın. Önerilen saniye sayısı boyunca tutun. Şimdi gerilimi yavaşça serbest bırakın. Önerilen süre boyunca dinlenin ve ellerinizi başınızın arka tarafına koyarak tekrarlayın. Varyasyonlar: Bu egzersizi başın yanlarına koyarak da yapabilirsiniz. İlk önce bir tarafı sonra diğerini yapın."
+    },
+    {
+      "name": "Neck Bridge Prone",
+      "type": "kuvvet",
+      "muscle": "boyun",
+      "equipment": "body_only",
+      "difficulty": "başlangıç",
+      "instructions": "Düz bir zeminde elleriniz ve dizleriniz üzerinde prone bir pozisyonda başlayın. Başınızı ellerinizin yanına koyun ancak birkaç inç daha yakına, ardından bacaklarınızı uzatarak kalçalarınızı havaya kaldırın. Ağırlığınızı başınızın üzerine taşıyarak ellerinizi yere koymadan destek sağlamaya geçin. Bu hareketi yavaşça yapın, ciddi bir rahatsızlık hissedilirse geri çekilin ve herhangi bir boyun sakatlığınız varsa bu egzersizden kaçının. Boyun köprüsünü belirli bir süre boyunca tutun ve ardından dikkatlice ellerinizi ve dizlerinizi yere geri koyun."
+    },
+    {
+      "name": "Side Neck Stretch",
+      "type": "esneme",
+      "muscle": "boyun",
+      "equipment": "body_only",
+      "difficulty": "orta",
+      "instructions": "Omuzlarınız rahat bir şekilde başınızı omzunuza doğru eğin. Başın yan tarafına nazik bir çekişle gerin."
+    },
+    {
+      "name": "Chin To Chest Stretch",
+      "type": "esneme",
+      "muscle": "boyun",
+      "equipment": "Hiçbiri",
+      "difficulty": "orta",
+      "instructions": "Yere oturun. İki elinizi başınızın arkasına, parmaklarınızı birbirine kenetleyerek, başparmaklarınızı aşağı doğru ve dirseklerinizi doğru bir şekilde yönlendirin. Başınızı yavaşça göğsünüze doğru çekin. 20-30 saniye boyunca tutun."
+    },
+    {
+      "name": "Neck-SMR",
+      "type": "esneme",
+      "muscle": "boyun",
+      "equipment": "body_only",
+      "difficulty": "orta",
+      "instructions": "Bir kas makarası veya bir merdane kullanarak, makarayı başınızın arkasına ve boyununuza yerleştirin. Makarayı doğrudan omuriliğin üzerine koymamaya özen gösterin, ancak makaranın omuriliğin her iki tarafındaki kaslara bastırılacak şekilde hafifçe döndürülmüş olduğundan emin olun. Bu başlangıç pozisyonunuz olacak. Boyun kaslarınızın üzerinde, gerilme noktalarında 10-30 saniye boyunca durarak boyun kaslarınızın üzerinde yavaşça aşağı doğru hareket edin."
+    }
+  ]
+  

@@ -1,0 +1,82 @@
+[
+    {
+      "name": "Single-Leg Press",
+      "type": "kuvvet",
+      "muscle": "quadriceps",
+      "equipment": "makine",
+      "difficulty": "orta",
+      "instructions": "Sled'i uygun bir ağırlığa yükleyin. Makineye oturun ve bir ayakla kalçanızla hizalanmış bir platforma basın. Serbest ayak yerde olabilir. Baş ve göğüs dik pozisyonu koruyun. Ağırlığı destekleyerek dizinizi tamamen uzatın ve kızak kilidini açın. Bu başlangıç pozisyonunuz olacak. Ağırlığı kalça ve dizinizi esneklik izin verdiği kadar bükerek indirin. Belinizin pelvisinizi hareket ettirerek yükü almamasına dikkat edin. Hareketin alt noktasında kısaca durun ve sonra kalça ve dizinizi uzatarak başlangıç pozisyonuna geri dönün. Tüm tekrarları bir bacak için tamamlayın, sonra diğerine geçin."
+    },
+    {
+      "name": "Clean from Blocks",
+      "type": "olympic_weightlifting",
+      "muscle": "quadriceps",
+      "equipment": "barbell",
+      "difficulty": "başlangıç",
+      "instructions": "İstenilen yükseklikte kutular veya standlar üzerinde bir halterle, bacakların hemen dışından üstten veya kancalı tutuş yapın. Ağırlığı topuklarınıza odaklayarak, sırtınız düz, başınız öne dönük, göğsünüz yukarıda, omuzlarınız barın hemen önünde olacak şekilde kalçalarınızı indirin. Bu sizin başlangıç pozisyonunuz olacaktır. İlk çekişe topuklarınızın arasından geçerek dizlerinizi uzatarak başlayın. Sırt açınız aynı kalmalı ve kollarınız dirsekler işaret edecek şekilde düz kalmalıdır. Daha sonra temizlik için ana hızlanma kaynağı olan ikinci çekme gelir. Bar uyluğun orta kısmına yaklaştığında kalçalardan uzanmaya başlayın. Sıçrama hareketinde kalçalarınızı, dizlerinizi ve ayak bileklerinizi uzatarak hızlanın ve çubuğu yukarı doğru hareket ettirmek için hızı kullanın. Ağırlığı hızlandırmak için kolları aktif olarak çekmeye gerek olmamalıdır. İkinci çekişin sonunda vücut tamamen uzatılmış, hafifçe geriye yaslanmış ve kollar hala uzatılmış halde olmalıdır.3. Tam uzamaya ulaşıldığında, agresif bir şekilde omuz silkerek ve dirsekler yukarı ve dışarı doğru kolları esneterek karşılama pozisyonuna geçin. Kendinizi agresif bir şekilde aşağı çekin, bunu yaparken dirseklerinizi çubuğun altında döndürün. Çubuğu, üçüncü çekişin sonunda derinliği çubuğun yüksekliğine bağlı olan ön çömelme pozisyonunda alın. Çubuk uzatılmış omuzlar üzerine kaldırılmalı, eller rahatken boğaza hafifçe değmelidir. İyileşmeye yardımcı olacak alt çömelme pozisyonuna inmeye devam edin. Gövdeyi dik ve dirsekleri yukarıda tutarak topukların üzerinden geçerek hemen iyileşin. Ayakta durma pozisyonuna gelene kadar devam edin. Bir sonraki tekrar için ağırlığı kutulara geri koyun."
+     },
+    {
+      "name": "Barbell Full Squat",
+      "type": "kuvvet",
+      "muscle": "quadriceps",
+      "equipment": "barbell",
+      "difficulty": "orta",
+      "instructions": "Bu egzersiz, güvenlik amaçları için bir squat rack içinde en iyi şekilde yapılır. İlk olarak, çubuğu omuz seviyesinin hemen üzerinde bir rafa yerleştirin. Doğru yükseklik seçildiğinde ve çubuk yüklendiğinde, çubuğun arkasına geçin ve omuzlarınızın arka tarafını (boyunun hafif altında) çubuğun üzerine yerleştirin. Her iki kolu da yan tarafta kullanarak çubuğa tutun ve bacaklarınızı, ayak parmaklarınızı hafifçe dışa doğru bakacak şekilde, omuz genişliğinde orta bir duruşa yerleştirin. Başınızı her zaman yukarıda tutun ve düz bir sırt tutun. Bu başlangıç pozisyonunuz olacak. Çubuğu yavaşça bükerek ve kalçanızı geriye oturarak indirmeye başlayın, başınızı yukarıda tutarken düz bir duruşu koruyun. Hamstringleriniz kalçalarınıza kadar indiğinde nefes alın. Ayaklarınız ve dizlerinizin düzleşmesi ve kalçalarınızı uzatarak çubuğu kaldırmaya başlayın. Başlangıç pozisyonuna geri dönene kadar yavaşça çubuğu kaldırın. Önerilen tekrarlar için tekrarlayın. Bu tür bir squat, daha büyük bir hareket aralığına izin verir ve ayak pozisyonu ve daha yüksek çubuk pozisyonu nedeniyle gövdenin dikey bir pozisyonunu korumasına yardımcı olur."
+    },
+    {
+      "name": "Tire flip",
+      "type": "strongman",
+      "muscle": "quadriceps",
+      "equipment": "diğer",
+      "difficulty": "orta",
+      "instructions": "Lastiği dişlilerin altından kavrayarak başlayın ve ayaklarınızı biraz geriye yerleştirin. Göğsünüz lastiğe sürüklüyor olmalı. Lastiği kaldırmak için kalçadan, dizden ve ayak bileklerinden uzanın ve yukarı doğru itin. Lastik 45 derece açıya ulaştığında, ileriye doğru adım atın ve bir dizinizi lastiğe bastırın. Bunu yaparken kavramınızı lastiğin üst kısmına ayarlayın ve döndürmeyi tamamlamak için lastiği mümkün olduğunca sert itin. Gerektiğinde tekrarlayın."
+    },
+    {
+      "name": "Barbell back squat to box",
+      "type": "powerlifting",
+      "muscle": "quadriceps",
+      "equipment": "barbell",
+      "difficulty": "orta",
+      "instructions": "Box squat, istenen derinliğe kadar çömelme ve squat hareketinde patlayıcı kuvvet geliştirmenizi sağlar. Bir power rack içinde uygun yükseklikte bir kutu ile başlayın. Genellikle, paralel bir squat'a getiren bir kutu yüksekliği hedeflersiniz, ancak isterseniz daha yüksek veya daha düşük eğitebilirsiniz. Barın altına geçin ve omuzların arkasına yerleştirin. Omuz bıçaklarınızı bir araya getirin ve dirsekleri öne doğru çevirerek çubuğu omuzlarınızın üzerinden geçirme girişiminde bulunun. Çubuğu raflardan çıkarın, alt sırtınızda sıkı bir yay oluşturun ve pozisyonunuza geri adım atın. Ayaklarınızı, sırtınızı, kalçanızı ve hamstrings'inizi, adduktörleri ve hamstring'leri daha fazla vurgu yapmak için daha geniş veya daha yakın bir şekilde yerleştirin. Başınızı öne çevirmeyi unutmayın. Sırtınız, omuzlarınız ve karın kaslarınız sıkı, dizlerinizi ve kalçanızı dışa doğru itmeye başlarken çömelin. Kutuya oturuncaya kadar kalçalarınızla geriye oturun. İdeal olarak, kaval kemiğiniz yere dik olmalıdır. Kutuya ulaştığınızda durun ve kalça fleksörlerinizi rahatlatın. Kutudan sıçramayın. Ağırlığı topuklarınızda tutun ve ayaklarınızı ve dizlerinizi dışa doğru iterek kutudan yukarı doğru sürün, başınızı kullanarak hareketi lider pozisyonu koruyun. Yukarı doğru devam ederken, baştan ayağa sıkılığı sürdürün. Barı raflara geri yerleştirmek için dikkatli olun."
+    },
+    {
+      "name": "Push-press",
+      "type": "olympic_weightlifting",
+      "muscle": "quadriceps",
+      "equipment": "barbell",
+      "difficulty": "orta",
+      "instructions": "Başlangıç Pozisyonu: Power Clean egzersizinde açıklanan floor-to-shoulder kaldırma tekniğini kullanarak, çubuğu yerden omuzlara taşıyın. Yukarı Doğru Hareket Aşaması: Kalçaları hafifçe bükün ve dizleri dik tutarak gövdeyi dik tutun. Hemen ardından dizleri uzatarak patlayıcı bir şekilde yukarı itin. Gövdeyi dik ve gergin tutun. Maksimum kalça ve diz uzatılmasında, vücut ağırlığınızı ayakların topuklarına kaydırın ve ayak bileklerini uzatın. Maksimum plantar fleksiyonda, çubuğu omuzlardan iterek tamamen uzatılmış bir dirsek pozisyonuna itin. Aşağı Hareket Aşaması: Çubuğu omuzlara indirin. Bar omuzlara değdiğinde kalçaları ve dizleri hafifçe bükün. Yukarı hareket aşamasının başlamasından önce kalçaları ve dizleri düzeltin. Nefes Alma: Yukarı hareket aşamasının sıkışma noktasından nefes verin. Aşağı hareket aşamasında nefes alın."
+    },
+    {
+        "name": "Power snatch-",
+        "type": "olimpik_halter",
+        "muscle": "quadriceps",
+        "equipment": "barbell",
+        "difficulty": "uzman",
+        "instructions": "Ayaklarınızı omuz genişliğinde bir duruşla düzenleyin ve barbell'ı ayak parmaklarının ve ayak bileğinin bağlantısı üzerine doğru yerleştirin. Avuç içleri aşağı bakacak şekilde geniş bir omuz genişliğinde kavrama kullanarak, dizlerinizi bükün ve sırtınızı düz tutarak çubuğu alın. Kalçayı aşağı indirin ve vücudunuzun bir sandalyeye oturuyormuş gibi düşmesini sağlayın. Bu, başlangıç pozisyonunuz olacak. Ayaklarınızı bir platform gibi düşünerek, aynı anda ayaklarınızla zemine iterek ve barbell'ı bacaklarınıza yakın tutarak kaldırmaya başlayın. Barbell, uyluklarınızın ortasına geldiğinde, bacaklarınızla zemine iterek ve vücudunuzu patlayıcı bir hareketle tam bir uzantıya kaldırmaya başlayın. Barbell'ı kaldırırken omuzlarınızı geriye doğru kaldırın, dirseklerinizi dışa çevirin ve mümkün olduğunca barbell'ın üzerinde tutun. Şimdi barbell'ın yeterince yüksek bir noktaya ulaştığı bir anda, vücudunuzu barbell'ın altına çok hızlı ama güçlü bir hareketle sokmalısınız; bu sırada kollarınızı kilitliyerek ve barbell'ı başınızın üzerinde bir çömelme pozisyonunu alarak tutun. Hareketi tamamlamak için çömelme pozisyonundan çıkarak kalkın. Hareketin sonunda her iki ayak da hizada olmalı ve barbell'ı başınızın üzerinde tam uzatılmış kollarla tutuyor olmalısınız. Uyarı: Bu çok ileri düzeyde bir egzersizdir, bu nedenle kullanılan ağırlık konusunda son derece dikkatli olunmalıdır. Bu egzersizde kötü form ciddi sakatlıklara neden olabilir."
+        },
+        {
+        "name": "Hang Clean",
+        "type": "olimpik_halter",
+        "muscle": "quadriceps",
+        "equipment": "barbell",
+        "difficulty": "beginner",
+        "instructions": "Barı omuz genişliğinde, çift elle alttan veya kanca kavrama ile başlangıç pozisyonunda orta uyluk pozisyonunda asılı bir şekilde tutun. Sırtınız düz ve hafifçe öne eğik olmalıdır. Kalça, diz ve ayak bileği üzerinden agresif bir şekilde uzanarak ağırlığı yukarı doğru itmeye başlayın. Bunu yaparken omuzlarınızı kulaklarınıza doğru çekin. Tam uzantıya ulaşıldığında, omuzları kulaklara doğru çekerek ve dirsekleri yukarı ve dışa doğru bükerken son çekmeye geçin. Zirve uzantıda, dirsekleri çubuğun altına doğru dönerken ve bunu yaparken kendinizi hızla aşağıya çekerek barı ön squat pozisyonunda alın, elleriniz gevşek bir şekilde boğazla hafifçe temas etmelidir. Hemen toparlanmak için topuklardan iterek, gövdeyi dik ve dirsekleri yukarıda tutarak devam edin. Tamamen dik durana kadar devam edin."
+        },
+        {
+        "name": "Reverse Band Box Squat",
+        "type": "powerlifting",
+        "muscle": "quadriceps",
+        "equipment": "None",
+        "difficulty": "orta_seviye",
+        "instructions": "Uygun yükseklikte bir kutu ile bir power rack'te başlayın. Bandları ya band pimlerine ya da squat sırasında çubuğun doğrudan üstüne gelecek şekilde üst raylara bağlayarak ayarlayın. Diğer ucunu çubuğa bağlayın. Barı sırtın arkasına yerleştirerek ağırlığı sıkın ve dirsekleri öne doğru çevirerek sırt kaslarınızı sıkın. Çubuğu raflardan çıkarın, alt sırtta sıkı bir yay oluşturarak pozisyon alın ve geri adım atarak yerleşin. Daha fazla vurgu için ayaklarınızı daha geniş bir konumda veya quad gelişimi için daha yakın bir konumda yerleştirin. Başınızı ileriye çevirin. Sırtınızı, omuzlarınızı ve karın kaslarınızı sıkarak, dizleri ve kalçayı dışa iterek ve squat hareketine başlarken ağırlığı hissedin. Kalçaya oturana kadar, ideal olarak şinsleriniz yerleşmelidir. Kutuya ulaştığınızda duraklayın ve kalça fleksörlerinizi rahatlatın. Kutudan sıçramayın. Ağırlığı topuklarınızda tutarak ve ayakları ve dizleri dışa iterek kutudan çıkın; bu sırada başınızı öne doğru yönlendirerek devam edin. Tüm vücut boyunca sıkılığı koruyarak yukarı doğru sürün. Çubuğu raflara geri yerleştirirken dikkatli olun."
+        },
+        {
+        "name": "Jumping Rope",
+        "type": "kardiyo",
+        "muscle": "quadriceps",
+        "equipment": "body-only",
+        "difficulty": "orta_seviye",
+        "instructions": "Her bir elde bir ip ucu tutun. İpi yerde arkada tutun. Kollarınızı yukarı kaldırın ve ipi başınızın üzerinden çevirerek önünüze getirin. Yere ulaştığında üzerinden atlayın. Sürdürülebilecek iyi bir dönüş hızı bulun. Farklı hızlar ve teknikler, çeşitlilik katmak için kullanılabilir. İp atlama heyecan verici, koordinasyonunuzu zorlayan ve enerji gerektiren bir aktivitedir. 150 pound ağırlığındaki bir kişi, 30 dakika boyunca ip atlayarak yaklaşık 350 kalori yakar; bunun karşısında koşarak 450 kalori üzerinde yakar."
+        }
+    ]

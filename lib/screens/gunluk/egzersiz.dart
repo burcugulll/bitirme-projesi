@@ -50,7 +50,18 @@ class _EgzersizPageState extends State<EgzersizPage> {
     "biceps",
     "abdominals",
     "chest",
-    "calves"
+    "calves",
+    "forearms",
+    "glutes",
+    "hamstrings",
+    "lats",
+    "lower_back",
+    "traps",
+    "triceps",
+    "abductors",
+    "adductors",
+    "neck",
+    "quadriceps"
   ]; // Add other exercises as needed
 
   Future<void> _fetchExerciseData({required exercise}) async {

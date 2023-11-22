@@ -1,0 +1,82 @@
+[
+    {
+      "name": "Barbell glute bridge",
+      "type": "Kuvvet",
+      "muscle": "gluteus",
+      "equipment": "barbell",
+      "difficulty": "Orta",
+      "instructions": "Yüklenmiş bir barbell ile bacaklarınızın üzerinde oturarak başlayın. Kalın bir bar kullanmak veya barın üzerine bir ped koymak bu egzersizin neden olduğu rahatsızlığı büyük ölçüde azaltabilir. Barı kalçalarınızın tam üzerinde olacak şekilde yuvarlayın ve düz bir zemine düz bir şekilde uzanın. Harekete topuklarınızdan iterek başlayın, kalçalarınızı bar aracılığıyla dikey olarak genişletin. Ağırlığınızı üst sırtınız ve ayaklarınızın topukları tarafından desteklenmelidir. Mümkün olan en fazla genişletin, ardından hareketi başlangıç pozisyonuna dönmek için ters yönde gerçekleştirin."
+    },
+    {
+      "name": "Barbell Hip Thrust",
+      "type": "Kuvvet",
+      "muscle": "gluteus",
+      "equipment": "barbell",
+      "difficulty": "Orta",
+      "instructions": "Yere doğrudan arkasında bir tezgahta oturarak başlayın. Bacaklarınızın üzerinde yüklü bir barbell bulun. Kalın bir bar kullanmak veya barın üzerine bir ped koymak bu egzersizin neden olduğu rahatsızlığı büyük ölçüde azaltabilir. Barı kalçalarınızın tam üzerinde olacak şekilde yuvarlayın ve omuz bıçaklarınızın üstünde olduğu bir tezgahta sırt üstü uzanın. Harekete ayaklarınızdan iterek başlayın, kalçalarınızı bar aracılığıyla dikey olarak genişletin. Ağırlığınızı omuz bıçaklarınız ve ayaklarınız tarafından desteklenmelidir. Mümkün olan en fazla genişletin, ardından hareketi başlangıç pozisyonuna dönmek için ters yönde gerçekleştirin."
+    },
+    {
+      "name": "Single-leg cable hip extension",
+      "type": "Kuvvet",
+      "muscle": "gluteus",
+      "equipment": "cable",
+      "difficulty": "Orta",
+      "instructions": "Düşük bir kablo makarasına deri bir bilek manşeti takın ve sonra manşeti ayak bileğinize bağlayın. Ağırlık yığınından yaklaşık iki feet uzakta çelik çerçeveye sıkıca tutun. Dizlerinizi hafifçe bükik ve karın kaslarınızı sıkı tutarken, glüt kaslarınızı sözde \"tekme\" atmak için çalışan bacağınızı yavaşça geriye doğru yüksek bir yarı daire şeklinde hareket ettirin. Tam uzatmada, zirve kasılma elde etmek için glüt kaslarınızı sıkın. Şimdi çalışan bacağınızı başlangıç pozisyonuna getirene kadar kabloya karşı direnci yavaşça azaltarak çalışan bacağınızı öne doğru getirin. Tavsiye edilen tekrar sayısı için tekrarlayın. Bacakları değiştirin ve diğer taraftaki hareketi tekrar edin.  Varyasyonlar: Bu egzersizi egzersiz bantları ile de yapabilirsiniz."
+    },
+    {
+      "name": "Glute bridge",
+      "type": "Kuvvet",
+      "muscle": "gluteus",
+      "equipment": "body_only",
+      "difficulty": "Orta",
+      "instructions": "Sırt üstü düz bir zeminde ellerinizi yanınıza koyarak uzanın ve dizlerinizi bükün. Ayaklarınızı omuz genişliğinde yerleştirin. Bu, başlangıç pozisyonunuz olacaktır. Özellikle topuklarınızla iterek kalçalarınızı yerden kaldırın ve sırtınızı düz tutun. Bu kısmı gerçekleştirirken nefes verin ve tepe noktasında bir saniye kadar tutun. Başlangıç pozisyonuna yavaşça geri dönün ve nefes alın.  Varyasyonlar: Bu egzersizi tek bacak üzerinde de gerçekleştirebilirsiniz."
+    },
+    {
+      "name": "Single-leg glute bridge",
+      "type": "Kuvvet",
+      "muscle": "gluteus",
+      "equipment": "body_only",
+      "difficulty": "Orta",
+      "instructions": "Sırt üstü yatın ve ayaklarınızı düz ve dizlerinizi bükük tutun. Bu, başlangıç pozisyonunuz olacaktır. Hareketi çalışan bacağınızı sürterek gerçekleştirin, dizinizi göğsünüze çekin. Hareketi sürterek kalçanızı yukarı doğru uzatın. Mümkün olan en fazla genişletin, duraklayın ve ardından başlangıç pozisyonuna dönün."
+    },
+    {
+      "name": "Step-up with knee raise",
+      "type": "Kuvvet",
+      "muscle": "gluteus",
+      "equipment": "body_only",
+      "difficulty": "Orta",
+      "instructions": "Ayakları bir arada bir kutuya veya uygun bir yüksekliğe sahip bir bankanın karşısına dik bir şekilde durun. Bu, başlangıç pozisyonunuz olacaktır. Harekete başlamak için sol ayakla yukarı adım atın, sağ ayağınızı bankanın üstüne koyun. Ön bacağınızın kalçası ve diziniz üzerinden uzanarak ayakta durun. Sol ayağınızla bankanın üstünde dururken sağ dizinizi ve kalçanızı bükerek dizinizi ne kadar yüksek kaldırabiliyorsanız kaldırın. Bu hareketi tersine çevirerek kutudan inin ve ardından karşı bacak üzerinde aynı sırayı tekrarlayın."
+    },
+    {
+      "name": "Kettlebell thruster",
+      "type": "Kuvvet",
+      "muscle": "gluteus",
+      "equipment": "kettlebells",
+      "difficulty": "Orta",
+      "instructions": "İki kettlebell'i omuzlarınıza temizleyin. Kettlebell'leri omuzlarınıza doğru bacakları ve kalçaları uzatarak omuzlarınıza çekerek temizleyin. Bunu yaparken bileklerinizi döndürün. Bu, başlangıç pozisyonunuz olacaktır. Bacaklarınızı ve dizlerinizi fleksor yaparak çömelme hareketine başlayın, kalçalarınızı bacaklarınız arasına indirin. En düşük noktada, ters yönde çevirin ve squat yaparak dizlerinizi ve kalçanızı uzatarak kettlebell'leri yukarı itin. Bunu yaparken ağırlıkları yukarı doğru itmeye yardımcı olmak için squatın momentumunu kullanın. Bir sonraki tekrara başlarken ağırlıkları omuzlara geri getirin."
+    },
+    {
+      "name": "Kneeling Squat",
+      "type": "Kuvvet",
+      "muscle": "gluteus",
+      "equipment": "barbell",
+      "difficulty": "Başlangıç",
+      "instructions": "Barı bir kuvvet rafında doğru yüksekliğe ayarlayın. Barın dizlerinizi yastıklamak için bir mat koymak faydalı olabilir. Barın arkasında diz çökün; dizlerinizi yastıklamak için bir mat koymak faydalı olabilir. Barın arkasında diz çökün; dizleriniz arasında bir mat koymak faydalı olabilir. Başınızı öne bakacak şekilde tutun, poponuz geriye oturana kadar dizlerinize dokunana kadar. Hareketi tersine çevirin ve gövdeyi dik bir pozisyona geri getirin."
+    },
+    {
+      "name": "Flutter Kicks",
+      "type": "Kuvvet",
+      "muscle": "gluteus",
+      "equipment": "None",
+      "difficulty": "Orta",
+      "instructions": "Düz bir bankta karın üstü yatın, kalçaların kenarında, bacaklar düz ve ayak parmakları yüksek ve ön kenara tutunan kollarla. Glüt kaslarınızı ve arka adalelerinizi sıkın ve bacakları kalçalarla aynı seviyeye gelene kadar düzeltin. Bu, başlangıç pozisyonunuz olacaktır. Harekete sol bacağı sağ bacadan daha yükseğe kaldırarak başlayın. Sonra sol bacağı indirirken sağ bacağı kaldırın. Her iki bacağı da bu şekilde sırayla (sanki su içinde flutter kick yapılıyormuş gibi) önerilen tekrar sayısı kadar yapana kadar devam edin. Hareketi her zaman kontrol ederek yapmaya dikkat edin. İpucu: Bu hareketi yaparken normal nefes almalısınız.  Varyasyonlar: Daha ileri seviyeye geldikçe ayak bileği ağırlıkları kullanabilirsiniz."
+    },
+    {
+        "name": "Glute Kickback",
+        "type": "Kuvvet",
+        "muscle": "Gluteus",
+        "equipment": "Vücut Ağırlığı",
+        "difficulty": "Başlangıç",
+        "instructions": "Dizlerinizin üzerinde veya bir egzersiz matının üzerinde diz çökün ve belinizi bükerek ellerinizi önünüzde uzatın (gövdeye dik açıda) ve dirseklerin omuz genişliğinde olacak şekilde bir mekik pozisyonu alın. Başınız öne bakmalıdır ve dizlerin eğilmesi, bacak arasında hamstring ve baldırlar arasında 90 derecelik bir açı oluşturmalıdır. Bu başlangıç pozisyonunuz olacak. Nefes verirken, sağ bacağınızı hamstrings belinizle hizalanacak şekilde yukarı kaldırın ve 90 derecelik açıyı koruyun. Bu hareket boyunca gluteus kaslarını sıkın ve tepe noktadaki kasılma durumunu bir saniye boyunca tutun. İpucu: Hareketin sonunda üst bacak, yere paralel olmalıdır, bu esnada baldır ise buna dik olmalıdır. Nefes alarak başlangıç pozisyonuna geri dönün ve şimdi sol bacakla tekrarlayın. Önerilen tekrarların tamamı yapılmış olana kadar bacakları sırayla kaldırmaya devam edin. Çeşitlendirmeler: Bu egzersizi tek bacakla başlayarak her tekrarı tamamlayabilir ve ardından diğer bacakla devam edebilirsiniz. Ek olarak, ayak bileği ağırlıkları ekleyebilirsiniz."
+      }
+]

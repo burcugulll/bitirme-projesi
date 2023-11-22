@@ -1,0 +1,82 @@
+[
+    {
+      "name": "Barbell Deadlift",
+      "type": "Kuvvet",
+      "muscle": "Hamstring",
+      "equipment": "Barbell",
+      "difficulty": "Orta",
+      "instructions": "Barı ayaklarınızın üzerine merkezleyerek yaklaşın. Ayaklarınız kalça genişliğinde olmalıdır. Bara omuz genişliğinde bir mesafede kavramak için kalçadan bükülün ve omuz bıçaklarınızın ileri gitmesine izin verin. Genellikle değişen bir kavrama sahip olursunuz. Ayaklarınız ve kavramanız ayarlandıktan sonra büyük bir nefes alın ve sonra kalçalarınızı indirin ve dizleri büzerek kaval kemiklerinizle bara temas edene kadar. Başınızı öne bakacak şekilde tutun. Göğsünüzü yukarıda tutun, sırtınızı kambur yapmayın ve ağırlığı yukarı doğru hareket ettirmek için topuklardan sürmeye başlayın. Bar dizleri geçtikten sonra barı geri çekmeye başlayın, kalça kemiklerinizi bara doğru sürerken omuz bıçaklarınızı birbirine çekin. Barı kalçalara doğru bükülerek ve ağırlığı kontrol ederek yere indirin."
+    },
+    {
+      "name": "Romanian Deadlift With Dumbbells",
+      "type": "Kuvvet",
+      "muscle": "Hamstring",
+      "equipment": "Dumbbell",
+      "difficulty": "Başlangıç",
+      "instructions": "Her elinizde bir dambıl ile ayakta başlayın. Sırtınızın düz olduğundan ve egzersiz süresince böyle kaldığından emin olun. Kollarınızın, bileklerinizin dışa dönük ve dirseklerinizin yanınıza bakmasına izin vererek, ellerinizi tabana dik bir şekilde sarkıtın. Bu başlangıç pozisyonunuz olacak. Harekete kalçalarınızı büzerek başlayın, poponuzu mümkün olduğunca geriye iterek. Bu, kalçaların yatay bir hareketini içermelidir, aşağı doğru bir hareket değil. Dizler yalnızca kısmen bükülmeli ve ağırlık topuklarınızda kalmalıdır. Poponuzu geriye kadar ittikçe, elleriniz diz seviyesine geldikçe hamstringlerde gerilim oluşturmalıdır. Egzersiz boyunca sırtınızda bir yay olmalıdır. Kalçalarınız daha fazla geriye hareket edemez hale geldiğinde duraklayın ve ardından kalçaları uzatarak başlangıç pozisyonuna yavaşça dönün."
+    },
+    {
+      "name": "Clean Deadlift",
+      "type": "Olimpik Ağırlık Kaldırma",
+      "muscle": "Hamstring",
+      "equipment": "Barbell",
+      "difficulty": "Başlangıç",
+      "instructions": "Ayaklarınızın altında bir barbell ile ayakta başlayın. Ayaklarınız doğrudan kalçalarınızın altında olmalı ve hafifçe dışa dönmelidir. Çift elle geniş bir kavrama veya çengel kavraması ile barı tutun, omuz genişliğinde bir mesafe kadar. Dizlerinizle bara doğru çömelin. Omurganız tam uzantıda olmalı, sırtınızın bir açı olmalı ve omuzlarınızın barın önünde ve sırtınızın mümkün olduğunca dikey olduğu bir duruş olmalıdır. Ayakların önündeki yerden barı kaldırmaya başlamak için önce ayakların ön kısmından zemin üzerine kadar itmek. Bar yukarı doğru hareket ettiğinde, sırt açısını sürekli tutun. Dizleri çubuğun yolundan çıkarmak için dizleri yanlara doğru açın. Bar dizleri geçtikten sonra, kalçaların ve dizlerin uzadığı bir kaldırma tamamlayın."
+    },
+    {
+      "name": "Sumo Deadlift",
+      "type": "Powerlifting",
+      "muscle": "Hamstring",
+      "equipment": "Barbell",
+      "difficulty": "Başlangıç",
+      "instructions": "Yerde yüklü bir barbell ile başlayın. Bar'ın ayakların ortasını kestiği şekilde bara yaklaşın. Ayaklar çok geniş bir mesafede, yaklaşık olarak kolalara yakın olmalıdır. Bara kavramak için kalçadan bükülün. Kollar, omuzların hemen altında, bacakların iç kısmında ve pronated bir kavrama, karışık bir kavrama veya çengel kavraması kullanabilirsiniz. Omuzları rahatlatın, bu da etkili bir şekilde kollarınızı uzatır. Nefes alın ve sonra başınızı öne doğru bakacak şekilde, göğsünüzü yukarı kaldırarak kalçalarınızı indirin. Ağırlığı topukların arka yarısına yerleştirerek ayakları açarak sürün. Kalçaların ve dizlerin uzanması. Bar dizleri geçtikçe geriye doğru eğilin ve kalçaları bara sürerek omuz bıçaklarınızı bir araya getirin. Ağırlığı yere indirmek için kalçadan bükülerek ve ağırlığı kontrol ederek geri dönün."
+    },
+    {
+      "name": "Romanian Deadlift from Deficit",
+      "type": "Olimpik Ağırlık Kaldırma",
+      "muscle": "Hamstring",
+      "equipment": "Barbell",
+      "difficulty": "Başlangıç",
+      "instructions": "Bir çubuğu önünüzde kollarınızı uzatmış bir durumda ayakta başlayın. Hareketin aralığını artırmak için bir platformda durabilirsiniz. Hafifçe dizleri bükmeye başlayın ve ardından kalçadan bükülerek poponuzu mümkün olduğunca geriye hareket ettirin, torsayı mümkün olduğunca aşağı indirerek. Sırt her zaman mutlak uzantıda olmalı ve çubuk bacaklarla temas halinde kalmalıdır. Doğru yapıldığında hamstringlerde yoğun bir gerilim hissedilmelidir. Başlangıç pozisyonuna geri dönmek için hareketi tersine çevirin."
+    },
+    {
+      "name": "Power Snatch",
+      "type": "Olimpik Ağırlık Kaldırma",
+      "muscle": "Hamstring",
+      "equipment": "Barbell",
+      "difficulty": "Başlangıç",
+      "instructions": "Yüklenmiş bir barbell ile yerde başlayın. Bar, şinlere yakın veya ona dokunacak şekilde olmalıdır ve geniş bir kavrama alınmalıdır. Ayaklar doğrudan kalçaların altında, ihtiyaç duyuldukça ayaklar dışa dönmelidir. Kalçayı indirin, göğüs yukarıda ve baş öne bakmalıdır. Omuzlar sadece barın önünde olmalıdır. Bu başlangıç pozisyonunuz olacak. İlk çekişi, topukların önünden barı kaldırarak başlatın. Barın dizleri geçene kadar sırt açısı aynı kalmalıdır. İkinci çekişe geçerek kalçaların, dizlerin ve ayak bileklerinin uzanmasıyla barı mümkün olduğunca hızlı bir şekilde yukarı kaldırın. Bar vücuda mümkün olduğunca yakın olmalıdır. Zirve uzantıda, omuzları silk ve dirsekleri yan tarafa bükerek vücudunuzu çubuğun altına alırken ayağınızı alıcı konumuna geçirirken çubuğu yukarı kaldırın. Bar, kısmi bir çömelme pozisyonunda kilitlenmiş bir şekilde alınmalıdır. Ağırlığı baş üzerinde kilitlenmiş bir şekilde aldıktan sonra, ağırlığı başın üzerinde tutarak ayak üzerinde bir duruşa geri dönün."
+    },
+    {
+      "name": "Power Clean from Blocks",
+      "type": "Olimpik Ağırlık Kaldırma",
+      "muscle": "Hamstring",
+      "equipment": "Barbell",
+      "difficulty": "Başlangıç",
+      "instructions": "İstenilen yükseklikteki bloklarda bir barbell ile alınacak bir kavrama alın. Kalçaya odaklanan bir ağırlıkla kalçaları indirin, sırt düz, baş öne bakmalı, göğüs yukarıda ve omuzlar barın hemen önünde olmalıdır. Bu başlangıç pozisyonunuz olacak. İlk çekişi, topuklardan iterek, dizleri uzatarak başlatın. Sırt açısı aynı kalmalı ve kollar düz kalmalıdır. Bar, uyluklar orta pozisyonu geçtikçe kalçadan itmek için kalçaları uzatarak hızlanın. Ağırlığı hızlandırmak için kolları aktif bir şekilde çekmeye ihtiyaç duyulmamalıdır. İkinci çekişin sonunda vücut tamamen uzatılmalı, hafifçe geriye doğru eğilmeli ve kollar hala uzatılmalıdır. Tam uzantıda, dirsekleri hızlı ve agresif bir şekilde kaldırarak, elle çubuğu kavrayarak çubuğu omuzlara koyabileceğiniz bir noktaya çekin. Bar, ileriye doğru eğilmiş bir şekilde protracted omuzlara konmalıdır, ellerin gevşek olduğu boğazın hafifçe dokunacağı bir konumda olmalıdır. Hemen topuklardan iterek geri kurtulun, gövdeyi dik tutun ve dirsekleri yukarı kaldırarak tam bir uzantıya ulaşana kadar devam edin. Tekrarı bloklara ağırlığı geri yerleştirerek tamamlayın."
+    },
+    {
+      "name": "Natural Glute Ham Raise",
+      "type": "Kuvvet",
+      "muscle": "Hamstring",
+      "equipment": "Vücut Ağırlığı",
+      "difficulty": "Başlangıç",
+      "instructions": "Bir lat pulldown makinesinin bacak pedini veya bir vaiz bankını kullanarak, ayak bileklerinizin pedlerin altında, dizlerinizi koltuk üzerinde ve makineden uzakta olduğunuz bir pozisyon alın. Dik durmalısınız ve iyi bir duruşu sürdürmelisiniz. Bu başlangıç pozisyonunuz olacak. Dizleriniz neredeyse tamamen düz olduğunda kendinizi kontrol altında indirin. Kontrolde kalın ve başlangıç pozisyonuna geri kaldırın. Bir tekrarı tamamlayamıyorsanız, bir bant, bir partner veya bir kutudan destek almak için kullanın."
+    },
+    {
+        "name": "Glute ham raise-",
+        "type": "güç",
+        "muscle": "hamstring kasları",
+        "equipment": "hiçbiri",
+        "difficulty": "başlangıç",
+        "instructions": "Bu egzersizde bir partner kullanabilir veya ayaklarınızı stabil bir şeyin altına koyabilirsiniz. Dizleriniz üzerinde, üst bacaklarınız ve gövdeniz dik bir pozisyonda başlayın. Eğer bir partner kullanıyorsanız, ayaklarınızı sağlam bir şekilde tutarak pozisyonunuzu korumalıdır. Bu, başlangıç pozisyonunuz olacaktır. Dizlerinizi uzatarak, kalçalarınızı öne eğmeden, kendinizi aşağı indirin. Ellerinizi önünüze koyun ve yerinize ulaştığınızda hafifçe iterek başlangıç pozisyonunuza dönmenize yardımcı olun. Bu hareket çok zor olabilir ve yardıma ihtiyaç duyabilirsiniz. Başlangıç pozisyonuna dönüşünüzü desteklemek için kollarınızı kullanın."
+        },
+        {
+        "name": "Snatch Deadlift",
+        "type": "olimpik_ağırlık_kaldırma",
+        "muscle": "hamstring kasları",
+        "equipment": "barbell",
+        "difficulty": "başlangıç",
+        "instructions": "Snatch deadlift, snatch'ın ilk çekilişini güçlendirir. Barbell'i platforma geniş bir snatch kavrama ile yerleştirin. Ayaklar doğrudan kalçaların altında olmalı, ayaklar dışa dönük olmalıdır. Bara doğru çömelerek, sırtı mutlak uzatmada tutarak başlayın ve başı ileriye bakacak şekilde tutun. Hareketi topuklardan iterek başlatın, kalçaları kaldırarak. Sırt açısı, bar dizleri geçene kadar aynı kalmalıdır. O noktada, kalçalarınızı barın üzerine doğru iterek sırtüstü yatın. Hareketi tersine çevirerek barı platforma geri indirin."
+        }
+    ]

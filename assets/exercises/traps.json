@@ -1,0 +1,66 @@
+[
+    {
+      "name": "Smith Machine Shrug",
+      "type": "Kuvvet",
+      "muscle": "Traps",
+      "equipment": "Makine",
+      "difficulty": "Orta",
+      "instructions": "Başlamak için, smith makinesindeki çubuğu uyluklarınızın ortasına kadar ayarlayın. Doğru yükseklik seçildikten ve çubuk yüklendikten sonra, avuç içleriniz size bakacak şekilde omuz genişliğinde çubuğu tutun. Barbeli yukarı kaldırın ve sırtınız düz bir şekilde kollarınızı tamamen uzatın. Bu başlangıç pozisyonudur. Nefes verirken, omuzlarınızı kulaklarınıza yaklaştırarak çubuğu yukarı kaldırın. Kası bir saniye boyunca tutun ve nefes alarak çubuğu başlangıç pozisyonuna indirin. Önerilen tekrar sayısı için tekrarlayın. Çeşitlendirmeler: Bu egzersizi bir squat rack ve barbell kullanarak da yapabilirsiniz. Ancak, bu varyant için smith makinesinin desteğine sahip olmadığınızdan emin olun ve sizi iyi formu bozacak kadar ağır bir ağırlık seçmemeye dikkat edin. Aşırı ağırlık sırtınıza zarar verebilir. Ayrıca, bu egzersizi gerçekleştirmek için dumbbell'ları da kullanabilirsiniz."
+    },
+    {
+      "name": "Leverage Shrug",
+      "type": "Kuvvet",
+      "muscle": "Traps",
+      "equipment": "Makine",
+      "difficulty": "Orta",
+      "instructions": "Pimleri uygun bir ağırlığa ayarlayın. Kendinizi tutacakların tam ortasına doğru konumlandırın. Üst kulpları rahat bir kavrama ile tutun ve nefes alırken kalçalarınızı aşağı indirin. Başınızı ileriye doğru bakın ve göğsünüzü yukarıda tutun. Topuklarınızla yere basın, kalçalarınızı ve dizlerinizi uzatırken ayakta durun. Omuzlarınızı geriye doğru hareket ettirmeden hareket boyunca kollarınızı düz tutun. Bu başlangıç pozisyonunuz olacaktır. Omuzları kulaklara doğru kaldırarak ağırlığı yukarı doğru kaldırın, düz bir çizgide yukarı ve aşağı hareket edin. Hareketin en üst noktasında bir an bekleyin ve ardından ağırlığı başlangıç pozisyonuna geri getirin."
+    },
+    {
+      "name": "Ayakta Dumbbell Shrug",
+      "type": "Kuvvet",
+      "muscle": "Traps",
+      "equipment": "Dumbbell",
+      "difficulty": "Orta",
+      "instructions": "Dumbbell'ı her elinizde dik bir duruşta tutun (avuç içleri gövdenize bakacak şekilde), kolları yanlara doğru uzatın. Nefes verirken omuzları mümkün olduğunca yükseğe kaldırarak dumbbell'ları kaldırın. İpucu: Kollar her zaman uzatılı kalmalıdır. Dumbbell'ları başlangıç pozisyonuna indirin. Önerilen tekrar sayısı için tekrarlayın. Çeşitlendirmeler: Bu egzersizi bantlar, barbell'lar veya kablolarla da gerçekleştirebilirsiniz. Ayrıca tek bir tutma kullanabilir ve bir seferde bir tarafınızı çalıştırabilirsiniz."
+    },
+    {
+      "name": "Ayakta Dumbbell Upright Row",
+      "type": "Kuvvet",
+      "muscle": "Traps",
+      "equipment": "Dumbbell",
+      "difficulty": "Orta",
+      "instructions": "Her elinizde birer adet dumbbell'ı avuç içleri öne bakacak şekilde, hafifçe omuz genişliğinden daha dar bir tutuşla tutun. Dumbbell'lar uyluklarınızın üstünde dinlenmeli, kollarınız uzatılmış ve sırtınız düz olmalıdır. Bu başlangıç pozisyonunuz olacaktır. Yan omuzlarınızı kullanarak dumbbell'ları yukarı kaldırın. Dumbbell'lar vücudunuza yakın olmalı, dirsekler hareketi yönlendirmelidir. Dumbbell'ları kaldırırken dirsekler her zaman ön kollarınızdan yüksek olmalıdır. Hareketin en üst noktasında bir saniye kadar duraklayın. Dumbbell'ları başlangıç pozisyonuna yavaşça indirin. Bu kısmı gerçekleştirirken nefes alın. Önerilen tekrar sayısı için tekrarlayın. Dikkat: Bu egzersizde ne kadar ağırlık kullanacağınıza çok dikkat edin. Aşırı ağırlık, kötü formaya yol açar, bu da omuz sakatlanmasına neden olabilir. Bu nedenle lütfen sarsma, sallama ve hile yapmaktan kaçının. Ayrıca omuz problemleriniz varsa, bu egzersizi yapmaktan kaçınabilir ve yan lateral kaldırmalar gibi başka bir egzersizle değiştirebilirsiniz. Çeşitlendirmeler: Bu egzersizi düşük bir makaraya takılı düz bir bar kullanarak da gerçekleştirebilirsiniz ve aynı zamanda eğimli bir bar veya bir shrug makinesi kullanarak da gerçekleştirebilirsiniz."
+    },
+    {
+      "name": "Kettlebell Sumo Deadlift High Pull",
+      "type": "Kuvvet",
+      "muscle": "Traps",
+      "equipment": "Kettlebell",
+      "difficulty": "Orta",
+      "instructions": "Bir kettlebell'ı ayaklarınızın arasına yerleştirin. Ayaklarınızı geniş bir duruşa yerleştirin ve kettlebell'ı iki elinizle kavrayın. Kalçanızı mümkün olduğunca geriye alın, dizleriniz bükülü olsun ve göğsünüzü ve başınızı yukarıda tutun. Bu başlangıç pozisyonunuz olacaktır. Kalçanızı ve dizlerinizi uzatarak aynı anda kettlebell'ı omuzlarınıza çekin ve dirseklerinizi yukarı kaldırın. Bu işlemi başlangıç pozisyonuna dönmek için tersine çevirin."
+    },
+    {
+      "name": "Calf-Machine Shoulder Shrug",
+      "type": "Kuvvet",
+      "muscle": "Traps",
+      "equipment": "Makine",
+      "difficulty": "Başlangıç",
+      "instructions": "Kendinizi kalp makinesinin üzerine öyle bir konumlandırın ki omuz pedleri omuzlarınızın üzerinde olsun. Torsonuz düz olmalı ve kollarınız normal olarak yanınızda uzanmalıdır. Bu başlangıç pozisyonunuz olacaktır. Omuzlarınızı kulaklarınıza doğru kaldırarak nefes verin ve kasılma pozisyonunu tam bir saniye boyunca tutun. Nefes alarak yavaşça başlangıç pozisyonuna dönün. Önerilen tekrar sayısı için tekrarlayın. Çeşitlendirmeler: Shrug hareketlerini gerçekleştirmek için dumbbell, barbell, smith makinesi ve makaralı makineleri kullanabilirsiniz."
+    },
+    {
+      "name": "Barbell Shrug",
+      "type": "Kuvvet",
+      "muscle": "Traps",
+      "equipment": "Barbell",
+      "difficulty": "Orta",
+      "instructions": "Ayakta dik durun ve avuç içleri size bakacak şekilde her iki elinizle bir barbell'ı önünüzde tutun (avuç içleri uyluklardan biraz daha geniş bir mesafede olmalıdır). İpucu: Elleriniz omuz genişliğinden biraz daha geniş olmalıdır. Bu egzersiz için bilek sargıları kullanabilirsiniz. Bu başlangıç pozisyonunuz olacaktır. Omuzlarınızı mümkün olduğunca yükseğe kaldırın ve nefes verirken kasılma pozisyonunu bir saniye boyunca tutun. İpucu: Barbell'ı biceps kullanarak kaldırmaya çalışmaktan kaçının. Nefes alarak yavaşça başlangıç pozisyonuna dönün. Önerilen tekrar sayısı için tekrarlayın. Çeşitlendirmeler: Omuzları yukarı doğru kaldırırken omuzları döndürebilirsiniz, hareketi ön tarafınızdan arka tarafa doğru yarı dairesel bir hareketle yapabilirsiniz. Ancak bu versiyon, omuz problemleri olanlar için uygun değildir. Ayrıca, bu egzersizi barbell'ı sırtınızın arkasında, yanınızdaki dumbbell'larla, bir smith makinesi veya bir shrug makinesi kullanarak da gerçekleştirebilirsiniz."
+    },
+    {
+      "name": "Barbell Behind-the-Back Shrug",
+      "type": "Kuvvet",
+      "muscle": "Traps",
+      "equipment": "Barbell",
+      "difficulty": "Orta",
+      "instructions": "Ayakta dik durun ve avuç içleri geriye doğru bakacak şekilde her iki elinizle bir barbell'ı arkada tutun (avuç içleri arkaya dönük olmalıdır). İpucu: Elleriniz omuz genişliğinden biraz daha geniş olmalıdır. Bu egzersiz için bilek sargıları kullanabilirsiniz. Bu başlangıç pozisyonunuz olacaktır. Omuzlarınızı mümkün olduğunca yükseğe kaldırın ve nefes verirken kasılma pozisyonunu bir saniye boyunca tutun. İpucu: Barbell'ı biceps kullanarak kaldırmaya çalışmaktan kaçının. Kollar her zaman uzatılmış olarak kalmalıdır. Nefes alarak yavaşça başlangıç pozisyonuna dönün. Önerilen tekrar sayısı için tekrarlayın. Çeşitlendirmeler: Omuzları yukarı doğru kaldırırken omuzları döndürebilirsiniz, hareketi arka taraftan öne doğru yarı dairesel bir hareketle yapabilirsiniz. Ancak bu versiyon, omuz problemleri olanlar için uygun değildir. Ayrıca, bu egzersizi barbell'ı uyluklarınızın önünde, yanınızdaki dumbbell'larla, bir smith makinesi veya bir shrug makinesi kullanarak da gerçekleştirebilirsiniz."
+    }
+  ]

@@ -125,6 +125,7 @@ class _YemekTarifleriPageState extends State<YemekTarifleriPage> {
                               builder: (context) =>
                                   RecipeView(recipeList[index].appurl)));
                     */
+                      print(recipeList[index].appurl);
                     },
                     child: Card(
                       margin: EdgeInsets.all(20),

@@ -60,6 +60,17 @@ flutter:
     - assets/exercises/abdominals.json
     - assets/exercises/chest.json
     - assets/exercises/calves.json
+    - assets/exercises/forearms.json
+    - assets/exercises/glutes.json
+    - assets/exercises/hamstrings.json
+    - assets/exercises/lats.json
+    - assets/exercises/lower_back.json
+    - assets/exercises/traps.json
+    - assets/exercises/triceps.json
+    - assets/exercises/abductors.json
+    - assets/exercises/adductors.json
+    - assets/exercises/neck.json
+    - assets/exercises/quadriceps.json
 
   #   - images/a_dot_ham.jpeg
 
