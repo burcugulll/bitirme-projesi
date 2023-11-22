@@ -44,48 +44,14 @@ class ExerciseModel {
 
 class _EgzersizPageState extends State<EgzersizPage> {
   List<ExerciseModel> exerciseList = <ExerciseModel>[];
-  bool isLoading = true; // Yeni bir isLoading durumu ekledik.
-  String exercise = "biceps";
-
-/*
-  Future<void> _fetchExerciseData() async {
-    String muscle = Uri.encodeQueryComponent("triceps");
-    String apiUrl = "https://api.api-ninjas.com/v1/exercises?muscle=$muscle";
-
-    var headers = {
-      'X-Api-Key': '64LlWR1Gr/Dw2iF46o505Q==KZL1aOjWVRX1pfrl',
-    };
-
-    try {
-      final response = await http.get(Uri.parse(apiUrl), headers: headers);
-
-      if (response.statusCode == 200) {
-        List<dynamic> data = json.decode(response.body);
-        List<ExerciseModel> updatedExerciseList =
-            data.map((exercise) => ExerciseModel.fromJson(exercise)).toList();
-
-        setState(() {
-          exerciseList = updatedExerciseList;
-          isLoading =
-              false; // Loading tamamlandığında isLoading durumunu güncelledik.
-        });
-
-        print("başarılı");
-        AlertMessage(
-            alertType: ToastificationType.success,
-            message: "Egzersizler Başarıyla Getirildi.",
-            context: context);
-      } else {
-        print('HTTP isteği başarısız oldu: ${response.statusCode}');
-        isLoading = false; // Hata durumunda da isLoading durumunu güncelledik.
-      }
-    } catch (error) {
-      print('Hata oluştu: $error');
-
-      isLoading = false; // Hata durumunda da isLoading durumunu güncelledik.
-    }
-  }
-*/
+  bool isLoading = true;
+  String selectedExercise = "biceps"; // Default selected exercise
+  List<String> exercises = [
+    "biceps",
+    "abdominals",
+    "chest",
+    "calves"
+  ]; // Add other exercises as needed
 
   Future<void> _fetchExerciseData({required exercise}) async {
     try {
@@ -115,7 +81,7 @@ class _EgzersizPageState extends State<EgzersizPage> {
   @override
   void initState() {
     super.initState();
-    _fetchExerciseData(exercise: exercise);
+    _fetchExerciseData(exercise: selectedExercise);
   }
 
   @override
@@ -124,23 +90,67 @@ class _EgzersizPageState extends State<EgzersizPage> {
       appBar: AppBar(
         title: const Text('Egzersiz Sayfası'),
       ),
-      body: isLoading
-          ? Center(
-              child: CircularProgressIndicator(),
-            )
-          : exerciseList.isEmpty
-              ? Center(
-                  child: Text('Veri bulunamadı.'),
-                )
-              : ListView.builder(
-                  itemCount: exerciseList.length,
-                  itemBuilder: (context, index) {
-                    return ExerciseListItem(
-                      exercise: exerciseList[index],
-                      context: context,
-                    );
-                  },
-                ),
+      body: Column(
+        children: [
+          // Dropdown to select exercises
+          Padding(
+            padding: const EdgeInsets.symmetric(horizontal: 14),
+            child: Container(
+              width: double.infinity, // Make the container full width
+              decoration: BoxDecoration(
+                border:
+                    Border.all(color: Colors.grey), // Add border for styling
+                borderRadius:
+                    BorderRadius.circular(8.0), // Add border radius for styling
+              ),
+              child: DropdownButton<String>(
+                isExpanded: true, // Make the dropdown button full width
+                value: selectedExercise,
+                onChanged: (String? newValue) {
+                  setState(() {
+                    selectedExercise = newValue!;
+                    isLoading = true;
+                  });
+                  _fetchExerciseData(exercise: selectedExercise);
+                },
+                items: exercises.map<DropdownMenuItem<String>>((String value) {
+                  return DropdownMenuItem<String>(
+                    value: value,
+                    child: Padding(
+                      padding: const EdgeInsets.symmetric(horizontal: 16.0),
+                      child: Text(value),
+                    ),
+                  );
+                }).toList(),
+                style: TextStyle(
+                    fontSize: 16.0,
+                    color: Colors.black87), // Customize text style
+                underline: Container(), // Remove the default underline
+              ),
+            ),
+          ),
+
+          Expanded(
+            child: isLoading
+                ? Center(
+                    child: CircularProgressIndicator(),
+                  )
+                : exerciseList.isEmpty
+                    ? Center(
+                        child: Text('Veri bulunamadı.'),
+                      )
+                    : ListView.builder(
+                        itemCount: exerciseList.length,
+                        itemBuilder: (context, index) {
+                          return ExerciseListItem(
+                            exercise: exerciseList[index],
+                            context: context,
+                          );
+                        },
+                      ),
+          ),
+        ],
+      ),
     );
   }
 }

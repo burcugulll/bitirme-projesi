@@ -27,6 +27,7 @@ dependencies:
   http: ^1.1.0
   webview_flutter: ^4.4.2
   toastification: ^1.1.0
+  dropdown_button2: ^2.3.9
 
 dev_dependencies:
   flutter_test:
@@ -56,6 +57,9 @@ flutter:
     - assets/images/ayniyemekler.jpg
     - assets/images/anasayfa.jpg
     - assets/exercises/biceps.json
+    - assets/exercises/abdominals.json
+    - assets/exercises/chest.json
+    - assets/exercises/calves.json
 
   #   - images/a_dot_ham.jpeg
 
