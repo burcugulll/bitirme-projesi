@@ -13,6 +13,64 @@ class PremiumPage extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.center,
           children: <Widget>[
+            // Premium information
+            Container(
+              margin: EdgeInsets.all(10.0),
+              child: Text(
+                "Premium'a Geçin ve Hedeflerinize Daha Kolay Ulaşın",
+                style: TextStyle(fontSize: 18.0, fontWeight: FontWeight.bold),
+              ),
+            ),
+
+            // Payment options
+            // İlk seçenek
+            InkWell(
+              onTap: () {
+                // İlk seçenek seçildiğinde yapılacak işlemler buraya gelecek
+              },
+              child: Container(
+                margin: EdgeInsets.all(10.0),
+                child: Text(
+                  "12 Aylık Plan Satın Al\n299,99 ₺\n%31 Tasarruf Et",
+                  style: TextStyle(fontSize: 18.0),
+                ),
+              ),
+            ),
+
+            // İkinci seçenek
+            InkWell(
+              onTap: () {
+                // İkinci seçenek seçildiğinde yapılacak işlemler buraya gelecek
+              },
+              child: Container(
+                margin: EdgeInsets.all(10.0),
+                child: Text(
+                  "3 Aylık Plan Satın Al\n104,99 ₺\n%3 Tasarruf Et",
+                  style: TextStyle(fontSize: 18.0),
+                ),
+              ),
+            ),
+
+            // Üçüncü seçenek
+            InkWell(
+              onTap: () {
+                // Üçüncü seçenek seçildiğinde yapılacak işlemler buraya gelecek
+              },
+              child: Container(
+                margin: EdgeInsets.all(10.0),
+                child: Text(
+                  "1 Aylık Plan Satın Al \n35,99 ₺",
+                  style: TextStyle(fontSize: 18.0),
+                ),
+              ),
+            ),
+            Container(
+              margin: EdgeInsets.all(10.0),
+              width: double.infinity,
+              height: 2.0,
+              color: Colors.black,
+            ),
+            // Rest of the content below
             Container(
               margin: EdgeInsets.all(20.0),
               child: Text(
@@ -126,61 +184,6 @@ class PremiumPage extends StatelessWidget {
               child: Text(
                 "Premium ile Hedeflerinize Yaklaşın\nMilyonlarca girişi analiz ettikten sonra Premium üyelerin günlük rutinlerine premium özellikleri eklerken hedef kilolarına 3 kat daha fazla yaklaştıklarını ve iki kat daha uzun süre motive kaldıklarını bulduk",
                 style: TextStyle(fontSize: 18.0),
-              ),
-            ),
-            Container(
-              margin: EdgeInsets.all(10.0),
-              width: double.infinity, // Genişlik
-              height: 2.0, // Yükseklik (çizgi kalınlığı)
-              color: Colors.black,
-            ),
-            Container(
-              margin: EdgeInsets.all(10.0),
-              child: Text(
-                "Premium'a Geçin ve Hedeflerinize Daha Kolay Ulaşın",
-                style: TextStyle(fontSize: 18.0, fontWeight: FontWeight.bold),
-              ),
-            ),
-            // İlk seçenek
-
-            InkWell(
-              onTap: () {
-                // İlk seçenek seçildiğinde yapılacak işlemler buraya gelecek
-              },
-              child: Container(
-                margin: EdgeInsets.all(10.0),
-                child: Text(
-                  "12 Aylık\n299,99 ₺\n%31 Tasarruf Et",
-                  style: TextStyle(fontSize: 18.0),
-                ),
-              ),
-            ),
-
-            // İkinci seçenek
-            InkWell(
-              onTap: () {
-                // İkinci seçenek seçildiğinde yapılacak işlemler buraya gelecek
-              },
-              child: Container(
-                margin: EdgeInsets.all(10.0),
-                child: Text(
-                  "3 Aylık\n104,99 ₺\n%3 Tasarruf Et",
-                  style: TextStyle(fontSize: 18.0),
-                ),
-              ),
-            ),
-
-            // Üçüncü seçenek
-            InkWell(
-              onTap: () {
-                // Üçüncü seçenek seçildiğinde yapılacak işlemler buraya gelecek
-              },
-              child: Container(
-                margin: EdgeInsets.all(10.0),
-                child: Text(
-                  "1 Aylık 35,99 ₺",
-                  style: TextStyle(fontSize: 18.0),
-                ),
               ),
             ),
           ],
