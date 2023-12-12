@@ -14,30 +14,30 @@ class EgzersizPage extends StatefulWidget {
 }
 
 class ExerciseModel {
-  final String name;
-  final String type;
-  final String muscle;
-  final String equipment;
-  final String difficulty;
-  final String instructions;
+  final String isim;
+  final String tip;
+  final String kas;
+  final String ekipman;
+  final String zorluk;
+  final String talimatlar;
 
   ExerciseModel({
-    required this.name,
-    required this.type,
-    required this.muscle,
-    required this.equipment,
-    required this.difficulty,
-    required this.instructions,
+    required this.isim,
+    required this.tip,
+    required this.kas,
+    required this.ekipman,
+    required this.zorluk,
+    required this.talimatlar,
   });
 
   factory ExerciseModel.fromJson(Map<String, dynamic> json) {
     return ExerciseModel(
-      name: json['name'],
-      type: json['type'],
-      muscle: json['muscle'],
-      equipment: json['equipment'],
-      difficulty: json['difficulty'],
-      instructions: json['instructions'],
+      isim: json['isim'],
+      tip: json['tip'],
+      kas: json['kas'],
+      ekipman: json['ekipman'],
+      zorluk: json['zorluk'],
+      talimatlar: json['talimatlar'],
     );
   }
 }
@@ -45,23 +45,20 @@ class ExerciseModel {
 class _EgzersizPageState extends State<EgzersizPage> {
   List<ExerciseModel> exerciseList = <ExerciseModel>[];
   bool isLoading = true;
-  String selectedExercise = "biceps"; // Default selected exercise
+  String selectedExercise = "karin"; // Default selected exercise
   List<String> exercises = [
-    "biceps",
-    "abdominals",
-    "chest",
-    "calves",
-    "forearms",
-    "glutes",
-    "hamstrings",
-    "lats",
-    "lower_back",
-    "traps",
-    "triceps",
-    "abductors",
-    "adductors",
-    "neck",
-    "quadriceps"
+    "on_kol",
+    "karin",
+    "gogus",
+    "kalf",
+    "kalca",
+    "arka_bacak",
+    "sirt",
+    "bel",
+    "omuz",
+    "arka_kol",
+    "ic_bacak",
+    "boyun"
   ];
 
   Future<void> _fetchExerciseData({required exercise}) async {

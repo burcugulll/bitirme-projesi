@@ -1,0 +1,82 @@
+[
+  {
+    "isim": "Barbell Deadlift",
+    "tip": "Kuvvet",
+    "kas": "arka_bacak",
+    "ekipman": "Halter",
+    "zorluk": "Orta",
+    "talimatlar": "Barı ayaklarınızın üzerine merkezleme yaklaşın. Ayaklarınız kalçanızda olabilir olmalıdır. Bara omuzda bir mesafeden bilgik için kalçadan bükülün ve omuz bıçaklarınızın gitmesine izin verin. sonra omuzlarınızı indirebilir ve dizleri büzerek kaval kemiklerinizle bara temas edene kadar Başınızı öne bakacak şekilde tutun.Göğsünüzü yukarıda tutun, sırtınızı kambur yapacağınız ve ağırlığı yukarıya doğru hareket programları için topuklardan sürmeye başlayın.Bar dizleri kaldıktan sonra barı geri çekmeye başlayın, kalça kemiklerinizi bara doğru çalıştırın. devam ederken omuz bıçaklarınızı bir arada çekin. Barı kalçalara doğru bükülerek ve ağırlığı kontrol ederek yere indirilir."
+  },
+  {
+    "isim": "Dambıllarla Romen Deadlift'i",
+    "tip": "Kuvvet",
+    "kas": "arka_bacak",
+    "ekipman": "Dambıl",
+    "zorluk": "Başlangıç",
+    "talimatlar": "Her elinizde bir dambıl ile ayakta durmaya başlayın. Sırtınızın düzlüğünde ve egzersiz yapabileceğinizden emin olun. Kollarınızın, bileklerinizin ayrıldığı ve deformasyonlarınızın yanınıza bakmasına izin vermenize izin verin, ellerinizi tabana dik bir şekilde sarkıtın. Bu hareketleriniz olacak. Büzerek başlayın, poponuzu mümkün olduğunca geriye doğru iterek.Bu, kalçaların aşırı bir hareketini içermelidir, aşağı doğru bir hareket değil.Dizler yalnızca biraz daha genişli ve ağırlıkta topuklarınızda kalmalıdır.Poponuzu geriye ittikçe kadar, elleriniz dizleriniz desteklenerek geldikçe hamstringlerde gerilim oluşturmalıdır. Egzersiz boyunca sırtınızda bir yay Kalçalarınız daha fazla geriye doğru hareket edemez hale geldiğinde duraklayın ve ardından kalçaları uzatarak başlangıç pozisyonuna devam edin."
+  },
+  {
+    "isim": "Deadlift'i Temizle",
+    "tip": "Olimpik Ağırlık Kaldırma",
+    "kas": "arka_bacak",
+    "ekipman": "Halter",
+    "zorluk": "Başlangıç",
+    "talimatlar": "Ayaklarınızın altında bir halter ile ayakta durmaya başlayın. Ayaklarınız, kalçalarınızın altında olmalı ve hafifçe değişmeli dönmelidir. Çift elle geniş bir iletişim veya çengel sınırları ile barı tutun, omuzda olabilir bir mesafeye kadar. Dizlerinizle bara doğru çömelin. Omurganız tam olarak bulunda olmalıdır Sırtınızın bir açık olması ve omuzlarınızın önünde ve sırtınızın mümkün olduğu kadar dikey olduğu bir durma olmalıdır Ayakların yerden barı durmaya başlaması için önce ayakların ön kısmından zemin üzerine kadar itmek.Bar yukarı doğru hareket ettiğinde, sırt açıklığını tutun. için dizleri yanlara doğru açın. Bar dizleri saklandıktan sonra, kalçaların ve dizlerin uzadığı bir kaldırma tamamlayın."
+  },
+  {
+    "isim": "Sumo Deadlift",
+    "tip": "Güç Kaldırma",
+    "kas": "arka_bacak",
+    "ekipman": "Halter",
+    "zorluk": "Başlangıç",
+    "talimatlar": "Yerde yüklü bir halter ile başlayın. Bar'ın ayakların ortasını kestiği şekilde bara yaklaşın. Ayaklar çok geniş bir mesafede, yaklaşık olarak kolalara yakın olmalıdır. Bara yetişkinler için kalçadan bükülün. Kollar, omuzların hemen altında, bacakların iç kısmında ve Pronated bir açıklama, karışık bir terimler veya çengel karakterleri kullanabilirsiniz.Omuzları rahatlatın, bu da etkili bir şekilde kollarınızı uzatır.Nefes alınıp sonra başınızı öne doğru bakacak şekilde, göğsünüzü yukarıya doğru uzanan kanatlarınızı kaldırabilirsiniz.Ağırlığı topukların arkadan yerleştirerek bacakları açarak uzanır.Kalçaların ve Dizlerin uzanması.Bar dizleri geriye doğru eğilin ve kalçaları bara sürerek omuz bıçaklarınızı bir araya getirin.Ağırlığı yere indirmek için kalçadan bükülerek ve ağırlığı kontrol ederek geri giderken."
+  },
+  {
+    "isim": "Açıklıktan Romanya Deadlift'i",
+    "tip": "Olimpik Ağırlık Kaldırma",
+    "kas": "arka_bacak",
+    "ekipman": "Halter",
+    "zorluk": "Başlangıç",
+    "talimatlar": "Bir çekmede önünüzde kollarınızı uzatmış bir durumda ayakta çalışmaya başlayın. Hareketin aralığını artırmak için bir platformda durabilirsiniz. Hafifçe dizleri bükülmeye başlayın ve ardından kalçadan bükülerek poponuzu mümkün olduğunca geriye doğru hareket ettirin, torsayı mümkün olduğunca aşağı indirerek. Sırt her zaman mutlakda olmalı ve çubuklar temas halinde kalmalıdır.Doğal olarak hamstringlerde yoğun bir gerilim hissedilmelidir.Başlangıç pozisyonlarına geri dönmek için hareketi çevirin."
+  },
+  {
+    "isim": "Güç Yakalama",
+    "tip": "Olimpik Ağırlık Kaldırma",
+    "kas": "arka_bacak",
+    "ekipman": "Halter",
+    "zorluk": "Başlangıç",
+    "talimatlar": "Yüklenmiş bir halter ile yerde başlayın. Bar, şinlere yakın veya ona dokunacak şekilde olmalı ve geniş bir ana karakter verilmemelidır. Ayaklar doğrudan kalçaların altında, ihtiyaç duyuldukça ayaklar kesilmeli. Kalçayı indirmeli, göğsü yukarıda ve baş öne bakmalıdır. Omuzlar sadece barın önünde olmalıdır. Bu başlangıçtaz olacak. İlk çekişi, topukların önünde barı kullanabilirsiniz. Barın dizleri geçene kadar sırt açısı aynı kalmalıdır. İkinci çekişe kalıcılıkların, dizlerin ve ayak bileklerinin uzamasıyla barı mümkün olduğu kadar hızlı bir şekilde yukarıya doğru uzanır. Bar miktarı mümkün olduğunca yakın olmalıdır. Zirve genişliğindeda, omuzları ipek ve dirsekleri yan noktalar bükerek vücudunuzu uzatın, yerden alarak ayağınızı alıcı dayanıklılığını geçirirken yukarı doğru uzatın. Bar, kısmi bir çömelme pozisyonunda kilitlenmiş bir şekilde alınır. Ağırlığı baş üzerinde kilitlenmiş bir şekilde bozulmadan sonra, ağırlık başın üzerinde tutarak ayak üzerinde bir durmaya geri dönün."
+  },
+  {
+    "isim": "Bloklardan Güçlü Temizleme",
+    "tip": "Olimpik Ağırlık Kaldırma",
+    "kas": "arka_bacak",
+    "ekipman": "Halter",
+    "zorluk": "Başlangıç",
+    "talimatlar": "İstenilen yükseklikteki bloklarda bir halter ile alınacak bir bilgi alın. Kalçaya odaklanan bir ağırlıkla kalçaları indirebilir, sırt düz, baş öne bakmalı, göğüs yukarıda ve omuzlar barın hemen önünde olmalıdır. Bu başlangıçtaz olacak. İlk çekişi, topuklardan iterek, Sırt gücü aynı kalmalı ve kollar düz kalmalıdır.Bar, yerler orta pozisyonlarda kalçalardan itmek için kalçaları uzatarak hızlanın.Ağırlığı hızlandırmak için kollar aktif bir şekilde çekilmeye ihtiyaç duyulmaz.İkinci çekişin sonunda vücut uzatılmalı, hafifçe doğru eğilmeli ve kollar Tam uzunlukta, dirsekleri hızlı ve agresif bir şekilde desteklediği, elle uzatarak kavrayarak omuzlara koyabilen bir şekilde uzatabilir.Bar, kuvvetle doğru bükülmemiş bir şekilde protracted omuzlara konmalıdır, ellerin çalıştırıldığı boğazın hafifçe dokunacağı bir şekilde saklanmalıdır.Hemen topuklardan iterek geri kurtulun. , gövdeyi dik tutun ve dirsekleri yukarıya doğru tam bir yaygınya ulaşana kadar devam edin. Tekrarı bloklara ağırlığı geri yerleştirerek tamamlayın."
+  },
+  {
+    "isim": "Doğal Glute Jambon Kaldırma",
+    "tip": "Kuvvet",
+    "kas": "arka_bacak",
+    "ekipman": "Vücut Ağırlığı",
+    "zorluk": "Başlangıç",
+    "talimatlar": "Bir lat pulldown makinesinin bacaklarının pedini veya bir vaiz bankasını kullanarak, ayak bileklerinizin pedlerin altında, dizlerinizi koltuk üzerinde ve makineden yardım alarak bir pozisyon alın. Kontrolde kalın ve başlangıç pozisyonuna geri dönün. Bir tekrarı tamamlayamıyorsanız, bir bant, bir partner veya bir kutudan destek almak için kullanın."
+  },
+  {
+      "isim": "Kalça jambonunu kaldır-",
+      "tip": "güç",
+      "kas": "arka_bacak",
+      "ekipman": "hiçbiri",
+      "zorluk": "başlangıç",
+      "talimatlar": "Bu egzersizde bir partner kullanabilir veya ayaklarınızı stabil bir şekilde yerleştirebilirsiniz. Dizleriniz üzerinde, üstleriniz ve gövdeniz dik bir şekilde çalışmaya başlayın. Eğer bir partneriniz varsa, ayaklarınızı sağlam bir şekilde tutarak bacaklarınızı çalıştıracaksınız. Bu, çalışacaklarınız olacaktır. uzatarak, kalçalarınızı öne eğmeden, kendinizi aşağı indirebilirsiniz. Ellerinizi önünüze koyun ve yerinize ulaştığınızda hafifçe iterek başlangıçta geleceğe dönmenize yardımcı olun. Bu hareket çok zor olabilir ve yardıma ihtiyaç duyabilirsiniz. Başlangıç pozisyonunuza dönüşünüzü desteklemek için kollarınızı kullanın."
+      },
+      {
+      "isim": "Koparma Deadlift",
+      "tip": "olimpik_ağırlık_kaldırma",
+      "kas": "arka_bacak",
+      "ekipman": "halter",
+      "zorluk": "başlangıç",
+      "talimatlar": "Snatch deadlift, snatch'ın ilk çekilişini yapılabilir. Barbell'i platforma geniş bir snatch merkezi ile yerde. Ayaklar doğrudan kalçaların altında olmalı, ayaklar olmalı olmalı. Hareketi topuklardan iterek, kalçaları ayrılır. Sırt açısı, bar dizleri geçene kadar aynı kalmalıdır. O yerde, omuzlarınızı barın üzerine doğru iterek sırtüstü yatın. Hareketi dönerek barı platforma geri alınabilir."
+      }
+  ]

@@ -22,7 +22,7 @@ class ExerciseListItem extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Text(
-                  exercise.name,
+                  exercise.isim,
                   style: TextStyle(
                     fontSize: 18.0,
                     fontWeight: FontWeight.bold,
@@ -34,7 +34,7 @@ class ExerciseListItem extends StatelessWidget {
                     Icon(Icons.fitness_center),
                     SizedBox(width: 8.0),
                     Text(
-                      'Muscle: ${exercise.muscle}',
+                      'Kas: ${exercise.kas}',
                       style: TextStyle(fontSize: 14.0),
                     ),
                   ],
@@ -44,7 +44,7 @@ class ExerciseListItem extends StatelessWidget {
                     Icon(Icons.accessibility),
                     SizedBox(width: 8.0),
                     Text(
-                      'Equipment: ${exercise.equipment}',
+                      'Ekipman: ${exercise.ekipman}',
                       style: TextStyle(fontSize: 14.0),
                     ),
                   ],
@@ -54,21 +54,21 @@ class ExerciseListItem extends StatelessWidget {
                     Icon(Icons.star),
                     SizedBox(width: 8.0),
                     Text(
-                      'Difficulty: ${exercise.difficulty}',
+                      'Zorluk: ${exercise.zorluk}',
                       style: TextStyle(fontSize: 14.0),
                     ),
                   ],
                 ),
                 SizedBox(height: 12.0),
                 Text(
-                  'Instructions:',
+                  'Talimatlar:',
                   style: TextStyle(
                     fontSize: 16.0,
                     fontWeight: FontWeight.bold,
                   ),
                 ),
                 SizedBox(height: 4.0),
-                _buildShortenedInstructions(exercise.instructions),
+                _buildShortenedInstructions(exercise.talimatlar),
               ],
             ),
           ),
@@ -98,7 +98,7 @@ class ExerciseListItem extends StatelessWidget {
               _showExerciseDetails(context);
             },
             child: Text(
-              'See More',
+              'Daha fazlasını görmek için tılayın',
               style: TextStyle(
                 color: Colors.blue,
                 fontWeight: FontWeight.bold,
@@ -121,7 +121,7 @@ class ExerciseListItem extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Text(
-                  exercise.name,
+                  exercise.isim,
                   style: TextStyle(
                     fontSize: 18.0,
                     fontWeight: FontWeight.bold,
@@ -129,24 +129,24 @@ class ExerciseListItem extends StatelessWidget {
                 ),
                 SizedBox(height: 8.0),
                 Text(
-                  'Type: ${exercise.type}',
+                  'Tip: ${exercise.tip}',
                   style: TextStyle(fontSize: 14.0),
                 ),
                 Text(
-                  'Muscle: ${exercise.muscle}',
+                  'Kas: ${exercise.kas}',
                   style: TextStyle(fontSize: 14.0),
                 ),
                 Text(
-                  'Equipment: ${exercise.equipment}',
+                  'Ekipman: ${exercise.ekipman}',
                   style: TextStyle(fontSize: 14.0),
                 ),
                 Text(
-                  'Difficulty: ${exercise.difficulty}',
+                  'Zorluk: ${exercise.zorluk}',
                   style: TextStyle(fontSize: 14.0),
                 ),
                 SizedBox(height: 12.0),
                 Text(
-                  'Instructions:',
+                  'Talimatlar:',
                   style: TextStyle(
                     fontSize: 16.0,
                     fontWeight: FontWeight.bold,
@@ -154,7 +154,7 @@ class ExerciseListItem extends StatelessWidget {
                 ),
                 SizedBox(height: 4.0),
                 Text(
-                  exercise.instructions,
+                  exercise.talimatlar,
                   style: TextStyle(fontSize: 14.0),
                 ),
               ],

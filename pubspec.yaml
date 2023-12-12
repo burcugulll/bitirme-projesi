@@ -58,22 +58,18 @@ flutter:
     - assets/images/su.jpg
     - assets/images/ayniyemekler.jpg
     - assets/images/anasayfa.jpg
-    - assets/exercises/biceps.json
-    - assets/exercises/abdominals.json
-    - assets/exercises/chest.json
-    - assets/exercises/calves.json
-    - assets/exercises/forearms.json
-    - assets/exercises/glutes.json
-    - assets/exercises/hamstrings.json
-    - assets/exercises/lats.json
-    - assets/exercises/lower_back.json
-    - assets/exercises/traps.json
-    - assets/exercises/triceps.json
-    - assets/exercises/abductors.json
-    - assets/exercises/adductors.json
-    - assets/exercises/neck.json
-    - assets/exercises/quadriceps.json
-    
+    - assets/exercises/on_kol.json
+    - assets/exercises/karin.json
+    - assets/exercises/gogus.json
+    - assets/exercises/kalf.json
+    - assets/exercises/kalca.json
+    - assets/exercises/arka_bacak.json
+    - assets/exercises/sirt.json
+    - assets/exercises/bel.json
+    - assets/exercises/omuz.json
+    - assets/exercises/arka_kol.json
+    - assets/exercises/ic_bacak.json
+    - assets/exercises/boyun.json    
 
   #   - images/a_dot_ham.jpeg
 
