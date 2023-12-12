@@ -19,8 +19,7 @@ class _PersonalInfoPageState extends State<PersonalInfoPage> {
     return Scaffold(
       appBar: AppBar(
         title: Text('Kişisel Bilgiler'),
-        backgroundColor:
-            Colors.deepPurple, // AppBar'ın arka plan rengini beyaz yapar
+        backgroundColor: Colors.deepPurple,
         foregroundColor: Colors.white70,
       ),
       body: SingleChildScrollView(

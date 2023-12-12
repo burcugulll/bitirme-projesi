@@ -17,7 +17,7 @@ class ProfileImage extends StatelessWidget {
         height: 100,
         decoration: BoxDecoration(
           shape: BoxShape.circle,
-          color: Colors.blue, // İstediğiniz arka plan rengini seçin
+          color: Colors.deepPurple,
         ),
         child: image != null
             ? ClipOval(

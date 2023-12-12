@@ -1,9 +1,11 @@
+import 'package:bitirme_projesi/widgets/alert-message.dart';
 import 'package:flutter/material.dart';
 import 'dart:convert';
 import 'dart:developer';
 import 'package:http/http.dart';
 
 import 'package:bitirme_projesi/screens/gunluk/model.dart';
+import 'package:toastification/toastification.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 class YemekTarifleriPage extends StatefulWidget {
@@ -38,6 +40,11 @@ class _YemekTarifleriPageState extends State<YemekTarifleriPage> {
           setState(() {
             recipeList = updatedRecipeList;
           });
+          print("başarılı");
+          AlertMessage(
+              alertType: ToastificationType.success,
+              message: "Yemek Tarifleri Başarıyla Getirildi.",
+              context: context);
 
           recipeList.forEach((Recipe) {
             print(Recipe.applabel);

@@ -94,8 +94,6 @@ class _ProfilPageState extends State<ProfilPage> {
             ),
             ElevatedButton.icon(
               onPressed: () {
-                /*_showInformationDialog(context, 'Hatırlatıcılar Sayfası',
-                    'Hatırlatıcılarınız burada gösterilecek.');*/
                 Navigator.push(
                   context,
                   MaterialPageRoute(

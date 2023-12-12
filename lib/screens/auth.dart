@@ -108,8 +108,8 @@ class _AuthScreenState extends State<AuthScreen> {
                   left: 20,
                   right: 20,
                 ),
-                width: 250, // Örnek bir genişlik değeri
-                height: 250, // Örnek bir yükseklik değeri
+                width: 250,
+                height: 250,
                 decoration: BoxDecoration(
                   shape: BoxShape.circle,
                   image: DecorationImage(

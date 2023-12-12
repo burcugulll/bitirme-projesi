@@ -51,6 +51,8 @@ class _AlarmListWidgetState extends State<AlarmListWidget> {
     return Scaffold(
       appBar: AppBar(
         title: Text('Alarm Listesi'),
+        backgroundColor: Colors.deepPurple,
+        foregroundColor: Colors.white70,
       ),
       body: AlarmList(alarms: alarms),
     );

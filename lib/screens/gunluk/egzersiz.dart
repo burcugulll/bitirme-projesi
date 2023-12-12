@@ -62,7 +62,7 @@ class _EgzersizPageState extends State<EgzersizPage> {
     "adductors",
     "neck",
     "quadriceps"
-  ]; // Add other exercises as needed
+  ];
 
   Future<void> _fetchExerciseData({required exercise}) async {
     try {

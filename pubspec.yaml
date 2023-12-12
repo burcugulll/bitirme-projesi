@@ -29,6 +29,7 @@ dependencies:
   toastification: ^1.1.0
   dropdown_button2: ^2.3.9
   url_launcher: ^6.2.1
+  lottie: ^2.7.0
 
 dev_dependencies:
   flutter_test:
@@ -72,6 +73,7 @@ flutter:
     - assets/exercises/adductors.json
     - assets/exercises/neck.json
     - assets/exercises/quadriceps.json
+    
 
   #   - images/a_dot_ham.jpeg
 

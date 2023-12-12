@@ -13,7 +13,7 @@ class AlertMessage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(); // Boş bir container dönebilirsiniz, çünkü bu widget ekranda görünmeyecek.
+    return Container();
   }
 
   void _showAlert() {
