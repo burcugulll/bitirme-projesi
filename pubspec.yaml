@@ -70,6 +70,7 @@ flutter:
     - assets/exercises/arka_kol.json
     - assets/exercises/ic_bacak.json
     - assets/exercises/boyun.json    
+    - assets/animations/anasayfa.json
 
   #   - images/a_dot_ham.jpeg
 

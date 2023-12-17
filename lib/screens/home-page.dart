@@ -3,6 +3,7 @@ import "package:firebase_auth/firebase_auth.dart";
 import 'package:flutter/material.dart';
 import "package:bitirme_projesi/screens/gunluk-page.dart";
 import "package:bitirme_projesi/screens/premium-page.dart";
+import 'package:lottie/lottie.dart';
 
 class MyHomePage extends StatefulWidget {
   @override
@@ -68,8 +69,31 @@ class _MyHomePageState extends State<MyHomePage> {
           ),
         ],
       ),
-      body: Center(
-        child: _widgetOptions.elementAt(_selectedIndex),
+      body: Column(
+        children: <Widget>[
+          Padding(
+            padding: const EdgeInsets.all(16.0),
+            child: Text(
+              'Uygulamamıza Hoş Geldiniz 😊',
+              style: TextStyle(
+                color: Colors.deepPurpleAccent,
+                fontSize: 24,
+                fontWeight: FontWeight.bold,
+              ),
+            ),
+          ),
+          Align(
+            alignment: Alignment.centerLeft,
+            child: Lottie.asset(
+              'assets/animations/anasayfa.json',
+              width: 100,
+              height: 240,
+              fit: BoxFit.cover,
+              animate: true,
+            ),
+          ),
+          _widgetOptions.elementAt(_selectedIndex),
+        ],
       ),
       bottomNavigationBar: BottomNavigationBar(
         items: const <BottomNavigationBarItem>[
@@ -95,9 +119,9 @@ class _MyHomePageState extends State<MyHomePage> {
           ),
         ],
         currentIndex: _selectedIndex,
-        selectedItemColor: Colors.deepPurple, // Seçili ögenin rengi
+        selectedItemColor: Colors.deepPurple,
         onTap: _onItemTapped,
-        type: BottomNavigationBarType.fixed, // Tüm etiketleri zorla
+        type: BottomNavigationBarType.fixed,
       ),
     );
   }
