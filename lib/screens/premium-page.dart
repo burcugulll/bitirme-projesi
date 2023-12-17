@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:bitirme_projesi/screens/odeme.dart';
 
 class PremiumPage extends StatelessWidget {
   @override
@@ -13,7 +14,6 @@ class PremiumPage extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.center,
           children: <Widget>[
-            // Premium information
             Container(
               margin: EdgeInsets.all(10.0),
               child: Text(
@@ -22,11 +22,14 @@ class PremiumPage extends StatelessWidget {
               ),
             ),
 
-            // Payment options
-            // İlk seçenek
             InkWell(
               onTap: () {
-                // İlk seçenek seçildiğinde yapılacak işlemler buraya gelecek
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => MyApp(),
+                  ),
+                );
               },
               child: Container(
                 margin: EdgeInsets.all(10.0),
@@ -37,10 +40,14 @@ class PremiumPage extends StatelessWidget {
               ),
             ),
 
-            // İkinci seçenek
             InkWell(
               onTap: () {
-                // İkinci seçenek seçildiğinde yapılacak işlemler buraya gelecek
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => MyApp(),
+                  ),
+                );
               },
               child: Container(
                 margin: EdgeInsets.all(10.0),
@@ -51,10 +58,14 @@ class PremiumPage extends StatelessWidget {
               ),
             ),
 
-            // Üçüncü seçenek
             InkWell(
               onTap: () {
-                // Üçüncü seçenek seçildiğinde yapılacak işlemler buraya gelecek
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => MyApp(),
+                  ),
+                );
               },
               child: Container(
                 margin: EdgeInsets.all(10.0),

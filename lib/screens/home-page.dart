@@ -86,8 +86,8 @@ class _MyHomePageState extends State<MyHomePage> {
             alignment: Alignment.centerLeft,
             child: Lottie.asset(
               'assets/animations/anasayfa.json',
-              width: 100,
-              height: 240,
+              width: 180,
+              height: 230,
               fit: BoxFit.cover,
               animate: true,
             ),

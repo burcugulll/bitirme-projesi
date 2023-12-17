@@ -30,6 +30,7 @@ dependencies:
   dropdown_button2: ^2.3.9
   url_launcher: ^6.2.1
   lottie: ^2.7.0
+  flutter_stripe: ^9.5.0+1
 
 dev_dependencies:
   flutter_test:
