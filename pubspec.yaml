@@ -31,6 +31,7 @@ dependencies:
   url_launcher: ^6.2.1
   lottie: ^2.7.0
   flutter_stripe: ^9.5.0+1
+  pricing_cards: ^0.0.8
 
 dev_dependencies:
   flutter_test:

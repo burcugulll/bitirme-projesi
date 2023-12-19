@@ -71,6 +71,7 @@ class _ProfilPageState extends State<ProfilPage> {
             Text(
               'Giriş Yaptığınız E-Posta: ${user?.email ?? "Giriş yapılmamış"}',
               style: TextStyle(fontSize: 18),
+              textAlign: TextAlign.center,
             ),
             SizedBox(height: 10),
             Text(

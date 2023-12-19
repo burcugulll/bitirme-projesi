@@ -39,7 +39,6 @@ class KahvaltiPage extends StatelessWidget {
                 ),
                 GestureDetector(
                   onTap: () {
-                    // Yemek Tarifleri sayfasına yönlendirme
                     Navigator.push(
                       context,
                       MaterialPageRoute(
@@ -53,7 +52,6 @@ class KahvaltiPage extends StatelessWidget {
                 ),
                 GestureDetector(
                   onTap: () {
-                    // Kaydedilen Öğünler sayfasına yönlendirme
                     Navigator.push(
                       context,
                       MaterialPageRoute(
@@ -68,7 +66,6 @@ class KahvaltiPage extends StatelessWidget {
               ],
             ),
           ),
-          // Diğer sayfa içerikleri buraya eklenebilir.
         ],
       ),
     );

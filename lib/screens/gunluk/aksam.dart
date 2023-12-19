@@ -22,7 +22,6 @@ class AksamPage extends StatelessWidget {
               children: <Widget>[
                 GestureDetector(
                   onTap: () {
-                    // Yemek sayfasına yönlendirme
                     Navigator.push(
                       context,
                       MaterialPageRoute(builder: (context) => YemekPage()),
@@ -35,7 +34,6 @@ class AksamPage extends StatelessWidget {
                 ),
                 GestureDetector(
                   onTap: () {
-                    // Yemek Tarifleri sayfasına yönlendirme
                     Navigator.push(
                       context,
                       MaterialPageRoute(
@@ -49,7 +47,6 @@ class AksamPage extends StatelessWidget {
                 ),
                 GestureDetector(
                   onTap: () {
-                    // Kaydedilen Öğünler sayfasına yönlendirme
                     Navigator.push(
                       context,
                       MaterialPageRoute(
@@ -64,7 +61,6 @@ class AksamPage extends StatelessWidget {
               ],
             ),
           ),
-          // Diğer sayfa içerikleri buraya eklenebilir.
         ],
       ),
     );

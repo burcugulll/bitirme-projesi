@@ -26,7 +26,6 @@ class AperatifPage extends StatelessWidget {
               children: <Widget>[
                 GestureDetector(
                   onTap: () {
-                    // Yemek sayfasına yönlendirme
                     Navigator.push(
                       context,
                       MaterialPageRoute(builder: (context) => YemekPage()),
@@ -39,7 +38,6 @@ class AperatifPage extends StatelessWidget {
                 ),
                 GestureDetector(
                   onTap: () {
-                    // Yemek Tarifleri sayfasına yönlendirme
                     Navigator.push(
                       context,
                       MaterialPageRoute(
@@ -53,7 +51,6 @@ class AperatifPage extends StatelessWidget {
                 ),
                 GestureDetector(
                   onTap: () {
-                    // Kaydedilen Öğünler sayfasına yönlendirme
                     Navigator.push(
                       context,
                       MaterialPageRoute(
@@ -68,7 +65,6 @@ class AperatifPage extends StatelessWidget {
               ],
             ),
           ),
-          // Diğer sayfa içerikleri buraya eklenebilir.
         ],
       ),
     );

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:bitirme_projesi/screens/odeme.dart';
+import 'package:pricing_cards/pricing_cards.dart';
 
 class PremiumPage extends StatelessWidget {
   @override
@@ -21,58 +22,84 @@ class PremiumPage extends StatelessWidget {
                 style: TextStyle(fontSize: 18.0, fontWeight: FontWeight.bold),
               ),
             ),
-
-            InkWell(
-              onTap: () {
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(
-                    builder: (context) => MyApp(),
+            Padding(
+              padding: EdgeInsets.symmetric(vertical: 28),
+              child: Column(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  PricingCards(
+                    pricingCards: [
+                      PricingCard(
+                        title: 'Aylık',
+                        price: '35.99₺',
+                        subPriceText: '\/ay',
+                        billedText: 'Aylık faturalandırılır',
+                        onPress: () {
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(builder: (context) => MyApp()),
+                          );
+                        },
+                        cardColor: Colors.green,
+                        priceStyle: TextStyle(
+                          fontSize: 32,
+                          fontWeight: FontWeight.bold,
+                          color: Colors.white,
+                        ),
+                        titleStyle: TextStyle(
+                          fontSize: 16,
+                          color: Colors.white,
+                        ),
+                        billedTextStyle: TextStyle(
+                          fontSize: 12,
+                          color: Colors.white,
+                        ),
+                        subPriceStyle: TextStyle(
+                          fontSize: 12,
+                          color: Colors.white,
+                        ),
+                        cardBorder: RoundedRectangleBorder(
+                          side: BorderSide(color: Colors.red, width: 4.0),
+                          borderRadius: BorderRadius.circular(8.0),
+                        ),
+                      ),
+                      PricingCard(
+                        title: 'Yıllık',
+                        price: '299.99₺',
+                        subPriceText: '\/yıl',
+                        billedText: 'Yıllık faturalandırılır',
+                        onPress: () {
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(builder: (context) => MyApp()),
+                          );
+                        },
+                        cardColor: Colors.deepOrangeAccent,
+                        priceStyle: TextStyle(
+                          fontSize: 32,
+                          fontWeight: FontWeight.bold,
+                          color: Colors.white,
+                        ),
+                        titleStyle: TextStyle(
+                          fontSize: 16,
+                          color: Colors.white,
+                        ),
+                        billedTextStyle: TextStyle(
+                          fontSize: 12,
+                          color: Colors.white,
+                        ),
+                        subPriceStyle: TextStyle(
+                          fontSize: 12,
+                          color: Colors.white,
+                        ),
+                        cardBorder: RoundedRectangleBorder(
+                          side: BorderSide(color: Colors.red, width: 4.0),
+                          borderRadius: BorderRadius.circular(8.0),
+                        ),
+                      ),
+                    ],
                   ),
-                );
-              },
-              child: Container(
-                margin: EdgeInsets.all(10.0),
-                child: Text(
-                  "12 Aylık Plan Satın Al\n299,99 ₺\n%31 Tasarruf Et",
-                  style: TextStyle(fontSize: 18.0),
-                ),
-              ),
-            ),
-
-            InkWell(
-              onTap: () {
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(
-                    builder: (context) => MyApp(),
-                  ),
-                );
-              },
-              child: Container(
-                margin: EdgeInsets.all(10.0),
-                child: Text(
-                  "3 Aylık Plan Satın Al\n104,99 ₺\n%3 Tasarruf Et",
-                  style: TextStyle(fontSize: 18.0),
-                ),
-              ),
-            ),
-
-            InkWell(
-              onTap: () {
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(
-                    builder: (context) => MyApp(),
-                  ),
-                );
-              },
-              child: Container(
-                margin: EdgeInsets.all(10.0),
-                child: Text(
-                  "1 Aylık Plan Satın Al \n35,99 ₺",
-                  style: TextStyle(fontSize: 18.0),
-                ),
+                ],
               ),
             ),
             Container(
@@ -81,7 +108,6 @@ class PremiumPage extends StatelessWidget {
               height: 2.0,
               color: Colors.black,
             ),
-            // Rest of the content below
             Container(
               margin: EdgeInsets.all(20.0),
               child: Text(
@@ -186,8 +212,8 @@ class PremiumPage extends StatelessWidget {
             ),
             Container(
               margin: EdgeInsets.all(10.0),
-              width: double.infinity, // Genişlik
-              height: 2.0, // Yükseklik (çizgi kalınlığı)
+              width: double.infinity,
+              height: 2.0,
               color: Colors.black,
             ),
             Container(

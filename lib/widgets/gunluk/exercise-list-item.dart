@@ -98,7 +98,7 @@ class ExerciseListItem extends StatelessWidget {
               _showExerciseDetails(context);
             },
             child: Text(
-              'Daha fazlasını görmek için tılayın',
+              'Daha fazlasını görmek için tıklayın',
               style: TextStyle(
                 color: Colors.blue,
                 fontWeight: FontWeight.bold,

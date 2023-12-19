@@ -80,7 +80,7 @@ class _AuthScreenState extends State<AuthScreen> {
       print("Google ile girişte bir hata oluştu: $error");
       print("Hata izi: $stackTrace");
 
-      // Hata mesajını kullanıcıya göstermek istiyorsanız:
+      // Hata mesajını kullanıcıya göstermek icin
       ScaffoldMessenger.of(context).showSnackBar(
         const SnackBar(
           content: Text(
@@ -173,8 +173,7 @@ class _AuthScreenState extends State<AuthScreen> {
                                     .colorScheme
                                     .primaryContainer,
                                 shape: RoundedRectangleBorder(
-                                  borderRadius: BorderRadius.circular(
-                                      8.0), // Border radiusunu ayarlayın
+                                  borderRadius: BorderRadius.circular(8.0),
                                 ),
                               ),
                               child: Text(_isLogin ? 'Giriş Yap' : 'Kayıt Ol'),
@@ -190,8 +189,7 @@ class _AuthScreenState extends State<AuthScreen> {
                                 side:
                                     BorderSide(color: Colors.black, width: .3),
                                 shape: RoundedRectangleBorder(
-                                  borderRadius: BorderRadius.circular(
-                                      8.0), // Border radiusunu ayarlayın
+                                  borderRadius: BorderRadius.circular(8.0),
                                 ),
                               ),
                               icon: Icon(

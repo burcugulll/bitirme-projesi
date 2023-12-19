@@ -45,7 +45,7 @@ class ExerciseModel {
 class _EgzersizPageState extends State<EgzersizPage> {
   List<ExerciseModel> exerciseList = <ExerciseModel>[];
   bool isLoading = true;
-  String selectedExercise = "karin"; // Default selected exercise
+  String selectedExercise = "omuz";
   List<String> exercises = [
     "on_kol",
     "karin",
@@ -102,19 +102,16 @@ class _EgzersizPageState extends State<EgzersizPage> {
       ),
       body: Column(
         children: [
-          // Dropdown to select exercises
           Padding(
             padding: const EdgeInsets.symmetric(horizontal: 14),
             child: Container(
-              width: double.infinity, // Make the container full width
+              width: double.infinity,
               decoration: BoxDecoration(
-                border:
-                    Border.all(color: Colors.grey), // Add border for styling
-                borderRadius:
-                    BorderRadius.circular(8.0), // Add border radius for styling
+                border: Border.all(color: Colors.grey),
+                borderRadius: BorderRadius.circular(8.0),
               ),
               child: DropdownButton<String>(
-                isExpanded: true, // Make the dropdown button full width
+                isExpanded: true,
                 value: selectedExercise,
                 onChanged: (String? newValue) {
                   setState(() {
@@ -132,14 +129,11 @@ class _EgzersizPageState extends State<EgzersizPage> {
                     ),
                   );
                 }).toList(),
-                style: TextStyle(
-                    fontSize: 16.0,
-                    color: Colors.black87), // Customize text style
-                underline: Container(), // Remove the default underline
+                style: TextStyle(fontSize: 16.0, color: Colors.black87),
+                underline: Container(),
               ),
             ),
           ),
-
           Expanded(
             child: isLoading
                 ? Center(
