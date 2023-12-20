@@ -1,82 +1,58 @@
 [
   {
-    "isim": "Kara mayını dönüşü",
-    "tip": "kuvvet",
-    "kas": "karınlar",
-    "ekipman": "diğer",
-    "zorluk": "orta",
-    "talimatlar": "Barı bir mayın'a yerleştirin veya güvenli bir köşeye sabitleyin. Çubuğu uygun bir ağırlığa yükleyin. Çubuğu yerden püskürtmek için her iki kez önünüzde uzatılmış kollarınızla omuzlardan uzak durun. Geniş bir durma benimseyin. Bu hareket sırasında gövdeyi ve omuzunu döndürerek ağırlığı bir noktaya kadar sallayın. Hareket boyunca kollarınızı uzatın tutun. Ağırlığı çevirerek kolu tamamen karşı nokta sallayın. Hareketi set tamamlanana kadar durdurulun."
+  "isim": "Elbow Plank",
+  "tip": "kuvvet",
+  "kas": "karın",
+  "ekipman": "yalnızca vücut",
+  "zorluk": "orta",
+  "talimatlar": "Yere yüz üstü uzanın, ağırlığınızı parmak uçlarınız ve dirsekleriniz üzerinde destekleyin. Kollarınız dirsek altında ve doğrudan omuzun altında olmalıdır. Vücudunuzu her zaman düz tutun ve bu pozisyonu mümkün olduğunca uzun süre boyunca koruyun. Zorluk için bir kol veya bacak kaldırılabilir."
   },
   {
-    "isim": "Dirsek tahtası",
-    "tip": "kuvvet",
-    "kas": "karınlar",
-    "ekipman": "yalnızca gövde",
-    "zorluk": "orta",
-    "talimatlar": "Yere pron uzatılmış yatın, ağırlığınızı parmak uçlarınız ve dirsekleriniz üzerinde destekleyin. Kollarınız dirsek altında ve doğrudan omuzun altında olmalıdır. Vücudunuzu her zaman düz tutun ve bu pozisyonu mümkün olduğu kadar uzun süre boyunca kullanabilmek için. Zorluk sıkıştırma için bir kol veya bacak kaldırılabilir "
+  "isim": "Down-Up",
+  "tip": "kuvvet",
+  "kas": "karın",
+  "ekipman": "yalnızca vücut",
+  "zorluk": "orta",
+  "talimatlar": "Sırtüstü yerde uzanarak başlayın. Bacaklarınız düz, kollarınız yanda olsun. Bu başlangıç pozisyonu olacaktır. Hareketi yapmak için omuzları ve dizleri fleks yoluyla göğsünüze doğru çekin. Yerden çıkmak için kollarınızı yukarıya doğru çalıştırın. Kısa bir duraklamanın ardından başlangıç pozisyonuna geri dönün."
   },
   {
-    "isim": "Aşağıdan Yukarıya",
-    "tip": "kuvvet",
-    "kas": "karınlar",
-    "ekipman": "yalnızca gövde",
-    "zorluk": "orta",
-    "talimatlar": "Sırtüstü yerde uzanarak başlayın. bacaklarınız düz, kollarınız yanınızda olsun. Bu başlangıç ​​zamanında olacak. Hareketi yapmak için omuzları ve dizleri fleks yoluyla dizleri göğsünüze doğru çekin. yerden çıkmak için otobüslerinizi yukarıya doğru çalıştırın. Kısa bir duraklamanın ardından başlangıç pozisyonuna geri dönün."
+  "isim": "Hanging Leg Raise",
+  "tip": "kuvvet",
+  "kas": "karın",
+  "ekipman": "alet",
+  "zorluk": "orta",
+  "talimatlar": "Cihazın kayışlarını belinizin altında uygun bir seviyeye getirin. Ayakta durun ve tutacaklara sıkıca kavrayın. Ardından, vücudunuzu kayışlara doğru eğerek eğimli bir şınav pozisyonuna geçin. Bu, başlangıç pozisyonunuz olmalıdır. Kollarınızı düz tutun ve vücudunuzu daha da eğerek egzersizi yerden daha yakın bir konumda gerçekleştirin. Omuzlarınızın uzanmasına izin verin, kollarınız başınızın üzerine doğru hareket etsin. Nötr bir omurga koruyarak geri kalanınızı düz tutun; omuzlarınızın hareket etmesine izin verilen tek eklemler olmalıdır. Zirve kasılma noktasında bir an durakladıktan sonra başlangıç pozisyonuna geri dönün."
   },
   {
-    "isim": "Düşme nedeniyle askıya alındı",
-    "tip": "kuvvet",
-    "kas": "karınlar",
-    "ekipman": "diğer",
-    "zorluk": "orta",
-    "talimatlar": "Kolların uygun bir seviyede olacak şekilde kayışları hazırlayın, bel altında. Ayakta durun ve tutacakları kavrayın. Kayışlara doğru eğilerek bir eğimli şınav pozisyonlarına geçin. Bu başlangıçta başlayacaksınız. Kollarınızı düz tutarak, vücudunuzdan daha da eğilerek yerden daha yakın egzersiz yapın, Omuzların uzanmasına izin vererek, kollarınızın başın üzerine oturun.Nötr bir omurga yetkisi ve kişinin geri kalanını düz tutun, omuzlarınızın hareket etmesine izin verilen tek eklemeler olmalıdır. Zirve kasılma sırasında duraklatıldığında, ardından başlangıç pozisyonlarına geri gelin."
+  "isim": "Dumbbell V-Sit Cross Jab",
+  "tip": "kuvvet",
+  "kas": "karın",
+  "ekipman": "dambıl",
+  "zorluk": "orta",
+  "talimatlar": "Kalçanızın üzerinde oturarak başlayın, dizleriniz bükülü ve ayaklarınız yerde olsun. Karın kaslarınızı sıkı tutarken ve vücudunuzun V pozisyonunu korurken, sol kolunuzu hızla düz bir şekilde uzatın (bir jab gibi) ve aynı anda sağdan sola doğru yumruk atın. Torsonuz ve kalça bölgeniz, hareket boyunca ellerinizin miktarına veya hafifçe dönmesine bağlı olarak değişebilir - bu normaldir. Her bir yapılan yumruk, toplam bir tekrar olarak kabul edilir. Tavsiye edilen tekrar sayıları süresi boyunca gerçekleştirilmelidir.."
   },
   {
-    "isim": "Dumbell V-Sit Cross Jab",
-    "tip": "kuvvet",
-    "kas": "karınlar",
-    "ekipman": "dambıl",
-    "zorluk": "orta",
-    "talimatlar": "Poponuzun üzerinde oturarak başlayın, dizleriniz bükülü ve ayaklarınız yerde. Karın kaslarınızı sıkı tutarken ve vücudunuzun \"V\" korurken, sol kolunuzu hızla düz bir şekilde uzatın (bir jab gibi) ve ardından başlangıç pozisyonuna geri dönerken aynı anda sağdan akışa doğru doğru yumruk Torsonuz ve parçalarınız, hareket boyunca ellerinizin miktarı ya da hafifçe dönebilir - bu normaldir. Her dağılımı yapılan bir yumruk, toplam bir tekrar olarak kabul edilir. Tavsiye edilen tekrar sayıları süresi boyunca."
+  "isim": "Low-to-High Cable Twist",
+  "tip": "kuvvet",
+  "kas": "karın",
+  "ekipman": "kablo",
+  "zorluk": "orta",
+  "talimatlar": "Bir kuleye standart bir tutma cihazı ve kabloyu en düşük makaraya takın. Kabloya yanınız dönük olarak bir el ile tutacağı kavrayın ve kuleden birkaç adım mesafede durun. Kablonun ağırlığı üzerinizde olacak şekilde yaklaşık bir kol uzunluğunda olmalıdır. Uzatılmış kolu kabloyla hizalayın. Ayaklarınızı omuz genişliğinde açın. Kollarınız hala tamamen uzun olmalıdır. Bir hareketle, kolu başınızın üzerine tamamen uzatmak için kabloyu çekin. Sırtınızı düz tutun, kollarınızı vücudunuza yakın tutun ve sırtınızı döndürerek bacaklarınızı düzleştirmek için tam bir hareket açıklığı sağlayın. Kolunuzu ve ardından vücudunuzu geri çekin. Nötr pozisyona yavaş ve kontrol edilmiş bir şekilde geri dönün. Sonra, vücudunuzdaki aynı hareket serisini karşı tarafta tekrarlayın. İpucu: Bu egzersizde tüm vücudunuzu döndüreceksiniz, ancak hareketin sonunda maksimum gövde döngüsü ve güç elde etmek için odaklanmak önemlidir. İyi bir zihin-kas bağlantısını sağlamak için karın kaslarınızı her zaman gergin tutun."
   },
   {
-    "isim": "Düşük-yüksek bükümlü dik kablo",
-    "tip": "kuvvet",
-    "kas": "karınlar",
-    "ekipman": "kablo",
-    "zorluk": "orta",
-    "talimatlar": "Bir kuleye standart bir tutma cihazı ve kabloyu en düşük makaraya dayanıklılık. Kabloya yanınız dönük olarak bir el ile tutacağı tutun ve kuleden mesafelerin. Kablonun ağırlığı üzerinizde olacak şekilde yaklaşık bir kol uzunluğunda olmalıdır. Uzatılmış kolu kabloyla hizalayın. Ayaklarınızı omuzlayın. Kollarınız hala tamamen uzun olmalıdır.Bir hareket halinde, kolu başınızın üzerine tamamen uzatmak için kabloyu çekin.Sırtınızı düz tutun ve kollarınızı vücudunuza yakın tutun, sırtınızı döndürmek ve bacaklarınızı düzleştirmek için tam bir hareket açıklığı Yaşlanmak için.Kol ve ardından vücudunuzu geri çekin.Nötr pozisyonuna yavaş ve kontrol edilmiş bir şekilde geri dönün.Sonra, vücudunuzda kalan ve aynı hareket serisini karşı karşıya kaldığınızda.İpucu: Bu egzersizde tüm vücudunuzu döndüreceksiniz, ancak hareketin sonunda maksimum gövde döngüsü ve güçlü bir aileyi elde etmek için odaklanmakın. İyi bir zihin-kas bağlantısını sağlamak için karın kaslarınızı her zaman gergin tutun."
+  "isim": "Dumbbell Windshield Wipers",
+  "tip": "kuvvet",
+  "kas": "karın",
+  "ekipman": "dambıl",
+  "zorluk": "başlangıç",
+  "talimatlar": "Her elinizde bir dambıl tutarak başlayın, içleri aşağıya bakacak şekilde. Ayaklarınızı geniş bir şekilde açın ve kalçalarınızı ve dizlerinizi uzatın. Bu başlangıç pozisyonudur. Hareketi, her iki dambılı da bir tarafınızın yanından geçirerek ve gövdenizi döndürerek başlatın. Kollarınızı düz tutun ve dambılları yere paralel tutarak, gövdenizi ağırlığını karşı noktaya sallayarak döndürün. Set tamamlanana kadar bir taraftan diğerine alternatif olarak devam edin."
   },
   {
-    "isim": "Dumbell büyüsü uygulayıcısı",
-    "tip": "kuvvet",
-    "kas": "karınlar",
-    "ekipman": "dambıl",
-    "zorluk": "başlangıç",
-    "talimatlar":"Her elinizde bir dambıl tutarak başlayın, bol miktarda içleriniz aşağıya bakacak şekilde. Ayaklarınızı geniş bir şekilde açın ve kalçalarınızı ve dizlerinizi uzatın. Bu başlangıç zamanındaz. Hareketi, her iki dambılı da bir tarafınızın yanından geçerek ve gövdenizi döndürerek başlayın. Kollarınızı düz tutun ve dambılları yere paralel tutarak, gövdenizi ağırlığını karşı nokta sallayarak döndürün. Set tamamlanana kadar bir ülkeden diğerine alternatif olarak dönmeye devam edin."
-  },
-  {
-    "isim": "Ters çıtırtıyı reddet",
-    "tip": "kuvvet",
-    "kas": "karınlar",
-    "ekipman": "diğer",
-    "zorluk": "orta",
-    "talimatlar": "Bir eğimli banka sırtüstü uzanın ve her iki şekilde bankanın üst kısmına tutun. Vücudunuzun bu uzunluğun kaymasına izin vermeyin. Bacaklarınızı karın kaslarınızı yerle paralel tutun, dizlerinizi ve ayaklarınızı bir arada tutun. İpucu: bacaklarınız tamamen uzatılmalı ve hafif bir diz Nefes verme, pelvisinizi geriye doğru yuvarlayarak bacaklarınızı torsonuza doğru hareket ettirin ve kalçalarınızı bankadan serbest bırakın.Bu hareketin sonunda dizleriniz göğsünüze dokunacaktır.Kasılma için bir saniye kadar bekleyin ve bacaklarınızı nefesler başlangıç pozisyonlarına geri dönecektir.Tavsiye edilen tekrar Sayıları için sınırlı sayıda. Çeşitlilik: Hareketi düz bir zeminde yapabilir ve daha da güçlenen ayak bileği ağırlıklarını kullanabilirsiniz."
-  },
-  {
-    "isim": "Örümcek taraması",
-    "tip": "kuvvet",
-    "kas": "karınlar",
-    "ekipman": "yalnızca gövde",
-    "zorluk": "orta",
-    "talimatlar": "Düz bir zeminde oyununuzun bir başlangıcından başlayın. Ağırlığınızı ellerinizin ve parmak uçlarınızın üzerine yerleştirin, ayaklarınızın bir araya gelmesi ve vücudunuzda düz olması gerekir. Kollarınız 90 derece bükülü olmalıdır. Bu başlangıç çalışmaya başlayacak. Hareketi, bir ayağınızı yerden başlatmak. Dizinizi dirseğinize doğru başlatın. Bu döndürmenin ve mümkün olan en ileri seviyeye kadar değiştirilmesi. Bu bölme başlangıç pozisyonuna geri geçiş ve aynı işlemin karşılanması devam eder."
-  },
-  {
-    "isim": "Kozalar",
-    "tip": "kuvvet",
-    "kas": "karınlar",
-    "ekipman": "yalnızca gövde",
-    "zorluk": "orta",
-    "talimatlar": "Sırtüstü yerde uzanarak başlayın. bacaklarınız düz, bacaklarınız başınızın serbest bırakılması uzatılmalıdır. Bu başlangıç başlarz olacaktır. Hareketi yapmak için, dizlerinizi göğsünüze doğru çekerek pelvisinizi döndürmenin ve kıçınızı yerden çalıştırırken. Bunu yaparken omurgayı fleks ettirerek aynı anda kollarınızın başınızın üzerine geri Kısa bir duraklamanın ardından başlangıç konumuna geri gidin."
+  "isim": "Reverse Crunch",
+  "tip": "kuvvet",
+  "kas": "karın",
+  "ekipman": "alet",
+  "zorluk": "orta",
+  "talimatlar": "Eğimli bir banka sırtüstü uzanın ve her iki tarafından bankanın üst kısmına tutun. Vücudunuzun bu uzunluğun kaymasına izin vermemeye dikkat edin. Bacaklarınızı, dizlerinizi ve ayaklarınızı bir arada tutarak karın kaslarınızın yere paralel olmasını sağlayın. İpucu: Bacaklarınız tamamen uzatılmalı ve hafifçe bükülmüş dizlerle olmalıdır. Nefes verirken, pelvisinizi geriye doğru yuvarlayarak bacaklarınızı torsonuza doğru çekin ve kalçalarınızı bankadan serbest bırakın. Bu hareketin sonunda dizleriniz göğsünüze dokunacaktır. Kasılma pozisyonunda bir saniye kadar bekleyin ve sonra bacaklarınızı nefes alırken başlangıç pozisyonlarına geri döndürün. Tavsiye edilen tekrar sayısı sınırlıdır. Çeşitlilik eklemek için: Hareketi düz bir zeminde de gerçekleştirebilir ve daha fazla güç kazanmak için ayak bileği ağırlıklarını kullanabilirsiniz."
   }
 ]

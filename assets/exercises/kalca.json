@@ -1,82 +1,74 @@
 [
   {
-    "isim": "Halter kalça köprüsü",
-    "tip": "Kuvvet",
-    "kas": "kalça kemiği",
-    "ekipman": "halter",
-    "zorluk": "Orta",
-    "talimatlar": "Yüklenmiş bir halter ile bacaklarınızın üzerinde oturarak başlayın. Kalın bir bar kullanmak veya barın üzerine bir ped egzersizi bu egzersizin neden olduğu rahatsızlık büyük ölçüde dağılır. Barı kalçalarınızın tam üzerinde olacak şekilde yuvarlanın ve düz bir zemine düz bir şekilde uzanın. Harekete topuklarınızdan iterek başlayın, kalçalarınızı bar boyunca dikey olarak genişletin. Ağırlığınızı üst sırtınız ve ayaklarınızın topukları tarafından desteklenmelidir. Mümkün olan en fazla genişletmek, ardından hareket başlangıç pozisyonuna dönmek için ters yöne gerçekleştirmek için."
-  },
-  {
     "isim": "Barbell Hip Thrust",
     "tip": "Kuvvet",
-    "kas": "kalça kemiği",
+    "kas": "kalça",
     "ekipman": "halter",
     "zorluk": "Orta",
-    "talimatlar": "Yere doğrudan arkasında bir tezgahta oturarak başlayın. bölümlerinizin üzerinde yüklü bir halter bulun. Kalın bir bar kullanmak veya barın üzerine bir ped koymak bu egzersizin neden olduğu büyük ölçüde hastalığın olduğu. Barı kalçalarınızın tam üzerinde olacak şekilde yuvarlayın ve omuz bıçaklarınızın üstünde olacak olduğu bir tezgahıta sırt üstü uzanın.Harekete ayaklarınızdan iterek başlayın, bacaklarınızı bar boyunca dikey olarak genişletin.Ağırlığınızı omuz bıçaklarınız ve ayaklarınız tarafından desteklenmelidir.Mümkün olan en fazla genişletin, ardından hareket başlangıç pozisyonuna dönmek için ters rotayı gerçekleştirin."
+    "talimatlar": "Yere doğrudan bir tezgahın üzerine oturarak başlayın. Bacaklarınızın üzerinde yüklü bir halter bulun. Kalın bir bar kullanmak veya barın üzerine bir ped koymak, bu egzersizin neden olduğu rahatsızlığı büyük ölçüde azaltabilir. Barı kalçalarınızın tam üzerine yerleştirerek yuvarlanın ve omzunuz üstünde olacak şekilde bir tezgaha sırt üstü uzanın. Harekete ayaklarınızdan iterek başlayın, bacaklarınızı bar boyunca dikey olarak genişletin. Ağırlığınız omuz ve ayaklarınız tarafından desteklenmelidir. Mümkün olduğunca genişletin, ardından hareketi başlangıç pozisyonuna dönmek için ters rotayı gerçekleştirin."
   },
   {
-    "isim": "Tek bacaklı kablolu kalça uzatması",
+    "isim": "Single-Leg Cable Hip Extension",
     "tip": "Kuvvet",
-    "kas": "kalça kemiği",
+    "kas": "kalça",
     "ekipman": "kablo",
     "zorluk": "Orta",
-    "talimatlar": "Düşük bir kablo makarasına deri bir bilek manşeti takın ve sonra manşeti ayak bileğinize gücünüzü verin. için çalışan barikatlar geriye doğru yüksek bir yarı daire şeklinde hareket ettirin.Tam uzatmada, zirve kasılma elde etmek için glüt kaslarınızı sıkın.Şimdi çalışan bu işlemin başlangıç pozisyonlarına gelene kadar kabloya karşı direncinin kesilmesi çalışan bacağınızı ileri doğru tavsiye edilir.Tavsiye edilen tekrar sayıları için tamamlamak için Bacakları değiştirildi ve diğer hareketleri tekrar edin. Varyasyonlar: Bu egzersizi egzersiz bantları ile yapabilirsiniz."
+    "talimatlar": "Düşük bir kablo makarasına deri bir bilek manşeti takın ve sonra manşeti ayak bileğinize gücünüzü verin. Bacaklarınızı geriye doğru yüksek bir yarı daire şeklinde hareket ettirin. Tam uzatmada, zirve kasılmayı elde etmek için glüt kaslarınızı sıkın. Şimdi, bu hareketin başlangıç pozisyonlarına gelene kadar kabloya karşı direncinizi kesmeden ,çalışan bacağınızı ileri doğru yönlendirin. Tavsiye edilen tekrar sayılarını tamamlamak için bacakları değiştirin ve diğer tarafta hareketi tekrarlayın. Varyasyonlar: Bu egzersizi egzersiz bantları kullanarak da gerçekleştirebilirsiniz."
   },
   {
-    "isim": "Kalça köprüsü",
+    "isim": "Glute Bridge",
     "tip": "Kuvvet",
-    "kas": "kalça kemiği",
-    "ekipman": "yalnızca gövde",
+    "kas": "kalça",
+    "ekipman": "yalnızca vücut",
     "zorluk": "Orta",
-    "talimatlar": "Sırt üstü düz bir zeminde ellerinizi yanınıza alabileceğiniz uzanın ve dizlerinizi bükün. Ayaklarınızı omuzlarınızda yerde olabilirsiniz. Bu, başlangıçta kalacaksınız. Özellikle kalçalarınızla iterek arkadaşlarınızı yerden aldığınız ve sırtınızı düz tutun. kadar tutun. Başlangıç pozisyonlarına geri dönün ve nefes alın. Varyasyonlar: Bu egzersizi tek bacak üzerinde de gerçekleştirebilirsiniz."
+    "talimatlar": "Düz bir zeminde sırt üstü uzanın ve ellerinizi yanınıza koyun, dizlerinizi bükün. Ayaklarınız omuzlarınız genişliğinde yerde olabilir. Bu, başlangıç pozisyonunuz olacaktır. Özellikle kalçalarınızı kullanarak arkaya doğru iterek, arkadaşlarınızı yerden kaldırın ve sırtınızı düz tutun. Bu pozisyonda birkaç saniye boyunca kalın, ardından başlangıç pozisyonlarına geri dönün ve nefes alın. Varyasyonlar: Bu egzersizi tek bacak üzerinde de gerçekleştirebilirsiniz."
   },
   {
-    "isim": "Tek bacaklı kalça köprüsü",
+    "isim": "Single-Leg Hip Thrust",
     "tip": "Kuvvet",
-    "kas": "kalça kemiği",
-    "ekipman": "yalnızca gövde",
+    "kas": "kalça",
+    "ekipman": "yalnızca vücut",
     "zorluk": "Orta",
-    "talimatlar": "Sırt üstü yatın ve ayaklarınızı düz ve dizlerinizi bükük tutun. Bu, başlangıçta normal olacaktır. Hareketi çalışan bacağınızı sürterek gerçekleştirin, dizinizi göğsünüze çekin. Hareketi sürterek kalçanızı yukarı doğru uzatın. Mümkün olan en fazla genişletin, duraklayın ve ardından başlangıç pozisyonuna başlayın gittiğimizde."
+    "talimatlar": "Sırt üstü uzanın ve ayaklarınızı düz, dizlerinizi bükük tutun. Bu, başlangıçta normal olacaktır. Hareketi, çalışan bacağınızı yukarı doğru çekerek gerçekleştirin. Dizinizi göğsünüze çekin ve kalçanızı yukarı doğru kaldırın. Mümkün olan en üst noktada duraklayın ve ardından başlangıç pozisyonuna geri dönün."
   },
   {
-    "isim": "Diz kaldırarak adım atma",
+    "isim": "Walking Knee Raise",
     "tip": "Kuvvet",
-    "kas": "kalça kemiği",
-    "ekipman": "yalnızca gövde",
+    "kas": "kalça",
+    "ekipman": "yalnızca vücut",
     "zorluk": "Orta",
-    "talimatlar": "Ayakları bir arada bir kutuya veya uygun bir yüksekliğe sahip bir bankanın karşısına dik bir şekilde durun. Bu, başlangıç zamanındaz olacaktır. Harekete başlamak için sol ayakla yukarı adım atın, sağ ayağınızı bankanın üstüne koyun. Ön bölmenizin bacaklarısı ve diziniz üzerinden Sol ayağınızla bankanızın üstünde dururken sağ dizinizi ve kalçanızı bükerek dizinizi ne kadar yüksek kaldırabiliyorsanız hareket ediyorsunuz."
+    "talimatlar": "Ayaklarınızı bir kutuya veya uygun bir yüksekliğe sahip bir bankanın karşısına dik bir şekilde durun. Bu, başlangıç anıdır. Harekete başlamak için sol ayakla yukarı adım atın ve sağ ayağınızı bankanın üstüne koyun. Sol ayağınızla bankanın üstünde dururken, sağ dizinizi ve kalçanızı bükerek, dizinizi ne kadar yüksek kaldırabiliyorsanız o kadar yüksek hareket edin."
   },
   {
-    "isim": "Kettlebell iticisi",
+    "isim": "Kettlebell Jerk",
     "tip": "Kuvvet",
-    "kas": "kalça kemiği",
+    "kas": "kalça",
     "ekipman": "kettlebell",
     "zorluk": "Orta",
-    "talimatlar": "İki kettlebell'i omuzlarınıza temizleyin. Kettlebell'leri omuzlarınıza doğru bacaklarınıza ve omuzlarınıza uzatarak temizleyin. Bunu yaparken bileklerinizi döndürün. Bu, başlangıçta başlayacağız. En düşük konumda, ters yönde çevirip çömelerek dizlerinizi ve kalçanızkettlebell'leri yukarıya doğru uzatarak uzatıyorum. Bunu yaparken ağırlıkları yukarıya doğru itmeye yardımcı olmak için squat momentumunu kullanın. Bir sonraki tekrara başlarken ağırlıkları omuzlara geri değiştirmeye başlayın."
+    "talimatlar": "İki kettlebell'i omuzlarınıza kaldırarak başlayın. Bacaklarınızı omuz genişliğinde açın ve kettlebell'leri omuzlarınıza doğru uzatarak hareketi gerçekleştirin. Bu esnada bileklerinizi döndürmeyi unutmayın. Şimdi, ağırlıkları düşük bir konumda tutup, dizlerinizi bükerek squat pozisyonuna geçin. Ardından, kettlebell'leri yukarı doğru itmeye yardımcı olmak için squat momentumunu kullanarak ağırlıkları yukarı doğru uzatın. Bir sonraki tekrara başlarken ise ağırlıkları kontrollü bir şekilde omuzlara geri getirin."
   },
   {
-    "isim": "Diz Çömelme",
+    "isim": "Squat",
     "tip": "Kuvvet",
-    "kas": "kalça kemiği",
+    "kas": "kalça",
     "ekipman": "halter",
     "zorluk": "Başlangıç",
-    "talimatlar": "Barın bir kuvvet rafında doğru yüksekliğe ayarlanır. Barın diz çöküntü için bir mat koymak faydalı olabilir. Barın arka diz çökün; diz yastıklarınızı bir mat yerleştirmek faydalı olabilir. Barın arka diz çökün; dizleriniz arasında bir mat yerleştirmek faydalı olabilir. Başınızı öne bakacak şekilde tutun, poponuzda kalana kadar dizlerinize dokunana kadar. Hareketi çevirdi ve gövdeyi dik bir seçeneği bir geri seçin."
+    "talimatlar": "Bar, doğru yüksekliğe ayarlandığı bir kuvvet rafında yer almalıdır. Diz çöküntü için bir mat kullanmak faydalı olabilir. Barın arkasına geçin ve diz çökmeye başlayın; dizleriniz arasına bir mat yerleştirmek daha fazla konfor sağlayabilir. Başınızı öne bakacak şekilde tutun ve kalçanız yere doğru eğilene kadar devam edin. Hareketi tamamladıktan sonra, gövdeyi dik bir pozisyona geri dönerek hareketi bitirin."
   },
   {
     "isim": "Flutter Kicks",
     "tip": "Kuvvet",
-    "kas": "kalça kemiği",
-    "ekipman": "Yok",
+    "kas": "kalça",
+    "ekipman": "sadece vücut",
     "zorluk": "Orta",
-    "talimatlar": "Düz bir banka karın üstü yatın, kalçaların genişletilmiş, dolgun düz ve ayak parmakları yüksek ve ön kenara tutunan kollarla. Glüt kaslarınızı ve arka adalelerinizi sıkın ve birleştiği kalçalarla aynı seviyeye gelene kadar düzeltilin. Bu, başlangıçlar olacaktır. Kanal sağdan bacadan daha yükseğe dönüştürmeye başlayın.Sonra sol zaman indirirken sağ bölüme açılır.Her iki bölme da bu şekilde düzenli (sanki su içinde flutter kick yapılıyormuş gibi) önerilen tekrar sayısı kadar olana kadar devam edin.Hareketi her kontrol ederek dikkat edin. İpucu: Bu hareket sırasında normal nefes almalısınız. Varyasyonlar: Daha ileri düzeyde geldikçe ayak bileği ağırlıklarını kullanabilirsiniz."
+    "talimatlar": "Düz bir bankta karın üstü uzanın, kalçalar genişletilmiş, düz ve ayak parmakları yukarı kalkmış, kollar ön kısımda tutulmuş bir pozisyon alın. Glüt kaslarınızı ve arka adalelerinizi sıkarak vücudu düzleştirin, kalçalarla aynı seviyeye getirin. Bu, başlangıç pozisyonudur. Sağ bacağı yukarı doğru kaldırarak karın bölgesini sağa çevirin. Sonra, sol bacağı indirirken sağ bacak yan tarafa açılsın. Her iki bacak da bu şekilde düzenli bir ritimle (adeta su içinde flutter kick yapar gibi) hareketi, önerilen tekrar sayısına ulaşana kadar sürdürün. Hareketi kontrol ederek dikkatli bir şekilde yapın. İpucu: Bu sırada normal bir şekilde nefes alıp vermelisiniz. İlerledikçe, hareketi daha zorlu hale getirmek için ayak bileği ağırlıklarını kullanabilirsiniz."
   },
   {
-      "isim": "Kalça Geri Tepmesi",
+      "isim": "Hip Extension",
       "tip": "Kuvvet",
-      "kas": "Gluteus",
+      "kas": "kalça",
       "ekipman": "Vücut Ağırlığı",
       "zorluk": "Başlangıç",
-      "talimatlar": "Dizlerinizin üzerinde veya bir egzersiz matının üzerinde diz çökün ve belinizi bükerek ellerinizi önünüzde uzatın (gövdeye dik açıda) ve dirseklerin omuzlarında olabilecek şekilde bir mekik pozisyon alın. Başınız öne bakmalıdır ve dizlerin bükülmesi, bacak arasında hamstring ve baldırlar arasında 90 derecelik bir açık oluşturulmalıdır.Nefes verir, sağ bacağınız diz arkası kirişleriniz belinizle hizalanacak şekilde yukarıya doğru açılır ve 90 derecelik açıkyı serbest bırakır.Bu hareket boyunca gluteus kaslarını sıkın ve tepe noktadaki kasılma devam edecek bir saniye boyunca tutun.İpucu: Hareketin sonunda üst bacak, yere paralel olmalıdır, bu esnada baldır ise buna dik olmalıdır.Nefes alarak başlangıç pozisyonlarına geri dönün ve şimdi sol bacakla ayırın.önerilen tekrarların tamamı yapılmış olana kadar olana kadar gidişi sürdürmeya devam edin.Çeşitlendirmeler: Bu egzersizi tek bacaklarla başlayarak onu tekrarı tamamlayabilir ve sonraki diğer bacaklarla devam edebilirsiniz. Ek olarak ayak bileği ağırlıkları da değişebilir."
+      "talimatlar": "Dizlerinizi yerde veya bir egzersiz matının üzerinde bükerek oturun ve belinizi eğerek ellerinizi önünüzde uzatın (vücuda dik bir açıda). Dirsekleriniz omuzlarınızın hizasında olmalıdır, bu şekilde plank pozisyonu alın. Başınız öne bakmalı ve bacaklar, dizlerinizi bükerek aralarında 90 derecelik bir açı oluşturacak şekilde yerde durmalıdır. Nefes verirken, sağ bacağınızı diz arkasındaki kaslarınız belinizle hizalanacak şekilde yukarı doğru kaldırın ve 90 derecelik açıyı koruyun. Bu hareket sırasında gluteus kaslarınızı sıkın ve en üst noktada kasılı pozisyonda bir saniye kadar bekleyin. İpucu: Hareketin sonunda üst bacak, yere paralel olmalı ve baldır da dik konumda olmalıdır. Nefes alarak başlangıç pozisyonuna geri dönün ve şimdi aynı hareketi sol bacakla tekrarlayın. Önerilen tekrar sayısına ulaşana kadar bu şekilde devam edin. Çeşitlendirmeler: Bu egzersizi tek bacakla başlayarak her bacağı sırayla kullanabilir ve ilerledikçe ayak bileği ağırlıkları ekleyebilirsiniz."
     }
 ]

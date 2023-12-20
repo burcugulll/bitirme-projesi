@@ -3,17 +3,17 @@
     "isim": "Triceps Dip",
     "tip": "kuvvet",
     "kas": "arka_kol",
-    "ekipman": "sadece vücut",
+    "ekipman": "Vücut Ağırlığı ",
     "zorluk": "orta",
-    "talimatlar": "Başlangıç pozisyonuna geçmek için, kollerinizi neredeyse kilitlenmiş bir şekilde barların üzerinde tutun. Şimdi nefes alın ve bunları aşağı indirin. Gövdeniz dik durmalı ve dirsekleriniz vücudunuza yakın kalmalıdır. Bu, trisepsle ilgilenmeye daha iyi odaklanmanıza yardımcı olur. Siz, üst Kol ile alt kol arasında 90 derece bir açı çalıştıra kadar aşağı indirilir.Sonra nefeslerinizi ve trisepsinizi kullanarak gövdenizi başlangıç pozisyonlarınıza geri itmek için yukarı doğru itin.Hareketi önerilen tekrar sayıları kadar iyileşene kadar.Varyasyonlar: Bu egzersizi yeni yapmaya başlıyorsanız ve bunu yapacağınız kadar gücünüz yoksa Mevcutsa bir dalga destek makinesi kullanın.Bu makineyi kullanın, vücut ağırlığınızı itmenize yardımcı olmak için ağırlık kullanır.Aksi takdirde, bacaklarınızı tutan bir vücuda yardımcı olabilir.Daha yetenekli sporcular, ağırlık kemerini kullanarak egzersiz ağırlığını kullanır."
+    "talimatlar": "Başlangıç pozisyonuna geçmek için, kolunuzu neredeyse kilitlenmiş bir şekilde barların üzerinde tutun. Şimdi nefes alın ve ağırlığı kontrollü bir şekilde aşağı indirin. Gövdeniz dik durmalı ve dirsekleriniz vücudunuza yakın olmalıdır, böylece trisepsi daha etkili bir şekilde çalıştırabilirsiniz. Alt kol ile üst kol arasında 90 derecelik bir açı elde edene kadar ağırlığı aşağı indirin. Sonra nefes alarak ve trisepsinizi kullanarak gövdenizi başlangıç pozisyonuna geri itmek için ağırlığı yukarı doğru itin. Hareketi önerilen tekrar sayısına kadar tekrarlayın. Çeşitlendirmeler: Egzersizi yeni başlıyorsanız ve yeterince gücünüz yoksa, bir yardım makinesi kullanabilirsiniz. Bu makine, vücut ağırlığınızı itmeye yardımcı olmak için ağırlık kullanır. Ayrıca, bacaklarınızı tutan bir destek kullanabilirsiniz. Daha deneyimli sporcular, egzersizi daha zorlu hale getirmek için ağırlık kemerini kullanabilirler."
   },
   {
-    "isim": "EZ-Çubuk Skullcrusher'ı Reddet",
+    "isim": "EZ-Skullcrusher",
     "tip": "kuvvet",
     "kas": "arka_kol",
     "ekipman": "e-z_curl_bar",
     "zorluk": "orta",
-    "talimatlar": "Bacaklarınızı eğimli tezgahın ucuna sabitleyin ve tezgah üzerine uzanın. Dar bir kategori (omuz görünürde biraz daha dar) kullanarak, EZ sopayla rafa girerken ve kollarınızı kilitleyerek doğrudan üzerinizde tutun. Kollar, yere dik olmalıdır. Bu, başlangıçtaz olacaktır. İpucu: Rotator manşetlerinizi korumak için, bir sabitin boyuta çekmek rafa kaldırmanıza yardımcı olmasını sağlamak için nefes alırken, üst kollarınızı tutun ve ön kollarınızı almak için dokunacak şekilde yarı daire şeklinde hareket ettirerek aşağı indirin. Tricepsi kasarak başlangıç pozisyonlarına geri dönün ve nefes verin. Önerilen tekrar sayıları kadar kesintisiz. Varyasyonlar: Bu hareket için düz bir çubuk veya dambıllar da kullanabilirsiniz. Ayrıca, düz bir banka da gerçekleştirebilirsiniz."
+    "talimatlar": "Bacaklarınızı eğimli bir tezgahın ucuna sabitleyin ve tezgahın üzerine uzanın. Dar bir kavrama kullanarak (omuzlar biraz daha dar), EZ çubuğu rafa yerleştirin ve kollarınızı kilitleyerek doğrudan yukarıda tutun. Kollar, yere dik olmalıdır. Bu, başlangıç pozisyonunuz olacaktır. İpucu: Rotator manşetlerinizi korumak için, nefes alırken üst kollarınızı sabit tutun ve ön kollarınızı yarı daire şeklinde hareket ettirerek çubuğu rafa doğru indirin. Bu, çubuğu dokunacak şekilde aşağı indirmenize yardımcı olacak bir sabitin boyutunu çekmek için önemlidir. Triceps kaslarınızı kullanarak başlangıç pozisyonuna geri dönün ve nefes verin. Önerilen tekrar sayısı kadar kesintisiz devam edin. Çeşitlendirmeler: Bu hareketi düz bir çubuk veya dambıl kullanarak da gerçekleştirebilirsiniz. Ayrıca, düz bir bench üzerinde de yapabilirsiniz."
   },
   {
     "isim": "Dumbell Floor Press",
@@ -24,20 +24,20 @@
     "talimatlar": "Yerde dambılları ellerinizde tutarak uzanın. Dizleriniz bükülebilir. Ağırlıkları tamamen uzatılmış olarak başlatılmış olarak başlayın. Ağırlıkları üst kolunuzun zemine temas edene kadar izleyin. Triceps boyutu ve gücünüzü vurgulayın veya göğsünüze beklediğiniz için dirseklerinizi yanınıza yerleştirebilirsiniz. Altta bir saniye duraklayın ve sonraleri ağırlıkları kullanarak tekrar yukarıya doğru çalışır."
   },
   {
-    "isim": "Kablo V-Bar Aşağı Açılması",
+    "isim": "Cable V-Bar Lat Pulldown",
     "tip": "kuvvet",
     "kas": "arka_kol",
     "ekipman": "kablo",
     "zorluk": "orta",
-    "talimatlar": "Bir V-Çubuğu'nu yüksek bir makaraya takın ve omuzda yapabileceğiniz bir avuç içi tutun (avuç içi aşağı bakacak şekilde). Gövde dik ve çok hafif bir eğimle dururken, üst kolları vücudunuza yakın ve yere dik olarak çalıştırır. Önkollar , çubuğu tutarken yukarıya doğru yönlendirilmelidir. Hareketler halindeyken nefes verin.V-Çubuğun başlangıç durumuna ve bu nefesin alınabilmesi için tavsiye edilen tekrar sayısına kadar ayrılana kadar.Varyasyonlar: Bu hareketin birçok bayramı vardır.Örneğin, farklı günlerde kullanmak için bir E-Z bar bağlantısı veya düz kablo bağlantısını kullanabilirsiniz. , bar hareketlerinde ters karakterleri kullanabilir veya Triceps Pushdown gibi bir hareketle V-Bar bağlantısını kullanabilirsiniz."
+    "talimatlar": "Yüksek bir makaraya takılmış V-Çubuğu'nu alın ve omuz genişliğinde bir avuç içi tutuşuyla (avuç içi aşağıya bakacak şekilde) kullanın. Gövde dik ve hafifçe eğik bir duruşta olun. Üst kolları vücuda yakın ve yere dik bir şekilde hareket ettirin. Önkollar, çubuğu tutarken yukarı yönlendirilmelidir. Hareket halindeyken nefes verin. V-Çubuğu, başlangıç pozisyonuna dönün ve bu nefesi alabilmeniz için önerilen tekrar sayısına kadar devam edin. Çeşitlendirmeler: Bu hareketin birçok varyasyonu bulunmaktadır. Örneğin, farklı günlerde E-Z çubuk bağlantısı veya düz kablo bağlantısı kullanabilirsiniz. Ayrıca, ters kavrama bar hareketleri veya Triceps Pushdown gibi hareketlerde V-Bar bağlantısını kullanabilirsiniz."
   },
   {
-    "isim": "Ağırlıklı Bench Dip",
+    "isim": "Bench Dip",
     "tip": "kuvvet",
     "kas": "arka_kol",
-    "ekipman": "sadece vücut",
+    "ekipman": "Vücut Ağırlığı",
     "zorluk": "orta",
-    "talimatlar": "Bu egzersiz için sırtınızın karşılığı bir bench ve önünüze başka bir bench yerleştirmeniz gerekecek. Benchleri vücudunuza dik olacak şekilde tutun, elleriniz vücudunuza yakın, omuzlarınızda olmalıdır. Kollarınız tamamen uzatılmış olmalı. Not: Bu egzersiz, dambılın kilosunu kucaklamak zor olabilir ve yardımsız yapmak sakatlanmaya neden olabileceği için bir partnerle yapmak en kötüsü olabilir. , kendinizi 90 dereceden biraz daha küçük bir açıyla bulabilirsiniz.İpucu: Hareketler boyunca dirsekler mümkün olduğunca yakın tutun.Önkollar her zaman aşağı bakmalıdır.gövdenizi kullanarak başlangıç pozisyonuna geri dönün ve nefes verin. Önerilen tekrar sayısı kadar süre. Uyarı: bacaklarınızı önünüzdeki başka bir düz benchin üzerine koyun, egzersizi daha zor hale getirin. İlk başta iyi bir form için yapılması gereken hareketler alışmak için bu egzersizi herhangi bir ağırlık olmadan yapmak en önemlisidir. Bu kadar çok sayıda kolay elde edilebilir, bir partner dizlerinizin üzerine plakalar koymanıza izin verebilirsiniz. Bu durumda, arkadaşların ağırlıklarının hareket etmesi boyunca orada kalması sağlanmalıdır."
+    "talimatlar": "Bu egzersizde sırtınızı desteklemek için bir bench ve önünüze başka bir bench yerleştirmeniz gerekecektir. Benchleri vücudunuza dik bir şekilde tutun, elleriniz vücudunuza yakın ve omuzlarınızda olmalıdır. Kollarınız tamamen uzatılmış olmalıdır. Not: Dambılın kilosunu kucaklamak zor olabilir ve yardımsız yapmak sakatlanmaya neden olabileceğinden, en iyi partnerle birlikte yapılmalıdır. Kendinizi 90 dereceden biraz daha küçük bir açıyla bulabilirsiniz. İpucu: Hareketler boyunca dirsekleri mümkün olduğunca yakın tutun. Önkollar her zaman aşağı bakmalıdır. Gövdenizi kullanarak başlangıç pozisyonuna geri dönün ve nefes verin. Önerilen tekrar sayısı kadar devam edin. Uyarı: Bacaklarınızı önünüzdeki başka bir düz benchin üzerine koyun, egzersizi daha zor hale getirin. İlk başta iyi bir form için hareketleri öğrenmek için bu egzersizi herhangi bir ağırlık olmadan yapmak önemlidir. Bu, bir partnerin dizlerinizin üzerine plakalar koymasına izin vererek daha fazla zorluk ekleyebilir. Bu durumda, arkadaşınızın ağırlıkların hareket etmemesi için orada kalmasını sağlamalısınız."
   },
   {
     "isim": "EZ-Bar Skullcrusher",
@@ -45,38 +45,38 @@
     "kas": "arka_kol",
     "ekipman": "e-z_curl_bar",
     "zorluk": "orta",
-    "talimatlar": "Dar bir ana bilgisayar kullanarak EZ açık havada ve dirseğiniz dışarıya bakacak şekilde banka yatın. Kollarınız, yere dik olmalıdır. Bu, başlangıçta başlayacaklardır. Üst kollar sabit tutarak döndürmeleri bükerek izlenebilir. Bu bir kısmındayken nefes alınır. Çubuk alnın Üzerindeyken bir an duraklayın. Çubuğu dirseği uzatarak başlangıç pozisyonlarına geri odaya ve nefes verin. Tekrar edin."
+    "talimatlar": "Dar bir kavrama kullanarak, dambıl veya barbell ile açık havada ve dirseğiniz dışarıya bakacak şekilde bir bench üzerine uzanın. Kollarınız, yere dik olmalıdır, bu başlangıç pozisyonunuzdur. Üst kollarınızı sabit tutarak dirseğinizi dışarıya doğru bükerek, bu hareketi gerçekleştirebilirsiniz. Bir kısmında nefes alın. Çubuk alnınızın üzerindeyken bir an duraklayın. Çubuğu dirseği uzatarak başlangıç pozisyonuna geri getirin ve nefes verin. Bu hareketi önerilen tekrar sayısına kadar tekrarlayın."
   },
   {
-    "isim": "Ters Tutuşlu Triseps Aşağı Bastırma",
+    "isim": "Ters Tutuş Triseps Push Down",
     "tip": "kuvvet",
     "kas": "arka_kol",
     "ekipman": "kablo",
     "zorluk": "orta",
-    "talimatlar": "Yüksek bir makineye düz veya e-z bir çubuk takarak başlayın. Çubuğa yüzünüzü dönerek, avuç içleri yukarı bakacak şekilde (supine ana hatları) tutun. Elbiseleriniz yanınızda kalsın ve ayaklarınız orada kalabilirse birbirinden uzak olmalıdır. Bu, gelecektez olacaktır. Nefes alarak İpucu: Dirsekler evde olmalı ve ayaklarınız birbirinden fiziksel olmalıdır.Bu, başlangıçta normaldezdur.Yavaşça çubuk eklemeye, göğsünüzle aynı hizada olduğu bir bölgeye kadar devam edebilir.Sadece önkollar hareketler ve üst kollar her zaman Birlikte hareket eder.Ayrıca, kabloların başlangıç noktasının geri dönüşü ve bu nefeslerin alınabileceği.Bölgesel tekrar sayıları kadar eksiksiz.Varyasyon:Bu egzersizi tek bir tutma kullanarak da gerçekleştirebilirsiniz.Bu sürümde, ön arkadaşlarınıza bilgisayarınızı çalıştırarak kendinizi biraz destekleyebilir ve daha fazla tekrar sağlayabilira yardımcı olabilirsiniz."
+    "talimatlar": "Yüksek bir makineye düz veya E-Z bir çubuk takarak başlayın. Çubuğa yüzünüzü dönün ve avuç içleri yukarı bakacak şekilde (supine grip) tutun. Ayaklarınız mümkünse birbirinden uzak olmalıdır. Bu, başlangıç pozisyonunuzdur. Nefes alarak İpucu: Dirsekleriniz vücudunuza yakın olmalı ve ayaklarınız birbirinden uzak olmalıdır. Bu, başlangıçta doğal bir duruştur. Yavaşça çubuğu aşağı doğru iterken, göğsünüzle aynı hizada olduğu bir noktaya kadar devam edin. Sadece önkollar hareket ederken, üst kollarınız her zaman birlikte hareket etmelidir. Ayrıca, kolların başlangıç noktasına doğru dönüş ve bu sırada nefes alınabilir. Bölgesel tekrar sayısı kadar tekrarlayın. Varyasyon: Bu egzersizi tek bir tutma kullanarak da gerçekleştirebilirsiniz. Bu versiyonda, ön kollarınıza bilgi sağlayarak kendinizi biraz destekleyebilir ve daha fazla tekrar yapmanıza yardımcı olabilirsiniz."
   },
   {
-    "isim": "Şınav - Triceps Kapalı Pozisyonu",
+    "isim": "Triceps Push-Up",
     "tip": "kuvvet",
     "kas": "arka_kol",
-    "ekipman": "sadece vücut",
+    "ekipman": "Vücut Ağırlığı",
     "zorluk": "orta",
-    "talimatlar": "Yer yüzüstü uzanın ve ellerinizi o kadar dayanıklın daha yakın bir mesafeden. Vücudunuzun kol bölümünde yukarıdan aldığınızdan emin olun. Nefes alırken, göğsünüz neredeyse yere dokunana kadar kendinizi aşağı indirin. Triceps ve biraz göğüs kaslarınızı kullanaraku başlangıç pozisyonlarına geri itin ve Göğsünün sıkın.Bu esnek nefesler verin.Kontrakte bir saniye bekletildikten sonra, önerilen tekrar sayısı kadar tamamlanabilir.Varyasyonlar:Bu egzersizi yapmak için gücünüz yoksa, direnç azaltmak için dizlerinizi bükerek veya kurtarılabilir karşı yerine getirebilirsiniz.En ileri seviyedeki sporcular için, direnci arttırmak için Ayaklarınızı bir bench gibi yüksek bir sesleri yerleştirebilirsiniz.Ayrıca Bakınız: Push-Up"
+    "talimatlar": "Yere yüzüstü uzanın ve ellerinizi omuz genişliğinden biraz daha yakın bir mesafede yerleştirin. Ellerinizin vücudunuzun yan kısmında olduğundan emin olun. Nefes alırken, göğsünüzü neredeyse yere dokunacak şekilde kendinizi aşağı indirin. Triceps ve biraz göğüs kaslarınızı kullanarak başlangıç pozisyonlarına geri itin ve göğsünüzü sıkın. Bu esnada nefes verin. Bir saniye bekledikten sonra, önerilen tekrar sayısı kadar tamamlayabilirsiniz. Varyasyonlar: Bu egzersizi yapmak için gücünüz yetmiyorsa, direnci azaltmak için dizlerinizi bükerek veya destek alarak gerçekleştirebilirsiniz. En ileri seviyedeki sporcular direnci arttırmak için ayaklarınızı yüksek bir yüzey üzerine yerleştirebilirsiniz."
   },
   {
-      "isim": "Diz çökmüş kablo triseps uzantısı",
+      "isim": "Seated Cable Triceps Extension",
       "tip": "kuvvet",
       "kas": "arka_kol",
       "ekipman": "kablo",
       "zorluk": "orta",
-      "talimatlar": "Yüksek bir makine önünde yan görünür bir tezgah yerine. Ellerinizi bol miktarda içleri aşağı bakacak şekilde başınızın üzerinde tutmak için düz bir çubuk ekleyin. Makineden uzaklıkların ve diz çökün. Başınızı ve üst kollarınızın arka bankasınıya yerleştirin. Dirsekleriniz bükülü olmalı ve ön kollarınız Triceps kasını sıkı bir şekilde kasılı tutun ve bu yolda bir saniye bekleyin. Bu hareket sırasında nefes verin. Başlangıç pozisyonuna yerlerden ve nefeslerden alın. Önerilen tekrar sayıları kalana kadar bekleyin. Varyasyon: Bu egzersizi egzersiz bantları ile de gerçekleştirebilirsiniz."
+      "talimatlar": "Yüksek bir makinenin önündeki yan görünür bir tezgah yerine geçin. Ellerinizi içeri doğru bakacak şekilde başınızın üzerinde tutmak için düz bir çubuk ekleyin. Makineden uzaklaşın ve dizlerinizi çökertin. Başınızı ve üst kollarınızı arka tezgaha yerleştirin. Dirsekleriniz bükülü olmalı ve ön kollarınızı Triceps kasını sıkı bir şekilde kasılı tutun, bu pozisyonda bir saniye bekleyin ve hareket sırasında nefes verin. Başlangıç pozisyonuna geri dönün ve nefes alın. Önerilen tekrar sayısına kadar bu hareketi devam ettirin. Varyasyon: Bu egzersizi egzersiz bantları ile de gerçekleştirebilirsiniz."
     },
     {
-      "isim": "Tek kollu kablolu triseps uzantısı",
+      "isim": "Single-Arm Cable Triceps Extension",
       "tip": "kuvvet",
       "kas": "arka_kol",
       "ekipman": "kablo",
       "zorluk": "orta",
-      "talimatlar": "Sağlaşma, supinasyon (avuç içi yukarıya doğru bakacak şekilde) sistemi kullanarak yüksek kablo makarasına bağlı tek bir tutamağı kavrayın. Doğrudan ağırlığın yığınının önünde durmalısınız. Şimdi tutamağı tutma üst kolunuzu ve dirseğinizi vücudunuzun yandan kilitleyin. Üst koluz ve ön kolanınız akut bir açık oluşturulmalıdır (90 seviyeden az).Diğer kolunuza yakın tutabilir ve daha iyi denge için bir ayağınızı öne alabilirsiniz.Triceps kasını sıkıştırarak, tek tutamağı yanınıza doğru çekmenizi ve kolu düz olana kadar nefes vermenizi sağlar. İpucu: Sadece ön kollardaki hareketler devam ediyor. Üst parçalarınız her zaman sabit durmalıdır. Triceps kasını sıkın ve bu kaslı egzersizi bir saniye bekleyin. Tutamağı başlangıç pozisyonlarına geri dönün. Önerilen tekrar sayısı kadar ve sonra aynı hareketi başka kollarınızla yapın. Varyasyonlar: Bu egzersiz egzersiz bantlarını kullanarak da gerçekleştirebilirsiniz."
+      "talimatlar": "Avuç içi yukarı bakacak şekilde yüksek kablo makarasına bağlı tek bir tutamağı kavrayın. Doğrudan ağırlığın yığınının önünde durmalısınız. Şimdi tutamağı tutun, üst kolunuzu ve dirseğinizi vücudunuzun yanından kilitleyin. Üst kolunuz ve ön kollarınız akut bir açı oluşturmalıdır (90 dereceden az). Diğer kolunuzu yakın tutabilir ve daha iyi denge için bir ayağınızı öne alabilirsiniz. Triceps kasını sıkarak, tek tutamağı yanınıza doğru çekin ve kolu düz olana kadar nefes verin. İpucu: Sadece ön kollardaki hareketler devam etmelidir, üst parçalarınız her zaman sabit durmalıdır. Triceps kasını sıkın ve bu kaslı egzersizi bir saniye bekleyin. Tutamağı başlangıç pozisyonuna geri dönün. Önerilen tekrar sayısı kadar bu hareketi tamamlayın, ardından aynı hareketi diğer kolunuzla gerçekleştirin. Varyasyonlar: Bu egzersizi egzersiz bantları kullanarak da gerçekleştirebilirsiniz."
     }
   ]

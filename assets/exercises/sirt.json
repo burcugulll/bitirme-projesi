@@ -1,82 +1,74 @@
 [
   {
-    "isim": "Ağırlıklı çekme",
+    "isim": "Weighted Pull-up",
     "tip": "kuvvet",
-    "kas": "lat kasları",
-    "ekipman": "diğer",
-    "zorluk": "orta",
-    "talimatlar": "Bir parçalarının ağırlığına ağırlık standardına ve belinize sabitleyin. Çeneniz bakacak şekilde avuç içi ön tarafta olacak şekilde pull-up'a tutuna tutun. Orta bir çerçeve için eller omuzsuz aralıklı olmalıdır. Her iki kol seçilen da ayrılmış ile desteklemekte tutmak önünüzde uzatılmış olmalı.Gövdeniz yaklaşık 30 derece geriye dönükken alt sırtınıza kavis yapın ve göğsünüzü doğru yönlendirin.Bu başlangıç ​​oyunlarındaz olacaktır.Şimdi, verin nefesler ve başınızın ellerinizin üstünde olana kadar gövdenizi yukarı çekin.Tepe kontrakte vücudunuza ulaştığınız sırada omuz bıçaklarınızı güçlendirir ve sıkıştırmaya odaklanın. Kısa bir an tepe kontrakte uzandıktan sonra, nefes alın ve gövdenizi kollarınız uzatılmış ve lat kaslarınız tamamen gerilmiş bir şekilde başlangıç pozisyonlarına dönüştürülür."
-  },
-  {
-    "isim": "Çekişler",
-    "tip": "kuvvet",
-    "kas": "lat kasları",
+    "kas": "sirt",
     "ekipman": "yalnızca vücut",
     "zorluk": "orta",
-    "talimatlar": "Belirtilen ana bilgisayar kullanarak avuçiçi öne bakacak şekilde pull-up'a tutun. Kavramlar hakkında not: Geniş kavram için ellerz omuz genişliğinden daha geniş bir mesafede olmalıdır. Orta kavram için eller omuz genişliğinizde bir mesafede olmalı ve dar kavram için omuz genişliğinde olmalıdır daha küçük bir mesafede olmalıdır.Her iki kolu da önünüzde uzatılmış olarak tutarken seçilen, gövdenizi yaklaşık 30 derece geriye doğru doğru mesafe ve alt sırtınıza kavis yoluyla göğsünüzü tarafından yönlendirilen doğru çıkartın.Bu başlangıçta olacağız olacaktır.Çeneniz üst göğsünüze değene kadar gövdenizi yukarı çekin.Omuzları ve Üst kolları geriye ve aşağıya doğru çekerek üst göğsünüze dokunmasını sağlayın.Bu kısmı yaparken nefes verin.İpucu: Tam kontrakte pozisyonlara ulaşınca sırt kaslarını sıkıştırmaya odaklanın.Üst gövde, sadece kollar hareket etsin, vücuttan durma hareket etmemelidir.Önkollar, desteklemek dışında başka bir iş Bir saniye boyunca kontrakte bekletildikten sonra, nefes alınıp gövdenizi kollarınız uzatılmış ve lat kaslarınız tamamen gerilmiş bir şekilde başlangıç pozisyonlarına dönüştürülmelidir."
+    "talimatlar": "Vücut ağırlığınıza uygun bir ağırlık standardına bağlanın ve çenenizi avuç içleri ön tarafta olacak şekilde bir çekme hareketine başlayın. Orta bir çerçeve için ellerinizi omuz genişliğinde aralayın, her iki kolu da seçilen bir aralıkta ayrılmış şekilde önünüzde uzatın. Gövdenizi yaklaşık 30 derece geriye kıvrılacak şekilde ayarlayın ve göğsünüzü doğru bir şekilde hedefleyin. Bu hareket başlangıçta zor olabilir. Şimdi, nefes verirken başınızı ellerinizin üzerine kadar çekin. Tepe kontraksiyona ulaştığınızda omuz bıçaklarınızı güçlendirin ve sıkıştırmaya odaklanın. Kısa bir süre tepe kontraksiyon pozisyonunda durduktan sonra nefes alın ve gövdenizi kollarınız uzatılmış ve lat kaslarınız tamamen gerilmiş bir şekilde başlangıç pozisyonuna geri getirin."
+  },
+  {
+    "isim": "Pull-ups",
+    "tip": "kuvvet",
+    "kas": "sirt",
+    "ekipman": "yalnızca vücut",
+    "zorluk": "orta",
+    "talimatlar": "Avuç içleri öne bakacak şekilde pull-up barına tutunun. Kavramlar hakkında not: Geniş kavram için eller omuz genişliğinden daha geniş bir mesafede olmalıdır. Orta kavram için eller omuz genişliğinizde bir mesafede olmalı ve dar kavram için omuz genişliğinde olmalıdır, daha küçük bir mesafede olmalıdır. Her iki kolu da önünüzde uzatılmış olarak tutarken seçilen, gövdenizi yaklaşık 30 derece geriye doğru mesafe ve alt sırtınıza kavis yaparak göğsünüzü yönlendirin. Bu başlangıçta olacaktır. Çeneniz üst göğsünüze değene kadar gövdenizi yukarı çekin. Omuzları ve üst kolları geriye ve aşağıya doğru çekerek üst göğsünüze dokunmasını sağlayın. Bu kısmı yaparken nefes verin. İpucu: Tam kontrakte pozisyonlara ulaştığınızda sırt kaslarını sıkıştırmaya odaklanın. Üst gövde, sadece kollar hareket etsin, vücuttan durma hareket etmemelidir. Önkollar, destek dışında başka bir işlev görmemelidir. Bir saniye boyunca kontrakte bekletildikten sonra, nefes alarak gövdenizi kollarınız uzatılmış ve lat kaslarınız tamamen gerilmiş bir şekilde başlangıç pozisyonlarına dönüştürülmelidir."
   },
   {
       "isim": "Rocky Pull-Up'lar/Puldown'lar",
       "tip": "kuvvet",
-      "kas": "lat kasları",
+      "kas": "sirt",
       "ekipman": "diğer",
-      "zorluk": "başlangıç",
-      "talimatlar": "Geniş bir ana bilgisayar kullanarak avuç içi öne bakacak şekilde pull-up çubuğuna tutun. Her iki kolu da seçilen arayüzün önünüzde uzatılmış olarak tutarken, gövdenizi yaklaşık 30 derece geriye doğru çekin ve alt sırtınıza kavis yaparak göğsünüzü doğru çıkartın. Bu Başlangıcız olacaktır.Çeneniz üst göğsünüze değene kadar gövdenizi yukarı çekin.Omuzları ve üst kolları geriye ve aşağı doğru çekerek üst göğsünüze dokunmasını sağlayın.Bu kısımda nefes verin.İpucu: Tam kontrakte pozisyonuna ulaştıktan sonra sırt kaslarını sıkıştırmaya odaklanın.Üst gövde, sadece kollar hareket Devamlılık devam etmeli, önkollar tutmak dışında başka bir iş yapmamalıdır.Bir saniye boyunca kontrakte saklandıktan sonra nefes alın ve gövdenizi kollarınız uzatılmış ve lat kaslarınız tamamen gerilmiş bir şekilde başlangıç pozisyonuna ancak aralıklarla devam etmektedir.Şimdi aynı hareketler durduruluyor, bu sefer gövdeniz düz kalacak ve çubuk üst göğsünüzün yerine boyuna dokunacaktır. İpucu: Bu egzersizin bu kısmını doğru bir şekilde uygulamanıza yardımcı olması için başınızı hafifçe öne çıkarın. Başlangıç pozisyonuna indirdikten sonra, egzersiz programınızda belirtilen tekrar sayısı bitene kadar. Dikkat: Boyun arkası aralıkları, boyun eğdirmeyi yönlendirecek şekilde hiperekstansiyon nedeniyle omuz problemleri olan kişilere önerilmez. Varyasyonlar: Bu egzersizi yeni yapmaya başlıyorsanız ve bunu yapmak için yeterince gücünüz yoksa, uygunse bir çene destek makinesi kullanın. Bu makineler, vücut ağırlığınızı itmenize yardımcı olmak için ağırlık kullanır. Aksi takdirde bacaklarınızı tutan bir yardımcı kullanabilirsiniz. Ayrıca bir açılır kapanır makineyi de kullanabilirsiniz."
+      "zorluk": "alet",
+      "talimatlar": "Geniş bir çubuk kullanarak avuç içleriniz öne bakacak şekilde pull-up barına tutunun. Her iki kolu seçilen arayüzün önünde uzatılmış olarak tutarken, gövdenizi yaklaşık 30 derece geriye çekin ve alt sırtınıza kavis vererek göğsünüzü doğru çıkarın. Bu, başlangıç ​​pozisyonu olacaktır. Çenenizi üst göğsünüze değene kadar gövdenizi yukarı çekin. Omuzları ve üst kolları geriye ve aşağı çekerek üst göğsünüze dokunmasını sağlayın. Bu sırada nefes verin. İpucu: Tam kontrakte pozisyonuna ulaştıktan sonra sırt kaslarını sıkıştırmaya odaklanın. Üst gövde, sadece kollar hareket etmeli, önkolların dışında başka bir iş yapmamalıdır. Bir saniye boyunca kontrakte beklettikten sonra nefes alın ve gövdenizi kollarınız uzatılmış ve lat kaslarınız tamamen gerilmiş bir şekilde başlangıç pozisyonuna getirin. Ancak bu hareketi aralıklarla devam ettirmektedir. Şimdi aynı hareketleri tekrar durdurun, bu sefer gövdeniz düz kalacak ve çubuk üst göğsünüzün yerine boyuna dokunacaktır. İpucu: Bu egzersizin bu kısmını doğru bir şekilde uygulamanıza yardımcı olması için başınızı hafifçe öne çıkarın. Başlangıç pozisyonuna indirdikten sonra, egzersiz programınızda belirtilen tekrar sayısı bitene kadar devam edin. Dikkat: Boyun arkası aralıkları, omuz problemleri olan kişilere önerilmez çünkü hiperekstansiyon nedeniyle boyun eğmeye yol açabilir. Varyasyonlar: Bu egzersizi yeni başlıyorsanız ve yeterince gücünüz yoksa, uygunsa bir çene destek makinesi kullanın. Bu makineler, vücut ağırlığınızı desteklemek için ağırlık kullanır. Ayrıca, bacaklarınızı tutan bir yardımcı kullanabilirsiniz. Ayrıca bir açılır kapanır makineyi de kullanabilirsiniz."
     },
     {
-      "isim": "Yakın tutuşla aşağı çekme",
+      "isim": "Close-Grip Lat Pulldown",
       "tip": "kuvvet",
-      "kas": "lat kasları",
+      "kas": "sirt",
       "ekipman": "kablo",
       "zorluk": "orta",
-      "talimatlar": "V-Bar'ın üst makarasına takılı olan bir açılır makineye oturun. Makinenin diz pedini ayırmalarınızı şekilde ayarlayın. Bu pedler, çubuğa bağlı direncin yukarı sizi kaldırmasını önleyecektir. V-bar'ı yığın içleri başlayacak şekilde çalışacak şekilde tutun (bir nötr protokolü).Lat kaslarını daha iyi etkilemek için göğsünüzü yönlendirin ve kendinizi hafifçe geriye doğru eğin (yaklaşık 30 derece).Bununla başlarsınızz olacaktır.Lat kaslarınızı kullanarak, aşağı doğru çekin ve ombıçaklarınızı sıkıştırın. Göğsünüz neredeyse V-bar'a dokunana kadar devam edin. Bu hareket sırasında nefes verin. İpucu: Hareket boyunca gövdeyi sabit tutun. Kontrakte bir saniye bekletildikten sonra, nefesler boyunca başlangıç pozisyonlarına geri geçiş yapılıyor. belirtilen tekrar sayısı için süresiz. Dikkat: Egzersizi için gövdeyi sallamaya başlamak zorunda kalmakmak için ağırlığı çok büyük kullanmaktan kaçının."
+      "talimatlar": "V-Bar'ın üst makarasına takılı olan bir açılır makineye oturun. Makinenin diz pedini ayırmalarınızı düzgün bir şekilde ayarlayın. Bu pedler, çubuğa bağlı direncin sizi yukarı kaldırmasını engelleyecektir. V-bar'ı içleri başlayacak şekilde çalışacak şekilde tutun . Sırt kaslarını daha etkili bir şekilde çalıştırmak için göğsünüzü doğru yönlendirin ve kendinizi hafifçe geriye doğru eğin (yaklaşık 30 derece). Bu başlangıç pozisyonudur. Lat kaslarınızı kullanarak, aşağı doğru çekin ve omuz bıçaklarınızı sıkıştırın. Göğsünüz neredeyse V-bar'a dokunana kadar devam edin. Bu hareket sırasında nefes verin. İpucu: Hareket boyunca gövdenizi sabit tutun. Kontrakte bir saniye bekledikten sonra, nefes alarak başlangıç pozisyonlarına geri dönün. Belirtilen tekrar sayısı tamamlanana kadar devam edin. Dikkat: Gövdeyi sallamadan egzersizi yapmak için ağırlığı aşırı büyük seçmekten kaçının."
     },
     {
       "isim": "Yukarı çek",
       "tip": "kuvvet",
-      "kas": "lat kasları",
+      "kas": "sirt",
       "ekipman": "yalnızca vücut",
       "zorluk": "başlangıç",
-      "talimatlar": "Pull-up'a çekilirna geniş bir anatomik yapışan kollerinizi sarkıtın. Bu, başlangıçlar devam edecekz olacaktır. Dirsekleri fleksiyon yaparak ve glenohumeral eklemei ekleyerek kendinizi yukarı çekin. Sallanmayın veya momentum çalıştırır. Çenenizi ellerinizle çalıştırırsınız. Bir durun, sonra kendinizin başlangıç pozisyonuna indirin."
+      "talimatlar": "Pull-up (Çekme) egzersizinin geniş bir anatomik yapışan çubuğa yapılması gerekmektedir. Bu, başlangıç ​​pozisyonunda başlayacaktır. Dirsekleri fleksiyon yaparak ve glenohumeral ekleme ekleyerek kendinizi yukarı çekin. Sallanmayın veya momentum kullanmayın. Çenenizi çubuğa çekerek bir duraklayın, sonra başlangıç pozisyonuna geri indirin."
     },
     {
       "isim": "Kas Geliştirme",
       "tip": "kuvvet",
-      "kas": "lat kasları",
+      "kas": "sirt",
       "ekipman": "yalnızca vücut",
       "zorluk": "orta",
-      "talimatlar": "Yalan bir ana bilgisayar kullanarak halkaları kavrayın, avuç içi içlerinizin halkaların üstünde olacak şekilde. Dirsekleri yanınıza alarak bir çekme işlemini başlatarak, dirsekleri fleksiyon yaparak. Pull-up'ın en üst pozisyonlara ulaştığında, omuzları halkalara doğru tutarak doğru hareket ettirin Bu, direnişlerin devam etmesi için sizi uygun bir yere yerleştirir.Kontrol ve istikrarı koruyarak, dirseklerin hareketini sağlamak için dirseklerden uzanın.Kendiniz yere indirirken dikkatli olun."
-    },
-    {
-      "isim": "Av tüfeği sırası",
-      "tip": "kuvvet",
-      "kas": "lat kasları",
-      "ekipman": "kablo",
-      "zorluk": "orta",
-      "talimatlar": "Düşük bir kabloya tek bir tutamağı uygulaması. Doğru ağırlıktan sonra geniş bir ayak pozisyonlarıyla birkaç fit geriye doğru durun. Kolunuz uzatılı ve omuzunuzla masaj doğru olmalıdır. Bu, başlangıçta olacaktır. Omuzu geri çekerek ve dirseği fleksiyon yaparak hareketi gerçekleştiririn. Çekerken bileği sırtüstü yatırın, yani avuç içini yukarı doğru çevirin. Kısa bir duraklamanın ardından başlangıç pozisyonuna gidin."
+      "talimatlar": "Dirsekleri yanınıza alarak bir çekme işlemini başlatın, dirsekleri fleksiyon yaparak. Pull-up'ın en üst pozisyonlarına ulaştığınızda, omuzları halkalara doğru tutarak doğru hareketi gerçekleştirin. Bu, direnişin devam etmesi için sizi uygun bir yere yerleştirir. Kontrol ve istikrarı koruyarak, dirseklerin hareketini sağlamak için dirseklerden uzanın. Kendinizi yere indirirken dikkatli olun."
     },
     {
       "isim": "Close-Grip Front Lat Pulldown",
       "tip": "kuvvet",
-      "kas": "lat kasları",
+      "kas": "sirt",
       "ekipman": "kablo",
       "zorluk": "orta",
-      "talimatlar": "V-bar'ın üst makarasına takılı bir pull-down makinesine oturun. Makinenin diz pedini ayırmanıza göre parçaları şekilde ayarlayın. Bu pedler, çubuğa bağlı direncin sizi yukarı kaldırmasını önleyecektir. Her iki kolu da önünüzde uzatılmış olarak tutarken, gövdenizi yaklaşık 30 derece geriye doğru çekin ve alt sırtınıza kavis yaparak göğsünüzü tarafından belirlenen doğru çıkartın.Bu, başlangıç zamanındaz olacaktır.Nefes vermekten yukarıya doğru çekin ve omuzları ve üst kollarından tutarak tam kontrakte pozisyonuna ulaşın.İpucu: Tam kontrakte pozisyonuna ulaşınca sırt kaslarını sıkıştırmaya odaklanın.Üst gövde sabit kalmalıdır (sadece kollar hareket eder).Önkollar, çubuğu tutmaktan başka bir iş yapmamalıdır.Kontrakte pozisyonlarında bir saniye bekledikten sonra, omuz bıçaklarınızı desteklerken desteklerken başlangıç pozisyonuna uzatın.Bu kısmı nefes alarak nefes alarak 6. Bu direnişin tekrar sayısı için sürekli olun. Varyasyonlar: Boyun arkası çeşitliliğiu, çubuk boyun sınırlaması ile aşırı dayanıklılık nedeniyle rotator manşet üzerinde zorlayıcı olabilir, bu nedenle bu egzersiz harcama sorunları olan kişisel olarak önerilmez."
+      "talimatlar": "V-bar'ın üst makarasına takılı olan bir pulldown makinesine oturun. Makinenin diz pedini belirtilen şekilde ayarlayın. Bu pedler, çubuğa bağlı direncin sizi yukarı kaldırmasını önleyecektir. Her iki kolu da önünüzde uzatılmış olarak tutarken, gövdenizi yaklaşık 30 derece geriye doğru çekin ve alt sırtınıza kavis yaparak göğsünüzü belirtilen şekilde çıkartın. Bu, başlangıç ​​pozisyonudur. Nefes verirken yukarıya doğru çekilin ve omuzları ve üst kollarınızı tutarak tam kontrakte pozisyonuna ulaşın. İpucu: Tam kontrakte pozisyonuna ulaştıktan sonra sırt kaslarını sıkıştırmaya odaklanın. Üst gövde sabit kalmalıdır (sadece kollar hareket etmelidir). Önkollar, çubuğu tutmaktan başka bir iş yapmamalıdır. Kontrakte pozisyonlarında bir saniye bekledikten sonra, omuz bıçaklarınızı desteklerken başlangıç pozisyonuna uzatın. Bu kısmı nefes alarak yapın ve belirtilen tekrar sayısı için devam edin. Varyasyonlar: Boyun arkası çeşitliliği, çubuk boyun sınırlaması ve aşırı direnç nedeniyle rotator manşet üzerinde zorlayıcı olabilir, bu nedenle bu egzersiz, omuz sorunları olan kişilere önerilmez."
     },
     {
-      "isim": "V çubuğu yukarı çekme",
+      "isim": "Lat Pulldown",
       "tip": "kuvvet",
-      "kas": "lat kasları",
-      "ekipman": "Hiçbiri",
+      "kas": "sirt",
+      "ekipman": "alet",
       "zorluk": "orta",
-      "talimatlar": "Başlangıçta V-bar'ı pull-up'ları merkeze yerleştirerek başlatın (kullandığınız pull-up istasyonunun nötr kulpları olmamasını varsayalım). V-Bar kulpları aşağıda bakacak şekilde yerleştirilebilir, böylece kulpları kullanarak çubuktan sarkabilirsiniz. V-bar' Güvenli bir şekilde yerleştirdikten sonra, her iki bölgede çubuğa tutun ve sarkın.Göğsünüzü ayırmak ve lat kaslarınızı daha iyi etkilemek için kendinizi hafifçe geriye doğru doğru eğin. Çubukla çatışmaz.Göğsünüz neredeyse V-bar'a dokunana kadar devam edin.Bu hareket sırasında nefes verin.Kontrakte uzun bir saniye boyunca depolandıktan sonra, vücudunuzu başlangıç pozisyonuna ayırma ve nefeslerin alındığı.belirtilen tekrar sayıları için kaldığınızda.Varyasyonlar:Bu egzersizi yeni yapmaya başlıyorsanız ve bunu yapmak için yeterince gücünüz yoksa, esnekse bir çekme destek makinesi kullanın. Bu makineler, vücut ağırlığınızı itmeye yardımcı olmak için ağırlık kullanır. Aksi takdirde bacaklarınızı tutan bir yardımcı kullanabilirsiniz. Öte yandan, daha sportif sporcular egzersizin ağırlığı arttırarak bir ağırlık kemeri kullanabilirler."
+      "talimatlar": "Başlangıçta V-bar'ı pull-up istasyonundaki merkeze yerleştirerek başlayın (nötr kulpların olmadığını varsayalım). V-bar kulplarını aşağıya bakacak şekilde yerleştirin, böylece kulpları kullanarak çubuktan sarkabilirsiniz. V-bar'ı güvenli bir şekilde yerleştirdikten sonra, her iki elinizle çubuğa tutun ve sarkın. Göğsünüzü ayırmak ve sırt kaslarınızı daha iyi etkilemek için kendinizi hafifçe geriye doğru eğin. Çubukla çatışmadan göğsünüz neredeyse V-bar'a dokunana kadar devam edin. Bu hareket sırasında nefes verin. Kontrakte uzun bir saniye boyunca bekledikten sonra, vücudunuzu başlangıç pozisyonuna geri getirin ve nefes alın. Belirtilen tekrar sayılarına kadar devam edin. Varyasyonlar: Bu egzersizi yeni yapmaya başlıyorsanız ve yeterince gücünüz yoksa, uygunsa bir çekme destek makinesi kullanın. Bu makineler, vücut ağırlığınızı itmeye yardımcı olmak için ağırlık kullanır. Aksi takdirde bacaklarınızı tutan bir yardımcı kullanabilirsiniz. Diğer yandan, daha deneyimli sporcular egzersizin zorluğunu artırmak için bir ağırlık kemeri kullanabilirler."
     },
     {
       "isim": "İp tırmanışı",
       "tip": "kuvvet",
-      "kas": "lat kasları",
+      "kas": "sirt",
       "ekipman": "yalnızca vücut",
       "zorluk": "orta",
-      "talimatlar": "Her iki ellerinizin başınızın üzerinde ipten tutun. Küçük bir sıyırma sırasında ipi aşağı çekin. İpi bir kıvrımınızın verilerini sarın ve ayaklarınızı ipi sıkıştırmak için kullanın. Kollarınızı mümkün olduğunca yükseğe uygulamayı ipi kavrayın. Ayaklarınızı ipten çözerek kendi kendinizi yukarı çekin ve Dizlerinizi göğsünüze doğru ayarlayın.Ayaklarınızı ipten çözerek tekrar ipin üzerinde yüksek bir tutuş almak için ayaklanın.İpe kadar devam edin.Kendinizi aşağı indirmek için, elleri takip ederek doğru kayarak ip ayaklarınızın üzerindeki ana kuvvetini azaltın."
+      "talimatlar": "Her iki ellerinizi başınızın üzerindeki ipten tutun. Küçük bir kayma hareketiyle ipi aşağı çekin. İpi bir kıvrım halinde sıkıca sarın ve ayaklarınızı ipi sıkıştırmak için kullanın. Kollarınızı mümkün olduğunca yükseğe kaldırarak ipi kavrayın. Ayaklarınızı ipten çözerek kendinizi yukarı çekin ve dizlerinizi göğsünüze doğru getirin. Ayaklarınızı ipten çözerek tekrar ipin üzerinde yüksek bir kavrama almak için ayaklanın. İpe kadar devam edin. Kendinizi aşağı indirmek için elleri takip ederek doğru bir şekilde ipin üzerindeki ana kuvveti azaltın."
     }
   ]
