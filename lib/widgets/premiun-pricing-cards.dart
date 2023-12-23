@@ -17,60 +17,71 @@ class _PremiumPricingCardsState extends State<PremiumPricingCards> {
     super.initState();
   }
 
-  Map<String, dynamic>? paymentIntent;
+  Map<String, dynamic>? paymentIntentData;
   String secret =
       "sk_test_51OObjIG1UN1fHjhpHHrTVhvvSE71AaLHlu6WDRpbKqA6hwGbzGJpmaeizcbNyZVJbEedvJRLcvFrsj9pgHIihbEy00dFzIO1q5";
-  void makePayment() async {
+
+  Future<void> makePayment() async {
     try {
-      paymentIntent = await createPaymentIntent();
+      paymentIntentData = await createPaymentIntent('37', 'USD');
+
       var gpay = const PaymentSheetGooglePay(
-        merchantCountryCode: "TR",
-        currencyCode: "TRY",
-        testEnv: true,
-      );
+          merchantCountryCode: "US", currencyCode: "US", testEnv: true);
 
       await Stripe.instance.initPaymentSheet(
         paymentSheetParameters: SetupPaymentSheetParameters(
-          paymentIntentClientSecret: paymentIntent![secret],
-          style: ThemeMode.light,
-          merchantDisplayName: "Beraat",
-          googlePay: gpay,
-        ),
+            paymentIntentClientSecret: paymentIntentData!['client_secret'],
+            customFlow: true,
+            style: ThemeMode.dark,
+            merchantDisplayName: 'Beraat',
+            googlePay: gpay),
       );
-    } catch (e) {
-      print("Hata: $e");
+
+      displayPaymentSheet();
+    } catch (e, s) {
+      print('Payment exception: $e $s');
     }
   }
 
-  void displayPaymentSheet() async {
+  displayPaymentSheet() async {
     try {
       await Stripe.instance.presentPaymentSheet();
       print("Ödeme Tamamlandı");
+    } on StripeException catch (e) {
+      print('DISPLAYPAYMENTSHEET==> $e');
+      showDialog(
+          context: context,
+          builder: (_) => const AlertDialog(
+                content: Text("Ödeme İptal Edildi."),
+              ));
     } catch (e) {
-      print("Ödeme Başarısız: $e");
+      print('DISPLAYPAYMENTSHEET==> $e');
     }
   }
 
-  Future<Map<String, dynamic>> createPaymentIntent() async {
+  createPaymentIntent(String amount, String currency) async {
     try {
       Map<String, dynamic> body = {
-        "amount": "39",
-        "currency": "TRY",
+        'amount': calculateAmount(amount),
+        'currency': currency,
+        'payment_method_types[]': 'card',
       };
-
-      http.Response response = await http.post(
-        Uri.parse("https://api.stripe.com/v1/payment_intents"),
-        body: body,
-        headers: {
-          "Authorization": "Bearer " + secret,
-          "Content-Type": "application/x-www-form-urlencoded",
-        },
-      );
-
-      return json.decode(response.body);
-    } catch (e) {
-      throw Exception("Ödeme isteği oluşturulurken hata: $e");
+      var response = await http.post(
+          Uri.parse('https://api.stripe.com/v1/payment_intents'),
+          body: body,
+          headers: {
+            'Authorization': 'Bearer ' + secret,
+            'Content-Type': 'application/x-www-form-urlencoded'
+          });
+      return jsonDecode(response.body);
+    } catch (err) {
+      print('createPaymentIntent err charging user: ${err.toString()}');
     }
+  }
+
+  calculateAmount(String amount) {
+    final a = (int.parse(amount)) * 100;
+    return a.toString();
   }
 
   Widget build(BuildContext context) {

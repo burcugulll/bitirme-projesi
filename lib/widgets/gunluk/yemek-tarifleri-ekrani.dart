@@ -175,8 +175,8 @@ class _YemekTarifleriPageState extends State<YemekTarifleriPage> {
                                 Text(
                                   recipeList[index]
                                       .appcalories
-                                      .toString()
-                                      .substring(0, 6),
+                                      .round()
+                                      .toString(),
                                   style: TextStyle(
                                     fontSize: 18,
                                     fontWeight: FontWeight.bold,

@@ -1,3 +1,4 @@
+import 'package:bitirme_projesi/widgets/gunluk/navigation.dart';
 import 'package:bitirme_projesi/widgets/gunluk/yemek-tarifleri-ekrani.dart';
 import 'package:bitirme_projesi/widgets/gunluk/kaydedilen-ogunlar-page.dart';
 import 'package:bitirme_projesi/widgets/gunluk/yemek-page.dart';
@@ -19,46 +20,7 @@ class OglePage extends StatelessWidget {
             padding: const EdgeInsets.all(8.0),
             child: Row(
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-              children: <Widget>[
-                GestureDetector(
-                  onTap: () {
-                    Navigator.push(
-                      context,
-                      MaterialPageRoute(builder: (context) => YemekPage()),
-                    );
-                  },
-                  child: Text(
-                    'Yemek',
-                    style: TextStyle(fontSize: 18, color: Colors.black),
-                  ),
-                ),
-                GestureDetector(
-                  onTap: () {
-                    Navigator.push(
-                      context,
-                      MaterialPageRoute(
-                          builder: (context) => YemekTarifleriPage()),
-                    );
-                  },
-                  child: Text(
-                    'Yemek Tarifleri',
-                    style: TextStyle(fontSize: 18, color: Colors.black),
-                  ),
-                ),
-                GestureDetector(
-                  onTap: () {
-                    Navigator.push(
-                      context,
-                      MaterialPageRoute(
-                          builder: (context) => KaydedilenOgunlerPage()),
-                    );
-                  },
-                  child: Text(
-                    'Kaydedilen Öğünler',
-                    style: TextStyle(fontSize: 18, color: Colors.black),
-                  ),
-                ),
-              ],
+              children: <Widget>[Navigation()],
             ),
           ),
         ],
