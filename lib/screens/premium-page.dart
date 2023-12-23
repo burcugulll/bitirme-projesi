@@ -1,6 +1,5 @@
+import 'package:bitirme_projesi/widgets/premiun-pricing-cards.dart';
 import 'package:flutter/material.dart';
-import 'package:bitirme_projesi/screens/odeme.dart';
-import 'package:pricing_cards/pricing_cards.dart';
 
 class PremiumPage extends StatelessWidget {
   @override
@@ -22,86 +21,7 @@ class PremiumPage extends StatelessWidget {
                 style: TextStyle(fontSize: 18.0, fontWeight: FontWeight.bold),
               ),
             ),
-            Padding(
-              padding: EdgeInsets.symmetric(vertical: 28),
-              child: Column(
-                mainAxisAlignment: MainAxisAlignment.center,
-                children: [
-                  PricingCards(
-                    pricingCards: [
-                      PricingCard(
-                        title: 'Aylık',
-                        price: '35.99₺',
-                        subPriceText: '\/ay',
-                        billedText: 'Aylık faturalandırılır',
-                        onPress: () {
-                          Navigator.push(
-                            context,
-                            MaterialPageRoute(builder: (context) => MyApp()),
-                          );
-                        },
-                        cardColor: Colors.green,
-                        priceStyle: TextStyle(
-                          fontSize: 32,
-                          fontWeight: FontWeight.bold,
-                          color: Colors.white,
-                        ),
-                        titleStyle: TextStyle(
-                          fontSize: 16,
-                          color: Colors.white,
-                        ),
-                        billedTextStyle: TextStyle(
-                          fontSize: 12,
-                          color: Colors.white,
-                        ),
-                        subPriceStyle: TextStyle(
-                          fontSize: 12,
-                          color: Colors.white,
-                        ),
-                        cardBorder: RoundedRectangleBorder(
-                          side: BorderSide(color: Colors.red, width: 4.0),
-                          borderRadius: BorderRadius.circular(8.0),
-                        ),
-                      ),
-                      PricingCard(
-                        title: 'Yıllık',
-                        price: '299.99₺',
-                        subPriceText: '\/yıl',
-                        billedText: 'Yıllık faturalandırılır',
-                        onPress: () {
-                          Navigator.push(
-                            context,
-                            MaterialPageRoute(builder: (context) => MyApp()),
-                          );
-                        },
-                        cardColor: Colors.deepOrangeAccent,
-                        priceStyle: TextStyle(
-                          fontSize: 32,
-                          fontWeight: FontWeight.bold,
-                          color: Colors.white,
-                        ),
-                        titleStyle: TextStyle(
-                          fontSize: 16,
-                          color: Colors.white,
-                        ),
-                        billedTextStyle: TextStyle(
-                          fontSize: 12,
-                          color: Colors.white,
-                        ),
-                        subPriceStyle: TextStyle(
-                          fontSize: 12,
-                          color: Colors.white,
-                        ),
-                        cardBorder: RoundedRectangleBorder(
-                          side: BorderSide(color: Colors.red, width: 4.0),
-                          borderRadius: BorderRadius.circular(8.0),
-                        ),
-                      ),
-                    ],
-                  ),
-                ],
-              ),
-            ),
+            PremiumPricingCards(),
             Container(
               margin: EdgeInsets.all(10.0),
               width: double.infinity,

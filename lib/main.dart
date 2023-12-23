@@ -3,14 +3,22 @@ import 'package:bitirme_projesi/screens/splash.dart';
 import 'package:flutter/material.dart';
 import 'package:bitirme_projesi/screens/auth.dart';
 import 'package:firebase_core/firebase_core.dart';
+
+import 'package:flutter_stripe/flutter_stripe.dart';
 import 'firebase_options.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
+
+  Stripe.publishableKey =
+      "pk_test_51OObjIG1UN1fHjhpVTeopopu7Pp1Vgy8JoIAISlogxKjLKDWXVJ5xfFi7jw4ZdF2XE2QViiaUCENL067m4d8SClZ002EKooeRk";
+
   await Firebase.initializeApp(
     options: DefaultFirebaseOptions.currentPlatform,
   );
+  //await dotenv.load(fileName: "/assets/.env");
+
   runApp(const App());
 }
 

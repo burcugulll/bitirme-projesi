@@ -48,7 +48,7 @@
     "talimatlar": "Vücudunuzun dik olarak durduğu ve her elinizde sabit bir dambılın kollarınızın uzunluğunda tutulduğu bir duruşa geçin.El avuçlarının aynı doğrultuda olmasına dikkat edin. Bu, başlangıçta mevcut olacaktır. Üst kolu tutarken nefes verin ve biceps'i kasarak dambılları çalıştırın. Sadece ön kollarınızın hareket etmesine odaklanın. Bileğinizi, sırt üstü bir (avuç içleri yukarı) pozisyonda omuz seviyesindeki biceps tamamen kasılıncaya kadar devam ettirin. Kasılı pozisyonda bir saniye boyunca biceps'i sıkın. Şimdi kasılı, baş parmak küçük parmak üzerinde ve baş parmak küçük parmak altında olacak şekilde bileği döndürerek dambılları pronated bir (avuç içleri aşağı bakacak şekilde) pozisyona getirin ve özelliklerin başlangıç konumlarına geri dönmeye başlayın. Dönerken nefes alın."
   },
   {
-    "name": "Biceps Curl'den Omuz Press'e",
+    "isim": "Biceps Curl'den Omuz Press'e",
     "tip": "kuvvet",
     "kas": "on_kol",
     "ekipman": "dambıl",
@@ -56,7 +56,7 @@
     "talimatlar": "Dik bir durmata her elinizde bir dambıl ile başlayın. Kollarınızın yanlarınızda sarkmalı ve avuç içleriniz öne bakmalıdır. Doğrudan yönlendirmeye başlayın, göğüslerinizin yukarıya doğru kişilerin ayaklarınızı kolayca açabileceksiniz. Momentum veya omuzdan fleksiyon durdurmayın, bunun yerine kontrollü bir hareket kullanın. İstenen tekrar sayısını tamamlayın ve ardından karşı noktalarda kalın."
   },
   {
-    "name": "Dumbbell Curl",
+    "isim": "Dumbbell Curl",
     "tip": "kuvvet",
     "kas": "on_kol",
     "ekipman": "yular",
