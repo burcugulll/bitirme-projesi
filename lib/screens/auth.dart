@@ -36,10 +36,13 @@ class _AuthScreenState extends State<AuthScreen> {
             email: _enteredEmail, password: _enteredPassword);
         //print(userCredentials);
       }
+
+      //firebasede users tablosuna email ile kayıt oluştur
     } on FirebaseAuthException catch (error) {
       if (error.code == 'email-already-in-use') {
         //..
       }
+
       ScaffoldMessenger.of(context).clearSnackBars();
       ScaffoldMessenger.of(context).showSnackBar(
         const SnackBar(
@@ -76,6 +79,8 @@ class _AuthScreenState extends State<AuthScreen> {
           await FirebaseAuth.instance.signInWithCredential(credential);
 
       print(user.user?.displayName);
+
+      //kullanıcı tabloya ekle
     } catch (error, stackTrace) {
       print("Google ile girişte bir hata oluştu: $error");
       print("Hata izi: $stackTrace");
