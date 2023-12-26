@@ -1,4 +1,4 @@
-import 'package:bitirme_projesi/screens/home-page.dart';
+import 'package:bitirme_projesi/screens/home_page.dart';
 import 'package:bitirme_projesi/screens/splash.dart';
 import 'package:flutter/material.dart';
 import 'package:bitirme_projesi/screens/auth.dart';

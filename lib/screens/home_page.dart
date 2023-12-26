@@ -1,8 +1,10 @@
-import "package:bitirme_projesi/screens/profil-page.dart";
+// ignore_for_file: file_names
+
+import 'package:bitirme_projesi/screens/profil_page.dart';
 import "package:firebase_auth/firebase_auth.dart";
 import 'package:flutter/material.dart';
-import "package:bitirme_projesi/screens/gunluk-page.dart";
-import "package:bitirme_projesi/screens/premium-page.dart";
+import 'package:bitirme_projesi/screens/gunluk_page.dart';
+import 'package:bitirme_projesi/screens/premium_page.dart';
 import 'package:lottie/lottie.dart';
 
 class MyHomePage extends StatefulWidget {

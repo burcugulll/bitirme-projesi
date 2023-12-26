@@ -1,3 +1,5 @@
+// ignore_for_file: unnecessary_string_escapes
+
 import 'dart:convert';
 
 import "package:flutter/material.dart";
@@ -102,20 +104,20 @@ class _PremiumPricingCardsState extends State<PremiumPricingCards> {
                   makePayment();
                 },
                 cardColor: Colors.green,
-                priceStyle: TextStyle(
+                priceStyle: const TextStyle(
                   fontSize: 32,
                   fontWeight: FontWeight.bold,
                   color: Colors.white,
                 ),
-                titleStyle: TextStyle(
+                titleStyle: const TextStyle(
                   fontSize: 16,
                   color: Colors.white,
                 ),
-                billedTextStyle: TextStyle(
+                billedTextStyle: const TextStyle(
                   fontSize: 12,
                   color: Colors.white,
                 ),
-                subPriceStyle: TextStyle(
+                subPriceStyle: const TextStyle(
                   fontSize: 12,
                   color: Colors.white,
                 ),
@@ -127,6 +129,8 @@ class _PremiumPricingCardsState extends State<PremiumPricingCards> {
               PricingCard(
                 title: 'Yıllık',
                 price: '299.99₺',
+                // ignore: unnecessary_string_escapes
+                // ignore: unnecessary_string_escapes
                 subPriceText: '\/yıl',
                 billedText: 'Yıllık faturalandırılır',
                 onPress: () {},

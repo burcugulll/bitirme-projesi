@@ -1,7 +1,4 @@
 import 'package:bitirme_projesi/widgets/gunluk/navigation.dart';
-import 'package:bitirme_projesi/widgets/gunluk/yemek-tarifleri-ekrani.dart';
-import 'package:bitirme_projesi/widgets/gunluk/kaydedilen-ogunlar-page.dart';
-import 'package:bitirme_projesi/widgets/gunluk/yemek-page.dart';
 import 'package:flutter/material.dart';
 
 Widget MyText() {

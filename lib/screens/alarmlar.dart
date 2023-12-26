@@ -15,6 +15,8 @@ class Alarm {
 }
 
 class AlarmListWidget extends StatefulWidget {
+  const AlarmListWidget({super.key});
+
   @override
   _AlarmListWidgetState createState() => _AlarmListWidgetState();
 }

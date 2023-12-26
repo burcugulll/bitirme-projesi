@@ -1,12 +1,13 @@
-import 'package:bitirme_projesi/widgets/alert-message.dart';
+// ignore_for_file: file_names
+
+import 'package:bitirme_projesi/widgets/alert_message.dart';
+import 'package:bitirme_projesi/widgets/gunluk/recipe_view.dart';
 import 'package:flutter/material.dart';
 import 'dart:convert';
 import 'dart:developer';
 import 'package:http/http.dart';
-
 import 'package:bitirme_projesi/screens/gunluk/model.dart';
 import 'package:toastification/toastification.dart';
-import 'package:url_launcher/url_launcher.dart';
 
 class YemekTarifleriPage extends StatefulWidget {
   @override
@@ -130,12 +131,12 @@ class _YemekTarifleriPageState extends State<YemekTarifleriPage> {
                   return InkWell(
                     onTap: () {
                       //_launchURL(recipeList[index].appurl);
-                      /*Navigator.push(
+                      Navigator.push(
                           context,
                           MaterialPageRoute(
                               builder: (context) =>
                                   RecipeView(recipeList[index].appurl)));
-                    */
+
                       print(recipeList[index].appurl);
                     },
                     child: Card(

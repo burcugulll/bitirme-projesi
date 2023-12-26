@@ -1,4 +1,4 @@
-import 'package:bitirme_projesi/widgets/premiun-pricing-cards.dart';
+import 'package:bitirme_projesi/widgets/premium_pricing_cards.dart';
 import 'package:flutter/material.dart';
 
 class PremiumPage extends StatelessWidget {
@@ -115,21 +115,6 @@ class PremiumPage extends StatelessWidget {
                 style: TextStyle(fontSize: 18.0),
               ),
             ),
-            Image.asset('assets/images/ayniyemekler.jpg'),
-            Container(
-              margin: EdgeInsets.all(10.0),
-              child: Text(
-                "Daha hızlı yemek kaydi için yiyecekleri birden çok güne kopyalayın",
-                style: TextStyle(fontSize: 18.0, fontWeight: FontWeight.bold),
-              ),
-            ),
-            Container(
-              margin: EdgeInsets.all(10.0),
-              child: Text(
-                "Düzenli olarak yenen yiyecekleri birden çok öğüne ve güne kopyalayarak zamandan tasarruf edin",
-                style: TextStyle(fontSize: 18.0),
-              ),
-            ),
             Container(
               margin: EdgeInsets.all(10.0),
               width: double.infinity,
@@ -140,7 +125,8 @@ class PremiumPage extends StatelessWidget {
               margin: EdgeInsets.all(10.0),
               child: Text(
                 "Premium ile Hedeflerinize Yaklaşın\nMilyonlarca girişi analiz ettikten sonra Premium üyelerin günlük rutinlerine premium özellikleri eklerken hedef kilolarına 3 kat daha fazla yaklaştıklarını ve iki kat daha uzun süre motive kaldıklarını bulduk",
-                style: TextStyle(fontSize: 18.0),
+                style:
+                    TextStyle(fontSize: 18.0, color: Colors.deepPurpleAccent),
               ),
             ),
           ],

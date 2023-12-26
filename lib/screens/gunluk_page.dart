@@ -4,7 +4,7 @@ import 'package:bitirme_projesi/screens/gunluk/egzersiz.dart';
 import 'package:bitirme_projesi/screens/gunluk/kahvalti.dart';
 import 'package:bitirme_projesi/screens/gunluk/ogle.dart';
 
-import 'package:bitirme_projesi/widgets/gunluk/custom-row-button.dart';
+import 'package:bitirme_projesi/widgets/gunluk/custom_row_button.dart';
 import 'package:flutter/material.dart';
 
 class GunlukPage extends StatefulWidget {
@@ -19,7 +19,7 @@ final List<Map<String, dynamic>> buttonData = [
   {'icon': Icons.local_dining, 'title': 'Aperatifler', 'page': AperatifPage()},
   {
     'icon': Icons.directions_run,
-    'title': 'Egzersiz Ekle',
+    'title': 'Egzersizler',
     'page': EgzersizPage()
   },
   {

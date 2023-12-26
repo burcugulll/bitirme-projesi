@@ -1,6 +1,5 @@
-import 'package:bitirme_projesi/widgets/gunluk/kaydedilen-ogunlar-page.dart';
-import 'package:bitirme_projesi/widgets/gunluk/yemek-page.dart';
-import 'package:bitirme_projesi/widgets/gunluk/yemek-tarifleri-ekrani.dart';
+import 'package:bitirme_projesi/widgets/gunluk/kaydedilen_ogunlar_page.dart';
+import 'package:bitirme_projesi/widgets/gunluk/yemek_tarifleri_ekrani.dart';
 import 'package:flutter/material.dart';
 
 class Navigation extends StatelessWidget {

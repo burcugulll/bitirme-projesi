@@ -1,7 +1,7 @@
 import 'dart:convert';
 
-import 'package:bitirme_projesi/widgets/alert-message.dart';
-import 'package:bitirme_projesi/widgets/gunluk/exercise-list-item.dart';
+import 'package:bitirme_projesi/widgets/alert_message.dart';
+import 'package:bitirme_projesi/widgets/gunluk/exercise_list_item.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart' show rootBundle;
 import 'package:toastification/toastification.dart';
