@@ -8,7 +8,6 @@ import 'package:webview_flutter/webview_flutter.dart';
 class RecipeView extends StatefulWidget {
   String url;
   RecipeView(this.url, {super.key});
-  //const RecipeView({super.key});
 
   @override
   State<RecipeView> createState() => _RecipeViewState();
@@ -18,6 +17,7 @@ class _RecipeViewState extends State<RecipeView> {
   late String finalUrl;
   final Completer<WebViewController> controller =
       Completer<WebViewController>();
+
   @override
   void initState() {
     super.initState();
@@ -35,26 +35,8 @@ class _RecipeViewState extends State<RecipeView> {
         title: const Text('Flutter Food Recipe App'),
       ),
       body: Container(
-        child: WebView(
-          initialUrl: finalUrl,
-          javascriptmode: JavaScriptMode.unrestricted,
-          onWebViewCreated: (WebViewController webViewController) {
-            setState(() {
-              controller.complete(webViewController);
-            });
-          },
-          onWebResourceError: (WebResourceError error) {
-            // Hata ile ilgili gerekli işlemleri burada gerçekleştirebilirsiniz.
-          },
-        ),
+        child: Text("recipe view"),
       ),
     );
   }
-
-  WebView(
-      {required String initialUrl,
-      required JavaScriptMode javascriptmode,
-      required Null Function(WebViewController webViewController)
-          onWebViewCreated,
-      required Null Function(WebResourceError error) onWebResourceError}) {}
 }
