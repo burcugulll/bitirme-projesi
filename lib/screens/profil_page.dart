@@ -106,16 +106,16 @@ class _ProfilPageState extends State<ProfilPage> {
             ),
             ElevatedButton.icon(
               onPressed: () {
-                _showInformationDialog(context, 'İletişim Sayfası',
-                    'İletişim bilgileriniz burada gösterilecek.');
+                _showInformationDialog(context, 'İletişim ve Gizlilik Sayfası',
+                    'Veri Onayı ve Kullanıcı Sözleşmesine Hoş geldiniz! Fitness ve Sağlık Uygulamasını kullanmaya başlamadan önce, aşağıdaki metni dikkatlice okumanız ve onaylamanız önemlidir. 1. Kullanıcı Verileri ve Amaçları:Fitness ve Sağlık Uygulaması kullanıcı verilerini toplayabilir,bu verileri aşağıdaki amaçlar için kullanabilir: Kullanıcıların sağlık ve fitness hedeflerini takip etmek, beslenme önerileri sunmak, Uygulama performansını ve kullanıcı deneyimini iyileştirmek, güncellemeleri sağlamak. 2. Toplanan Veriler: Uygulama, kullanıcılarına en iyi hizmeti sunabilmek için aşağıdaki verileri toplayabilir: Ad ve Soyad E-posta adresi Sağlık verileri Egzersiz alışkanlıkları 3. Veri Güvenliği ve Gizliliği: Fitness ve Sağlık Uygulaması,topladığı verileri güvenli bir şekilde saklamak ve üçüncü taraflarla paylaşmamak için gerekli teknik önlemleri alır. 4. Kullanıcı Hakları: Kullanıcılar, toplanan verileri görüntüleme, düzeltme ve silme haklarına sahiptir. 5. Onay ve Kabul: Fitness ve Sağlık Uygulamasını kullanarak, bu KVKK metnini okuduğunuzu, anladığınızı ve kabul ettiğinizi beyan edersiniz.');
               },
               icon: Icon(Icons.mail),
               label: Text('İletişim ve Gizlilik'),
             ),
             ElevatedButton.icon(
               onPressed: () {
-                _showInformationDialog(context, 'Bize Ulaşın Sayfası',
-                    'Bize ulaşma bilgileriniz burada gösterilecek.');
+                _showInformationDialog(context, 'Bize Ulaşın',
+                    "Sorularınız için @burcugul10@gmail.com adresine mail atabilirsiniz");
               },
               icon: Icon(Icons.assistant_direction),
               label: Text('Bize Ulaşın'),

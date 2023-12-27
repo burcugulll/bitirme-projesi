@@ -55,21 +55,6 @@ class PremiumPage extends StatelessWidget {
                 style: TextStyle(fontSize: 18.0),
               ),
             ),
-            Image.asset('assets/images/ogun-plani.jpg'),
-            Container(
-              margin: EdgeInsets.all(20.0),
-              child: Text(
-                "Özel öğün planlarınızı oluşturun ve programlayın!",
-                style: TextStyle(fontSize: 18.0, fontWeight: FontWeight.bold),
-              ),
-            ),
-            Container(
-              margin: EdgeInsets.all(10.0),
-              child: Text(
-                "Zahmetsizce Günlüğünüze programlayabileceğiniz kişiselleştirilmiş haftalık beslenme planları oluşturarak önceden plan yapın.",
-                style: TextStyle(fontSize: 18.0),
-              ),
-            ),
             Image.asset('assets/images/mutfak.jpg'),
             Container(
               margin: EdgeInsets.all(10.0),
@@ -82,21 +67,6 @@ class PremiumPage extends StatelessWidget {
               margin: EdgeInsets.all(10.0),
               child: Text(
                 "Mevcut tüm yemek tariflerini sadece birkaç dokunuşla doğrudan günlüğünüze kaydedin böylece manuel giriş ve hesaplama ihtiyacınız kalmayacak",
-                style: TextStyle(fontSize: 18.0),
-              ),
-            ),
-            Image.asset('assets/images/yemekfoto.jpg'),
-            Container(
-              margin: EdgeInsets.all(10.0),
-              child: Text(
-                "Öğünleri nasıl yediğinizi takip edin",
-                style: TextStyle(fontSize: 18.0, fontWeight: FontWeight.bold),
-              ),
-            ),
-            Container(
-              margin: EdgeInsets.all(10.0),
-              child: Text(
-                "Ekstra 6 öğün türü oluşturun ve bunları yeme şeklinize uygun benzersiz etiketlerle özelleştirin",
                 style: TextStyle(fontSize: 18.0),
               ),
             ),
