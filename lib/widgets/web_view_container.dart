@@ -18,7 +18,7 @@ class _WebViewContainerState extends State<WebViewContainer> {
   void initState() {
     super.initState();
 
-    // initState içinde controller'ı oluşturun ve URL'yi yükleyin
+    // initState içinde controller'ı oluştur ve URL'yi yükle
     controller = WebViewController();
     controller
       ..setJavaScriptMode(JavaScriptMode.unrestricted)
