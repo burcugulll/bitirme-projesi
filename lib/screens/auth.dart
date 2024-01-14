@@ -1,5 +1,6 @@
 import 'dart:async';
 
+import 'package:bitirme_projesi/services/firebase_services.dart';
 import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:google_sign_in/google_sign_in.dart';
@@ -37,6 +38,23 @@ class _AuthScreenState extends State<AuthScreen> {
         //print(userCredentials);
       }
 
+      final user = await FirebaseAuth.instance.currentUser;
+      final FirebaseServices firebase = FirebaseServices();
+
+      final existingUser =
+          await firebase.users.where("email", isEqualTo: user?.email).get();
+
+      if (existingUser.docs.isEmpty) {
+        // If user doesn't exist, create a new user record in Firestore
+        await firebase.users.add({
+          'email': user?.email,
+          'name': user?.displayName,
+          'imageUrl': user?.photoURL,
+
+          // Add other fields as needed
+        });
+      }
+
       //firebasede users tablosuna email ile kayıt oluştur
     } on FirebaseAuthException catch (error) {
       if (error.code == 'email-already-in-use') {
@@ -55,6 +73,7 @@ class _AuthScreenState extends State<AuthScreen> {
 
   Future _authWithGoogle() async {
     try {
+      await GoogleSignIn().signOut();
       final GoogleSignInAccount? googleUser = await GoogleSignIn().signIn();
 
       if (googleUser == null) {
@@ -79,8 +98,22 @@ class _AuthScreenState extends State<AuthScreen> {
           await FirebaseAuth.instance.signInWithCredential(credential);
 
       print(user.user?.displayName);
+      final FirebaseServices firebase = FirebaseServices();
 
-      //kullanıcı tabloya ekle
+      final existingUser = await firebase.users
+          .where("email", isEqualTo: user.user?.email)
+          .get();
+
+      if (existingUser.docs.isEmpty) {
+        // If user doesn't exist, create a new user record in Firestore
+        await firebase.users.add({
+          'email': user.user?.email,
+          'name': user.user?.displayName,
+          'imageUrl': user.user?.photoURL,
+
+          // Add other fields as needed
+        });
+      }
     } catch (error, stackTrace) {
       print("Google ile girişte bir hata oluştu: $error");
       print("Hata izi: $stackTrace");

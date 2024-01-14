@@ -1,6 +1,7 @@
 import 'dart:io';
 
 import 'package:bitirme_projesi/screens/alarmlar.dart';
+import 'package:bitirme_projesi/services/firebase_services.dart';
 import 'package:bitirme_projesi/widgets/profile_image.dart';
 import 'package:firebase_storage/firebase_storage.dart';
 import 'package:flutter/material.dart';
@@ -40,6 +41,8 @@ class _ProfilPageState extends State<ProfilPage> {
 
         // Get the download URL for the uploaded image
         final String downloadURL = await imageRef.getDownloadURL();
+        final FirebaseServices firebase = FirebaseServices();
+
         print('Download URL: $downloadURL');
       }
     } catch (e) {
@@ -64,6 +67,7 @@ class _ProfilPageState extends State<ProfilPage> {
           children: [
             ProfileImage(
               image: _selectedImage,
+              imageUrl: user?.photoURL,
               onTap: _pickImage,
             ),
             SizedBox(height: 20),
