@@ -3,6 +3,7 @@ import 'dart:io';
 import 'package:bitirme_projesi/screens/alarmlar.dart';
 import 'package:bitirme_projesi/services/firebase_services.dart';
 import 'package:bitirme_projesi/widgets/profile_image.dart';
+import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_storage/firebase_storage.dart';
 import 'package:flutter/material.dart';
 import 'package:image_picker/image_picker.dart';
@@ -43,6 +44,12 @@ class _ProfilPageState extends State<ProfilPage> {
         final String downloadURL = await imageRef.getDownloadURL();
         final FirebaseServices firebase = FirebaseServices();
 
+        final QuerySnapshot existingUser =
+            await firebase.users.where("email", isEqualTo: user?.email).get();
+
+        await existingUser.docs.first.reference
+            .update({'imageUrl': downloadURL});
+
         print('Download URL: $downloadURL');
       }
     } catch (e) {
@@ -52,7 +59,6 @@ class _ProfilPageState extends State<ProfilPage> {
   }
 
   final User? user = FirebaseAuth.instance.currentUser;
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
