@@ -25,7 +25,6 @@ class _ProfilPageState extends State<ProfilPage> {
     try {
       final picker = ImagePicker();
       final pickedImage = await picker.pickImage(source: ImageSource.gallery);
-
       if (pickedImage != null) {
         setState(() {
           _selectedImage = File(pickedImage.path);
@@ -42,13 +41,10 @@ class _ProfilPageState extends State<ProfilPage> {
 
         // Get the download URL for the uploaded image
         final String downloadURL = await imageRef.getDownloadURL();
-        final FirebaseServices firebase = FirebaseServices();
 
-        final QuerySnapshot existingUser =
-            await firebase.users.where("email", isEqualTo: user?.email).get();
-
-        await existingUser.docs.first.reference
-            .update({'imageUrl': downloadURL});
+        if (user != null) {
+          await user?.updatePhotoURL(downloadURL);
+        }
 
         print('Download URL: $downloadURL');
       }
@@ -59,6 +55,7 @@ class _ProfilPageState extends State<ProfilPage> {
   }
 
   final User? user = FirebaseAuth.instance.currentUser;
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -174,7 +171,7 @@ class _ProfilPageState extends State<ProfilPage> {
               child: Text('İptal'),
             ),
             TextButton(
-              onPressed: () {
+              onPressed: () async {
                 setState(() {
                   _startingWeight =
                       double.tryParse(startingWeightController.text);
@@ -182,6 +179,19 @@ class _ProfilPageState extends State<ProfilPage> {
                       double.tryParse(currentWeightController.text);
                   _targetWeight = double.tryParse(targetWeightController.text);
                 });
+
+                final FirebaseServices firebase = FirebaseServices();
+                final existingUser = await firebase.users
+                    .where("email", isEqualTo: user?.email)
+                    .get();
+                await existingUser.docs.first.reference.update({
+                  'weights': {
+                    'currentWeight': _currentWeight,
+                    'startingWeight': _startingWeight,
+                    'targetWeight': _targetWeight
+                  }
+                });
+
                 Navigator.of(context).pop();
               },
               child: Text('Kaydet'),
@@ -217,10 +227,17 @@ class _ProfilPageState extends State<ProfilPage> {
               child: Text('İptal'),
             ),
             TextButton(
-              onPressed: () {
+              onPressed: () async {
                 setState(() {
                   _height = double.tryParse(heightController.text);
                 });
+                final FirebaseServices firebase = FirebaseServices();
+                final existingUser = await firebase.users
+                    .where("email", isEqualTo: user?.email)
+                    .get();
+                await existingUser.docs.first.reference
+                    .update({'height': _height});
+
                 Navigator.of(context).pop();
               },
               child: Text('Kaydet'),
