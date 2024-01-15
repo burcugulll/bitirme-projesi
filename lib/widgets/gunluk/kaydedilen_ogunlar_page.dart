@@ -62,7 +62,9 @@ class _KaydedilenOgunlerPageState extends State<KaydedilenOgunlerPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Favoriler Sayfası'),
+        title: Text('Favori Yemekler'),
+        backgroundColor: Colors.deepPurple,
+        foregroundColor: Colors.white70,
       ),
       body: favorites.isEmpty
           ? Center(

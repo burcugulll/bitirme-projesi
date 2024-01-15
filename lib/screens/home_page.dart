@@ -1,7 +1,6 @@
 // ignore_for_file: file_names
 
 import 'package:bitirme_projesi/screens/profil_page.dart';
-import 'package:bitirme_projesi/screens/raporlar_page.dart';
 import "package:firebase_auth/firebase_auth.dart";
 import 'package:flutter/material.dart';
 import 'package:bitirme_projesi/screens/gunluk_page.dart';
@@ -19,7 +18,6 @@ class _MyHomePageState extends State<MyHomePage> {
     Text('Ana Sayfa'),
     Text('Profil'),
     Text('Günlük'),
-    Text('Raporlar'),
     Text('Premium'),
   ];
 
@@ -39,13 +37,6 @@ class _MyHomePageState extends State<MyHomePage> {
         ),
       );
     } else if (index == 3) {
-      Navigator.push(
-        context,
-        MaterialPageRoute(
-          builder: (context) => RaporlarPage(),
-        ),
-      );
-    } else if (index == 4) {
       Navigator.push(
         context,
         MaterialPageRoute(
@@ -117,10 +108,6 @@ class _MyHomePageState extends State<MyHomePage> {
           BottomNavigationBarItem(
             icon: Icon(Icons.calendar_today),
             label: 'Günlük',
-          ),
-          BottomNavigationBarItem(
-            icon: Icon(Icons.bar_chart),
-            label: 'Raporlar',
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.star),

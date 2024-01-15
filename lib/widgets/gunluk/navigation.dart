@@ -34,7 +34,7 @@ class Navigation extends StatelessWidget {
               );
             },
             child: Text(
-              'Kaydedilen Öğünler',
+              'Favori Yemekler',
               style: TextStyle(fontSize: 18, color: Colors.black),
             ),
           ),
