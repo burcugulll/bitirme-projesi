@@ -1,15 +1,16 @@
 // ignore_for_file: file_names
 
+import 'package:bitirme_projesi/services/firebase_services.dart';
 import 'package:bitirme_projesi/widgets/alert_message.dart';
 import 'package:bitirme_projesi/widgets/gunluk/recipe_view.dart';
 import 'package:bitirme_projesi/widgets/web_view_container.dart';
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'dart:convert';
 import 'dart:developer';
 import 'package:http/http.dart';
 import 'package:bitirme_projesi/screens/gunluk/model.dart';
 import 'package:toastification/toastification.dart';
-import 'package:url_launcher/url_launcher.dart';
 import 'package:bitirme_projesi/widgets/gunluk/fav_widget.dart';
 
 class YemekTarifleriPage extends StatefulWidget {
@@ -20,6 +21,10 @@ class YemekTarifleriPage extends StatefulWidget {
 class _YemekTarifleriPageState extends State<YemekTarifleriPage> {
   List<RecipeModel> recipeList = <RecipeModel>[];
   TextEditingController searchController = TextEditingController();
+  FirebaseServices firebase = FirebaseServices();
+  final user = FirebaseAuth.instance.currentUser;
+
+  List<String> favorites = [];
 
   getRecipes(String query) async {
     try {
@@ -44,17 +49,11 @@ class _YemekTarifleriPageState extends State<YemekTarifleriPage> {
           setState(() {
             recipeList = updatedRecipeList;
           });
-          print("başarılı");
           AlertMessage(
             alertType: ToastificationType.success,
             message: "Yemek Tarifleri Başarıyla Getirildi.",
             context: context,
           );
-
-          recipeList.forEach((Recipe) {
-            print(Recipe.applabel);
-            print(Recipe.appcalories);
-          });
         } else {
           print('Beklenmeyen API yanıt formatı.');
         }
@@ -66,11 +65,32 @@ class _YemekTarifleriPageState extends State<YemekTarifleriPage> {
     }
   }
 
-  _launchURL(String url) async {
-    if (await canLaunch(url)) {
-      await launch(url);
-    } else {
-      throw 'Could not launch $url';
+  getFavorites() async {
+    try {
+      // Kullanıcının favori tariflerini Firebase Firestore'dan al
+      final favs =
+          await firebase.favorites.where("email", isEqualTo: user?.email).get();
+
+      if (favs.docs.isEmpty) {
+        // Eğer favori tarif yoksa boş bir liste döndür
+        return [];
+      }
+
+      // Favori tariflerin isimlerini içeren bir string listesi oluştur
+      List<String> favoriteNames =
+          favs.docs.map((doc) => doc['name'] as String).toList();
+
+      // Oluşturulan string listesini state içindeki 'favorites' listesine atayarak güncelle
+      setState(() {
+        favorites = favoriteNames;
+      });
+
+      // Favori tarif isimlerini döndür
+      return favoriteNames;
+    } catch (error) {
+      print('Favori tarifleri getirirken hata oluştu: $error');
+      // Hata durumunda boş bir liste döndür
+      return [];
     }
   }
 
@@ -78,6 +98,7 @@ class _YemekTarifleriPageState extends State<YemekTarifleriPage> {
   void initState() {
     super.initState();
     getRecipes("cake");
+    getFavorites();
   }
 
   @override
@@ -142,9 +163,6 @@ class _YemekTarifleriPageState extends State<YemekTarifleriPage> {
                 itemBuilder: (context, index) {
                   return InkWell(
                     onTap: () {
-                      //_launchURL(recipeList[index].appurl);
-
-                      print(recipeList[index].appurl);
                       Navigator.push(
                         context,
                         MaterialPageRoute(
@@ -188,26 +206,32 @@ class _YemekTarifleriPageState extends State<YemekTarifleriPage> {
                                 vertical: 5, horizontal: 10),
                             color: Colors.white,
                             child: Row(
-                              mainAxisAlignment: MainAxisAlignment.center,
+                              mainAxisAlignment: MainAxisAlignment.spaceBetween,
                               children: [
-                                Icon(Icons.local_fire_department, size: 13),
-                                Text(
-                                  recipeList[index]
-                                      .appcalories
-                                      .round()
-                                      .toString(),
-                                  style: TextStyle(
-                                    fontSize: 18,
-                                    fontWeight: FontWeight.bold,
-                                  ),
+                                Row(
+                                  children: [
+                                    Icon(Icons.local_fire_department, size: 20),
+                                    SizedBox(
+                                      width: 2,
+                                    ),
+                                    Text(
+                                      recipeList[index]
+                                              .appcalories
+                                              .round()
+                                              .toString() +
+                                          " cal",
+                                      style: TextStyle(
+                                        fontSize: 18,
+                                        fontWeight: FontWeight.bold,
+                                      ),
+                                    ),
+                                  ],
                                 ),
                                 FavoriKalp(
-                                  isFavorited: false, // Başlangıç durumu
-                                  onFavoriteChanged: (isFavorited) {
-                                    // Kalp durumu değiştiğinde yapılacak işlemler
-                                    print('Favori durumu: $isFavorited');
-                                    // İstenirse, burada favori işlemleri gerçekleştirilebilir
-                                  },
+                                  recipe: recipeList[index],
+                                  isFavorited: favorites.contains(
+                                      recipeList[index]
+                                          .applabel), // Başlangıç durumu
                                 ),
                               ],
                             ),

@@ -263,7 +263,7 @@ class _ProfilPageState extends State<ProfilPage> {
               onPressed: () {
                 Navigator.of(context).pop();
               },
-              child: Text('Close'),
+              child: Text('Kapat'),
             ),
           ],
         );

@@ -137,6 +137,8 @@ class _AlarmDetailScreenState extends State<AlarmDetailScreen> {
     return Scaffold(
       appBar: AppBar(
         title: Text('Alarm Düzenle'),
+        backgroundColor: Colors.deepPurple,
+        foregroundColor: Colors.white70,
       ),
       body: Padding(
         padding: const EdgeInsets.all(16.0),
