@@ -22,7 +22,7 @@ class _PremiumPricingCardsState extends State<PremiumPricingCards> {
   Map<String, dynamic>? paymentIntentData;
   String secret =
       "sk_test_51OObjIG1UN1fHjhpHHrTVhvvSE71AaLHlu6WDRpbKqA6hwGbzGJpmaeizcbNyZVJbEedvJRLcvFrsj9pgHIihbEy00dFzIO1q5";
-
+  bool isYearlyPlan = false;
   Future<void> makePayment() async {
     try {
       paymentIntentData = await createPaymentIntent('37', 'USD');
@@ -96,7 +96,7 @@ class _PremiumPricingCardsState extends State<PremiumPricingCards> {
             pricingCards: [
               PricingCard(
                 title: 'Aylık',
-                price: '35.99₺',
+                price: '37₺',
                 subPriceText: '\/ay',
                 billedText: 'Aylık faturalandırılır',
                 onPress: () {
@@ -128,12 +128,15 @@ class _PremiumPricingCardsState extends State<PremiumPricingCards> {
               ),
               PricingCard(
                 title: 'Yıllık',
-                price: '299.99₺',
+                price: '300₺',
                 // ignore: unnecessary_string_escapes
                 // ignore: unnecessary_string_escapes
                 subPriceText: '\/yıl',
                 billedText: 'Yıllık faturalandırılır',
-                onPress: () {},
+                onPress: () {
+                  print("tıklandı");
+                  makePayment();
+                },
                 cardColor: Colors.deepOrangeAccent,
                 priceStyle: TextStyle(
                   fontSize: 32,

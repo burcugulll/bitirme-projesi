@@ -10,6 +10,7 @@ import 'package:http/http.dart';
 import 'package:bitirme_projesi/screens/gunluk/model.dart';
 import 'package:toastification/toastification.dart';
 import 'package:url_launcher/url_launcher.dart';
+import 'package:bitirme_projesi/widgets/gunluk/fav_widget.dart';
 
 class YemekTarifleriPage extends StatefulWidget {
   @override
@@ -199,6 +200,14 @@ class _YemekTarifleriPageState extends State<YemekTarifleriPage> {
                                     fontSize: 18,
                                     fontWeight: FontWeight.bold,
                                   ),
+                                ),
+                                FavoriKalp(
+                                  isFavorited: false, // Başlangıç durumu
+                                  onFavoriteChanged: (isFavorited) {
+                                    // Kalp durumu değiştiğinde yapılacak işlemler
+                                    print('Favori durumu: $isFavorited');
+                                    // İstenirse, burada favori işlemleri gerçekleştirilebilir
+                                  },
                                 ),
                               ],
                             ),
