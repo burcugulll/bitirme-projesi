@@ -1,6 +1,7 @@
 // ignore_for_file: file_names
 
 import 'package:bitirme_projesi/screens/profil_page.dart';
+import 'package:bitirme_projesi/screens/raporlar_page.dart';
 import "package:firebase_auth/firebase_auth.dart";
 import 'package:flutter/material.dart';
 import 'package:bitirme_projesi/screens/gunluk_page.dart';
@@ -35,6 +36,13 @@ class _MyHomePageState extends State<MyHomePage> {
         context,
         MaterialPageRoute(
           builder: (context) => GunlukPage(),
+        ),
+      );
+    } else if (index == 3) {
+      Navigator.push(
+        context,
+        MaterialPageRoute(
+          builder: (context) => RaporlarPage(),
         ),
       );
     } else if (index == 4) {

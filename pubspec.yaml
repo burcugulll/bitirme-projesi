@@ -35,6 +35,7 @@ dependencies:
   flutter_dotenv: ^5.1.0
   cloud_firestore: ^4.13.6
   flutter_inappwebview: ^6.0.0
+  fl_chart: ^0.66.0
 
 dev_dependencies:
   flutter_test:
