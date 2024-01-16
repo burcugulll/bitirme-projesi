@@ -19,8 +19,7 @@ class _GptState extends State<Gpt> {
   late ChatCompletion _responseModel;
   @override
   void initState() {
-    promptController =
-        TextEditingController(); // Burada promptController'ı başlatın
+    promptController = TextEditingController();
     super.initState();
   }
 

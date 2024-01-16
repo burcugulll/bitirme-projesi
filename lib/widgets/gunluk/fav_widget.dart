@@ -44,7 +44,6 @@ class _FavoriKalpState extends State<FavoriKalp> {
       }
     } catch (e) {
       print("Hata oluştu: $e");
-      // Hata durumunda kullanıcıya bilgi verebilir veya gerekli işlemleri yapabilirsiniz.
     }
   }
 

@@ -23,8 +23,7 @@ class Navigation extends StatelessWidget {
               style: TextStyle(fontSize: 18, color: Colors.black),
             ),
           ),
-          SizedBox(width: 30), // Burada bir boşluk ekledik
-
+          SizedBox(width: 30),
           GestureDetector(
             onTap: () {
               Navigator.push(

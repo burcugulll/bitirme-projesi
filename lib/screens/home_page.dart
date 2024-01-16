@@ -2,6 +2,7 @@
 
 import 'package:bitirme_projesi/screens/gpt.dart';
 import 'package:bitirme_projesi/screens/profil_page.dart';
+import 'package:bitirme_projesi/services/firebase_services.dart';
 import "package:firebase_auth/firebase_auth.dart";
 import 'package:flutter/material.dart';
 import 'package:bitirme_projesi/screens/gunluk_page.dart';
@@ -15,6 +16,8 @@ class MyHomePage extends StatefulWidget {
 
 class _MyHomePageState extends State<MyHomePage> {
   int _selectedIndex = 0;
+  bool isPremium = false;
+  final user = FirebaseAuth.instance.currentUser;
   static const List<Widget> _widgetOptions = <Widget>[
     Text('Ana Sayfa'),
     Text('Profil'),
@@ -57,6 +60,25 @@ class _MyHomePageState extends State<MyHomePage> {
         _selectedIndex = index;
       });
     }
+  }
+
+  _onLoad() async {
+    try {
+      FirebaseServices firebase = FirebaseServices();
+      final existingUser =
+          await firebase.users.where("email", isEqualTo: user?.email).get();
+      if (existingUser.docs[0]['plan'] == "premium") {
+        setState(() {
+          isPremium = true;
+        });
+      }
+    } catch (e) {}
+  }
+
+  @override
+  void initState() {
+    _onLoad();
+    super.initState();
   }
 
   @override
@@ -105,7 +127,7 @@ class _MyHomePageState extends State<MyHomePage> {
         ],
       ),
       bottomNavigationBar: BottomNavigationBar(
-        items: const <BottomNavigationBarItem>[
+        items: <BottomNavigationBarItem>[
           BottomNavigationBarItem(
             icon: Icon(Icons.home),
             label: 'Ana Sayfa',
@@ -122,10 +144,11 @@ class _MyHomePageState extends State<MyHomePage> {
             icon: Icon(Icons.question_answer),
             label: 'Gpt',
           ),
-          BottomNavigationBarItem(
-            icon: Icon(Icons.star),
-            label: 'Premium',
-          ),
+          if (!isPremium)
+            BottomNavigationBarItem(
+              icon: Icon(Icons.star),
+              label: 'Premium',
+            ),
         ],
         currentIndex: _selectedIndex,
         selectedItemColor: Colors.deepPurple,
