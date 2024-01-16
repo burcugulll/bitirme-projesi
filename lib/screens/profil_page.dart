@@ -16,11 +16,12 @@ class ProfilPage extends StatefulWidget {
 
 class _ProfilPageState extends State<ProfilPage> {
   File? _selectedImage;
-
+  String _plan = "Normal";
   double? _startingWeight;
   double? _currentWeight;
   double? _targetWeight;
   double? _height;
+
   Future<void> _pickImage() async {
     try {
       final picker = ImagePicker();
@@ -56,6 +57,25 @@ class _ProfilPageState extends State<ProfilPage> {
 
   final User? user = FirebaseAuth.instance.currentUser;
 
+  _getUser() async {
+    FirebaseServices firebase = FirebaseServices();
+
+    final existingUser =
+        await firebase.users.where("email", isEqualTo: user?.email).get();
+
+    if (existingUser.docs.isNotEmpty) {
+      setState(() {
+        _plan = existingUser.docs[0]['plan'];
+      });
+    }
+  }
+
+  @override
+  void initState() {
+    _getUser();
+    super.initState();
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -81,7 +101,7 @@ class _ProfilPageState extends State<ProfilPage> {
             ),
             SizedBox(height: 10),
             Text(
-              'Hesap Türü: ${user?.isAnonymous == true ? "Premium" : "Ücretsiz"}',
+              'Hesap Türü: ${_plan == "premium" ? "Premium" : "Ücretsiz"}',
               style: TextStyle(fontSize: 18),
             ),
             SizedBox(height: 20),

@@ -45,26 +45,19 @@ class _AuthScreenState extends State<AuthScreen> {
           await firebase.users.where("email", isEqualTo: user?.email).get();
 
       if (existingUser.docs.isEmpty) {
-        // If user doesn't exist, create a new user record in Firestore
         await firebase.users.add({
           'email': user?.email,
           'name': user?.displayName,
           'imageUrl': user?.photoURL,
-
-          // Add other fields as needed
+          'plan': "normal"
         });
       }
-
-      //firebasede users tablosuna email ile kayıt oluştur
     } on FirebaseAuthException catch (error) {
-      if (error.code == 'email-already-in-use') {
-        //..
-      }
+      if (error.code == 'email-already-in-use') {}
 
       ScaffoldMessenger.of(context).clearSnackBars();
       ScaffoldMessenger.of(context).showSnackBar(
         const SnackBar(
-          //content: Text(error.message ?? 'Authentication Failed'),
           content: Text("Email veya şifre hatalı."),
         ),
       );
