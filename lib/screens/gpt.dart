@@ -30,24 +30,43 @@ class _GptState extends State<Gpt> {
     });
 
     final res =
-        await http.post(Uri.parse("https://api.openai.com/v1/chat/completion"),
+        await http.post(Uri.parse("https://api.openai.com/v1/chat/completions"),
             headers: {
               'Content-Type': "application/json",
               "Authorization":
-                  "Bearer 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"
+                  "Bearer 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"
             },
             body: jsonEncode({
               "model": "gpt-3.5-turbo",
-              "prompt": promptController.text,
+              "messages": [
+                {"role": "system", "content": "You are a helpful assistant."},
+                {"role": "user", "content": promptController.text}
+              ],
               "max_tokens": 250,
-              "temperature": 0,
-              "top_p": 1
+              "temperature": 0.8,
+              "top_p": 1,
+              "n": 1
             }));
 
-    setState(() {
-      _responseModel = ChatCompletion.fromJson(jsonDecode(res.body));
-      responseText = _responseModel.choices[0].message.content;
-    });
+    final dynamic decodedRes = jsonDecode(res.body);
+    print(promptController.text);
+    print(res.body);
+
+    if (decodedRes != null && decodedRes is Map<String, dynamic>) {
+      setState(() {
+        _responseModel = ChatCompletion.fromJson(decodedRes);
+        if (_responseModel.choices.isNotEmpty) {
+          responseText = _responseModel.choices[0].message.content;
+          promptController.text = "";
+        } else {
+          responseText = "Boş bir yanıt alındı.";
+        }
+      });
+    } else {
+      setState(() {
+        responseText = "Hatalı bir yanıt alındı.";
+      });
+    }
   }
 
   @override
@@ -56,7 +75,7 @@ class _GptState extends State<Gpt> {
       backgroundColor: const Color(0xff343541),
       appBar: AppBar(
         title: const Text(
-          "ChatGpt",
+          "Yapay Zekayla Konuş",
           style: TextStyle(color: Colors.white),
         ),
         backgroundColor: const Color(0xff343541),
@@ -65,23 +84,34 @@ class _GptState extends State<Gpt> {
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
           Expanded(
-            child: Padding(
-              padding: const EdgeInsets.all(16.0),
-              child: Container(
-                decoration: BoxDecoration(
-                  color: Colors.white,
-                  borderRadius: BorderRadius.circular(10.0),
-                ),
-                child: Padding(
-                  padding: const EdgeInsets.all(8.0),
-                  child: TextFormField(
-                    controller: promptController,
-                    style: TextStyle(color: Colors.black),
-                    decoration: InputDecoration(
-                      hintText: 'Bir şeyler yazın...',
-                      hintStyle: TextStyle(color: Colors.grey),
-                      border: InputBorder.none,
-                    ),
+            child: Container(
+              decoration: BoxDecoration(
+                color: Color(0xff343541),
+                borderRadius: BorderRadius.circular(10.0),
+              ),
+              padding: EdgeInsets.all(16.0),
+              child: Text(
+                responseText,
+                style: TextStyle(color: Colors.white),
+              ),
+            ),
+          ),
+          Padding(
+            padding: const EdgeInsets.all(16.0),
+            child: Container(
+              decoration: BoxDecoration(
+                color: Colors.white,
+                borderRadius: BorderRadius.circular(10.0),
+              ),
+              child: Padding(
+                padding: const EdgeInsets.all(8.0),
+                child: TextFormField(
+                  controller: promptController,
+                  style: TextStyle(color: Colors.black),
+                  decoration: InputDecoration(
+                    hintText: 'Bir şeyler yazın...',
+                    hintStyle: TextStyle(color: Colors.grey),
+                    border: InputBorder.none,
                   ),
                 ),
               ),

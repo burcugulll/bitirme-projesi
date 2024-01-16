@@ -53,8 +53,8 @@ class ChatCompletion {
   int created;
   String model;
   String systemFingerprint;
-  List<Choice> choices;
-  Usage usage;
+  List<MyChoice> choices;
+  MyUsage usage;
 
   ChatCompletion({
     required this.id,
@@ -68,74 +68,74 @@ class ChatCompletion {
 
   factory ChatCompletion.fromJson(Map<String, dynamic> json) {
     return ChatCompletion(
-      id: json['id'],
-      object: json['object'],
-      created: json['created'],
-      model: json['model'],
-      systemFingerprint: json['system_fingerprint'],
-      choices:
-          List<Choice>.from(json['choices'].map((x) => Choice.fromJson(x))),
-      usage: Usage.fromJson(json['usage']),
+      id: json['id'] ?? "",
+      object: json['object'] ?? "",
+      created: json['created'] ?? 0,
+      model: json['model'] ?? "",
+      systemFingerprint: json['system_fingerprint'] ?? "",
+      choices: List<MyChoice>.from(
+          (json['choices'] ?? []).map((x) => MyChoice.fromJson(x))),
+      usage: MyUsage.fromJson(json['usage'] ?? Map<String, dynamic>()),
     );
   }
 }
 
-class Choice {
+class MyChoice {
   int index;
-  Message message;
+  MyMessage message;
   dynamic logprobs;
   String finishReason;
 
-  Choice({
+  MyChoice({
     required this.index,
     required this.message,
     required this.logprobs,
     required this.finishReason,
   });
 
-  factory Choice.fromJson(Map<String, dynamic> json) {
-    return Choice(
-      index: json['index'],
-      message: Message.fromJson(json['message']),
-      logprobs: json['logprobs'],
-      finishReason: json['finish_reason'],
+  factory MyChoice.fromJson(Map<String, dynamic> json) {
+    return MyChoice(
+      index: json['index'] ?? 0,
+      message: MyMessage.fromJson(json['message'] ?? Map<String, dynamic>()),
+      logprobs: json['logprobs'] ?? null,
+      finishReason: json['finish_reason'] ?? "",
     );
   }
 }
 
-class Message {
+class MyMessage {
   String role;
   String content;
 
-  Message({
+  MyMessage({
     required this.role,
     required this.content,
   });
 
-  factory Message.fromJson(Map<String, dynamic> json) {
-    return Message(
-      role: json['role'],
-      content: json['content'],
+  factory MyMessage.fromJson(Map<String, dynamic> json) {
+    return MyMessage(
+      role: json['role'] ?? "",
+      content: json['content'] ?? "",
     );
   }
 }
 
-class Usage {
+class MyUsage {
   int promptTokens;
   int completionTokens;
   int totalTokens;
 
-  Usage({
+  MyUsage({
     required this.promptTokens,
     required this.completionTokens,
     required this.totalTokens,
   });
 
-  factory Usage.fromJson(Map<String, dynamic> json) {
-    return Usage(
-      promptTokens: json['prompt_tokens'],
-      completionTokens: json['completion_tokens'],
-      totalTokens: json['total_tokens'],
+  factory MyUsage.fromJson(Map<String, dynamic> json) {
+    return MyUsage(
+      promptTokens: json['prompt_tokens'] ?? 0,
+      completionTokens: json['completion_tokens'] ?? 0,
+      totalTokens: json['total_tokens'] ?? 0,
     );
   }
 }
