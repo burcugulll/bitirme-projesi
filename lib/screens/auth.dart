@@ -163,8 +163,8 @@ class _AuthScreenState extends State<AuthScreen> {
                               style: TextStyle(
                                   fontSize: 20, fontWeight: FontWeight.w800)),
                           TextFormField(
-                            decoration: const InputDecoration(
-                                labelText: 'Email Address'),
+                            decoration:
+                                const InputDecoration(labelText: 'Email '),
                             keyboardType: TextInputType.emailAddress,
                             autocorrect: false,
                             textCapitalization: TextCapitalization.none,
@@ -172,7 +172,7 @@ class _AuthScreenState extends State<AuthScreen> {
                               if (value == null ||
                                   value.trim().isEmpty ||
                                   !value.contains('@')) {
-                                return 'Please enter a valid email adress';
+                                return 'Lütfen geçerli bir email adresi girin';
                               }
                               return null;
                             },
@@ -182,11 +182,11 @@ class _AuthScreenState extends State<AuthScreen> {
                           ),
                           TextFormField(
                             decoration:
-                                const InputDecoration(labelText: 'Password'),
+                                const InputDecoration(labelText: 'Şifre'),
                             obscureText: true,
                             validator: (value) {
                               if (value == null || value.trim().length < 6) {
-                                return 'Password must be at least 6 characters long ';
+                                return 'Şifre en az 6 karakter olmalı ';
                               }
                               return null;
                             },
